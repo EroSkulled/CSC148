@@ -9,7 +9,7 @@ This module contains the documentation for a simple class. Your job is to
 implement the class below according to its docstring; note this includes
 both the *instance attributes* of the class and the *methods* we've documented.
 
-As usual, delete the TODO comments after you've completed each part.
+As usual, delete the
 """
 # Do not use any imports beyond this one (randint)!
 from random import randint

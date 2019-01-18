@@ -65,6 +65,7 @@ class Runner:
     def change_category(self, new_category: int) -> None:
         self.cat = new_category
 
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
