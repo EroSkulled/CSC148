@@ -90,6 +90,23 @@ class Tweet:
         """
         self.content = new_content
 
+    def retweet(self, new_user: str, tweet: Tweet, new_date: date) -> Tweet:
+        """Return a copy of the given tweet with the new user and date.
+
+        The new tweet has 0 likes, regardless of the number of likes of the
+        original tweet.
+
+        >>> t1 = Tweet('David', date(2017, 8, 19), 'David is so cool!')
+        >>> t2 = t1.retweet('Diane', t1, date(2017, 8, 20))
+        >>> t2.content
+        'David is so cool!'
+        >>> t2.userid
+        'Diane'
+        >>> t2.created_at
+        datetime.date(2017, 8, 20)
+        """
+        return Tweet(new_user, new_date, tweet.content)
+
 
 class User:
     """A Twitter user.
@@ -162,10 +179,11 @@ class User:
         >>> u1.verbosity(2015)
         0
         """
-        # TODO: Implement this!
-        # Hint: look up the attributes of date, found here:
-        # https://docs.python.org/3/library/datetime.html#date-objects
-        pass
+        cunt = 0
+        for t in self.tweets:
+            if t.created_at.year == y:
+                cunt += len(t.content)
+        return cunt
 
     def hack(self) -> None:
         """Make every tweet made by every user this user follows say
@@ -183,28 +201,9 @@ class User:
         >>> u2.tweets[0].content
         'mwahahaha'
         """
-        # TODO: implement this!
-        pass
-
-
-# TODO: Suppose we want to turn this function into a method.
-# Which class should we put it into? Once you've decided, move it.
-def retweet(new_user: str, tweet: Tweet, new_date: date) -> Tweet:
-    """Return a copy of the given tweet with the new user and date.
-
-    The new tweet has 0 likes, regardless of the number of likes of the
-    original tweet.
-
-    >>> t1 = Tweet('David', date(2017, 8, 19), 'David is so cool!')
-    >>> t2 = retweet('Diane', t1, date(2017, 8, 20))
-    >>> t2.content
-    'David is so cool!'
-    >>> t2.userid
-    'Diane'
-    >>> t2.created_at
-    datetime.date(2017, 8, 20)
-    """
-    return Tweet(new_user, new_date, tweet.content)
+        for users in self.follows:
+            for t in users.tweets:
+                t.content = 'mwahahaha'
 
 
 if __name__ == '__main__':
