@@ -30,11 +30,33 @@ def test_total_pay_basic() -> None:
     assert e.total_pay() == 300.0
 
 
+def test_total_pay_mixed() -> None:
+    e = SalariedEmployee(14, 'Gilbert the cat', 1200.0)
+    f = HourlyEmployee(25, 'Chairman Meow', 500.25, 1.0)
+    e.pay(date(2018, 6, 28))
+    e.pay(date(2018, 7, 28))
+    f.pay(date(2018, 8, 28))
+    assert e.total_pay() == 200.0
+    assert f.total_pay() == 500.25
+
+
 def test_total_payroll_mixed() -> None:
     my_corp = Company([SalariedEmployee(24, 'Gilbert the cat', 1200.0),
                        HourlyEmployee(25, 'Chairman Meow', 500.25, 1.0)])
     my_corp.pay_all(date(2018, 6, 28))
     assert my_corp.total_payroll() == 600.25
+
+
+def test_total_payroll_advanced() -> None:
+    my_corp = Company([SalariedEmployee(24, 'Gilbert the cat', 1200.0),
+                       HourlyEmployee(25, 'Chairman Meow', 500.25, 1.0)])
+    my_corp1 = Company([SalariedEmployee(24, 'Gilbert the cat', 1200.0),
+                       HourlyEmployee(25, 'Chairman Meow', 500.25, 1.0)])
+    my_corp.pay_all(date(2018, 6, 28))
+    my_corp1.pay_all(date(2018, 6, 28))
+    my_corp1.pay_all(date(2018, 7, 28))
+    assert my_corp.total_payroll() == 600.25
+    assert my_corp1.total_payroll() == 1200.5
 
 
 if __name__ == '__main__':
