@@ -1,0 +1,259 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Station Number/Numéro du bureau de scrutin,Polling Station Name/Nom du bureau de scrutin,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Merge With/Fusionné avec,Rejected Ballots for Polling Station/Bulletins rejetés du bureau,Electors for Polling Station/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Poll Votes Count/Votes du candidat pour le bureau
+10004,"Labrador","Labrador"," 1","Nain",N,N,"",1,309,"Jones","","Yvonne","Liberal","Libéral",Y,Y,145
+10004,"Labrador","Labrador"," 1","Nain",N,N,"",1,309,"Penashue","","Peter","Conservative","Conservateur",N,N,18
+10004,"Labrador","Labrador"," 1","Nain",N,N,"",1,309,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+10004,"Labrador","Labrador"," 2","Nain",N,N,"",5,443,"Jones","","Yvonne","Liberal","Libéral",Y,Y,189
+10004,"Labrador","Labrador"," 2","Nain",N,N,"",5,443,"Penashue","","Peter","Conservative","Conservateur",N,N,14
+10004,"Labrador","Labrador"," 2","Nain",N,N,"",5,443,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+10004,"Labrador","Labrador"," 3","Natuashish",N,N,"",0,474,"Jones","","Yvonne","Liberal","Libéral",Y,Y,51
+10004,"Labrador","Labrador"," 3","Natuashish",N,N,"",0,474,"Penashue","","Peter","Conservative","Conservateur",N,N,42
+10004,"Labrador","Labrador"," 3","Natuashish",N,N,"",0,474,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+10004,"Labrador","Labrador"," 4","Hopedale",N,N,"",3,431,"Jones","","Yvonne","Liberal","Libéral",Y,Y,197
+10004,"Labrador","Labrador"," 4","Hopedale",N,N,"",3,431,"Penashue","","Peter","Conservative","Conservateur",N,N,18
+10004,"Labrador","Labrador"," 4","Hopedale",N,N,"",3,431,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+10004,"Labrador","Labrador"," 5","Postville",N,N,"",0,140,"Jones","","Yvonne","Liberal","Libéral",Y,Y,62
+10004,"Labrador","Labrador"," 5","Postville",N,N,"",0,140,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 5","Postville",N,N,"",0,140,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+10004,"Labrador","Labrador"," 6","Makkovik",N,N,"",1,263,"Jones","","Yvonne","Liberal","Libéral",Y,Y,121
+10004,"Labrador","Labrador"," 6","Makkovik",N,N,"",1,263,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 6","Makkovik",N,N,"",1,263,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+10004,"Labrador","Labrador"," 7","Rigolet",N,N,"",0,215,"Jones","","Yvonne","Liberal","Libéral",Y,Y,107
+10004,"Labrador","Labrador"," 7","Rigolet",N,N,"",0,215,"Penashue","","Peter","Conservative","Conservateur",N,N,12
+10004,"Labrador","Labrador"," 7","Rigolet",N,N,"",0,215,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+10004,"Labrador","Labrador"," 8","North West River",N,N,"",0,453,"Jones","","Yvonne","Liberal","Libéral",Y,Y,181
+10004,"Labrador","Labrador"," 8","North West River",N,N,"",0,453,"Penashue","","Peter","Conservative","Conservateur",N,N,26
+10004,"Labrador","Labrador"," 8","North West River",N,N,"",0,453,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+10004,"Labrador","Labrador"," 9","Sheshatshiu",N,N,"",0,292,"Jones","","Yvonne","Liberal","Libéral",Y,Y,15
+10004,"Labrador","Labrador"," 9","Sheshatshiu",N,N,"",0,292,"Penashue","","Peter","Conservative","Conservateur",N,N,64
+10004,"Labrador","Labrador"," 9","Sheshatshiu",N,N,"",0,292,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+10004,"Labrador","Labrador"," 10","Sheshatshiu",N,N,"",0,602,"Jones","","Yvonne","Liberal","Libéral",Y,Y,58
+10004,"Labrador","Labrador"," 10","Sheshatshiu",N,N,"",0,602,"Penashue","","Peter","Conservative","Conservateur",N,N,117
+10004,"Labrador","Labrador"," 10","Sheshatshiu",N,N,"",0,602,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+10004,"Labrador","Labrador"," 11","Happy Valley-Goose Bay",N,N,"",0,387,"Jones","","Yvonne","Liberal","Libéral",Y,Y,135
+10004,"Labrador","Labrador"," 11","Happy Valley-Goose Bay",N,N,"",0,387,"Penashue","","Peter","Conservative","Conservateur",N,N,39
+10004,"Labrador","Labrador"," 11","Happy Valley-Goose Bay",N,N,"",0,387,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+10004,"Labrador","Labrador"," 12","Happy Valley-Goose Bay",N,N,"",1,454,"Jones","","Yvonne","Liberal","Libéral",Y,Y,175
+10004,"Labrador","Labrador"," 12","Happy Valley-Goose Bay",N,N,"",1,454,"Penashue","","Peter","Conservative","Conservateur",N,N,39
+10004,"Labrador","Labrador"," 12","Happy Valley-Goose Bay",N,N,"",1,454,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+10004,"Labrador","Labrador"," 13","Happy Valley-Goose Bay",N,N,"",0,412,"Jones","","Yvonne","Liberal","Libéral",Y,Y,136
+10004,"Labrador","Labrador"," 13","Happy Valley-Goose Bay",N,N,"",0,412,"Penashue","","Peter","Conservative","Conservateur",N,N,33
+10004,"Labrador","Labrador"," 13","Happy Valley-Goose Bay",N,N,"",0,412,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+10004,"Labrador","Labrador"," 14","Happy Valley-Goose Bay",N,N,"",1,496,"Jones","","Yvonne","Liberal","Libéral",Y,Y,165
+10004,"Labrador","Labrador"," 14","Happy Valley-Goose Bay",N,N,"",1,496,"Penashue","","Peter","Conservative","Conservateur",N,N,65
+10004,"Labrador","Labrador"," 14","Happy Valley-Goose Bay",N,N,"",1,496,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+10004,"Labrador","Labrador"," 15","Happy Valley-Goose Bay",N,N,"",1,528,"Jones","","Yvonne","Liberal","Libéral",Y,Y,177
+10004,"Labrador","Labrador"," 15","Happy Valley-Goose Bay",N,N,"",1,528,"Penashue","","Peter","Conservative","Conservateur",N,N,46
+10004,"Labrador","Labrador"," 15","Happy Valley-Goose Bay",N,N,"",1,528,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+10004,"Labrador","Labrador"," 16","Happy Valley-Goose Bay",N,N,"",1,372,"Jones","","Yvonne","Liberal","Libéral",Y,Y,110
+10004,"Labrador","Labrador"," 16","Happy Valley-Goose Bay",N,N,"",1,372,"Penashue","","Peter","Conservative","Conservateur",N,N,40
+10004,"Labrador","Labrador"," 16","Happy Valley-Goose Bay",N,N,"",1,372,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+10004,"Labrador","Labrador"," 17","Happy Valley-Goose Bay",N,N,"",0,407,"Jones","","Yvonne","Liberal","Libéral",Y,Y,138
+10004,"Labrador","Labrador"," 17","Happy Valley-Goose Bay",N,N,"",0,407,"Penashue","","Peter","Conservative","Conservateur",N,N,39
+10004,"Labrador","Labrador"," 17","Happy Valley-Goose Bay",N,N,"",0,407,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+10004,"Labrador","Labrador"," 18","Happy Valley-Goose Bay",N,N,"",2,357,"Jones","","Yvonne","Liberal","Libéral",Y,Y,112
+10004,"Labrador","Labrador"," 18","Happy Valley-Goose Bay",N,N,"",2,357,"Penashue","","Peter","Conservative","Conservateur",N,N,26
+10004,"Labrador","Labrador"," 18","Happy Valley-Goose Bay",N,N,"",2,357,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+10004,"Labrador","Labrador"," 19","Happy Valley-Goose Bay",N,N,"",1,423,"Jones","","Yvonne","Liberal","Libéral",Y,Y,150
+10004,"Labrador","Labrador"," 19","Happy Valley-Goose Bay",N,N,"",1,423,"Penashue","","Peter","Conservative","Conservateur",N,N,40
+10004,"Labrador","Labrador"," 19","Happy Valley-Goose Bay",N,N,"",1,423,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+10004,"Labrador","Labrador"," 20","Happy Valley-Goose Bay",N,N,"",0,436,"Jones","","Yvonne","Liberal","Libéral",Y,Y,161
+10004,"Labrador","Labrador"," 20","Happy Valley-Goose Bay",N,N,"",0,436,"Penashue","","Peter","Conservative","Conservateur",N,N,62
+10004,"Labrador","Labrador"," 20","Happy Valley-Goose Bay",N,N,"",0,436,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+10004,"Labrador","Labrador"," 21","Happy Valley-Goose Bay",N,N,"",2,464,"Jones","","Yvonne","Liberal","Libéral",Y,Y,141
+10004,"Labrador","Labrador"," 21","Happy Valley-Goose Bay",N,N,"",2,464,"Penashue","","Peter","Conservative","Conservateur",N,N,25
+10004,"Labrador","Labrador"," 21","Happy Valley-Goose Bay",N,N,"",2,464,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+10004,"Labrador","Labrador"," 22","Happy Valley-Goose Bay",N,N,"",2,355,"Jones","","Yvonne","Liberal","Libéral",Y,Y,115
+10004,"Labrador","Labrador"," 22","Happy Valley-Goose Bay",N,N,"",2,355,"Penashue","","Peter","Conservative","Conservateur",N,N,25
+10004,"Labrador","Labrador"," 22","Happy Valley-Goose Bay",N,N,"",2,355,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+10004,"Labrador","Labrador"," 23","Happy Valley-Goose Bay",N,N,"",1,391,"Jones","","Yvonne","Liberal","Libéral",Y,Y,117
+10004,"Labrador","Labrador"," 23","Happy Valley-Goose Bay",N,N,"",1,391,"Penashue","","Peter","Conservative","Conservateur",N,N,36
+10004,"Labrador","Labrador"," 23","Happy Valley-Goose Bay",N,N,"",1,391,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+10004,"Labrador","Labrador"," 24","Happy Valley-Goose Bay",N,N,"",1,350,"Jones","","Yvonne","Liberal","Libéral",Y,Y,109
+10004,"Labrador","Labrador"," 24","Happy Valley-Goose Bay",N,N,"",1,350,"Penashue","","Peter","Conservative","Conservateur",N,N,49
+10004,"Labrador","Labrador"," 24","Happy Valley-Goose Bay",N,N,"",1,350,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+10004,"Labrador","Labrador"," 25","Mud Lake",N,N,"",1,40,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 25","Mud Lake",N,N,"",1,40,"Penashue","","Peter","Conservative","Conservateur",N,N,6
+10004,"Labrador","Labrador"," 25","Mud Lake",N,N,"",1,40,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+10004,"Labrador","Labrador"," 26","Cartwright",N,N,"",0,405,"Jones","","Yvonne","Liberal","Libéral",Y,Y,140
+10004,"Labrador","Labrador"," 26","Cartwright",N,N,"",0,405,"Penashue","","Peter","Conservative","Conservateur",N,N,5
+10004,"Labrador","Labrador"," 26","Cartwright",N,N,"",0,405,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+10004,"Labrador","Labrador"," 27","Black Tickle",N,N,"",1,116,"Jones","","Yvonne","Liberal","Libéral",Y,Y,33
+10004,"Labrador","Labrador"," 27","Black Tickle",N,N,"",1,116,"Penashue","","Peter","Conservative","Conservateur",N,N,3
+10004,"Labrador","Labrador"," 27","Black Tickle",N,N,"",1,116,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+10004,"Labrador","Labrador"," 28","Norman's Bay",N,N,"",0,24,"Jones","","Yvonne","Liberal","Libéral",Y,Y,5
+10004,"Labrador","Labrador"," 28","Norman's Bay",N,N,"",0,24,"Penashue","","Peter","Conservative","Conservateur",N,N,2
+10004,"Labrador","Labrador"," 28","Norman's Bay",N,N,"",0,24,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+10004,"Labrador","Labrador"," 29","Charlottetown",N,N,"",0,253,"Jones","","Yvonne","Liberal","Libéral",Y,Y,104
+10004,"Labrador","Labrador"," 29","Charlottetown",N,N,"",0,253,"Penashue","","Peter","Conservative","Conservateur",N,N,15
+10004,"Labrador","Labrador"," 29","Charlottetown",N,N,"",0,253,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+10004,"Labrador","Labrador"," 30","Pinsent Arm",N,N,"",0,44,"Jones","","Yvonne","Liberal","Libéral",Y,Y,27
+10004,"Labrador","Labrador"," 30","Pinsent Arm",N,N,"",0,44,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 30","Pinsent Arm",N,N,"",0,44,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 31","Williams Harbour",N,N,"",0,18,"Jones","","Yvonne","Liberal","Libéral",Y,Y,6
+10004,"Labrador","Labrador"," 31","Williams Harbour",N,N,"",0,18,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 31","Williams Harbour",N,N,"",0,18,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 32","St. Lewis",N,N,"",0,170,"Jones","","Yvonne","Liberal","Libéral",Y,Y,92
+10004,"Labrador","Labrador"," 32","St. Lewis",N,N,"",0,170,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 32","St. Lewis",N,N,"",0,170,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+10004,"Labrador","Labrador"," 33","Port Hope Simpson",N,N,"",0,330,"Jones","","Yvonne","Liberal","Libéral",Y,Y,124
+10004,"Labrador","Labrador"," 33","Port Hope Simpson",N,N,"",0,330,"Penashue","","Peter","Conservative","Conservateur",N,N,10
+10004,"Labrador","Labrador"," 33","Port Hope Simpson",N,N,"",0,330,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+10004,"Labrador","Labrador"," 34","Mary's Harbour",N,N,"",0,295,"Jones","","Yvonne","Liberal","Libéral",Y,Y,120
+10004,"Labrador","Labrador"," 34","Mary's Harbour",N,N,"",0,295,"Penashue","","Peter","Conservative","Conservateur",N,N,5
+10004,"Labrador","Labrador"," 34","Mary's Harbour",N,N,"",0,295,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+10004,"Labrador","Labrador"," 35","Lodge Bay",N,N,"",0,64,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 35","Lodge Bay",N,N,"",0,64,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 35","Lodge Bay",N,N,"",0,64,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+10004,"Labrador","Labrador"," 36","Red Bay",N,N,"",0,166,"Jones","","Yvonne","Liberal","Libéral",Y,Y,50
+10004,"Labrador","Labrador"," 36","Red Bay",N,N,"",0,166,"Penashue","","Peter","Conservative","Conservateur",N,N,19
+10004,"Labrador","Labrador"," 36","Red Bay",N,N,"",0,166,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+10004,"Labrador","Labrador"," 37","West St. Modeste",N,N,"",0,162,"Jones","","Yvonne","Liberal","Libéral",Y,Y,57
+10004,"Labrador","Labrador"," 37","West St. Modeste",N,N,"",0,162,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 37","West St. Modeste",N,N,"",0,162,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+10004,"Labrador","Labrador"," 38","Pinware",N,N,"",0,70,"Jones","","Yvonne","Liberal","Libéral",Y,Y,33
+10004,"Labrador","Labrador"," 38","Pinware",N,N,"",0,70,"Penashue","","Peter","Conservative","Conservateur",N,N,5
+10004,"Labrador","Labrador"," 38","Pinware",N,N,"",0,70,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+10004,"Labrador","Labrador"," 39","L'Anse-au-Loup",N,N,"",1,476,"Jones","","Yvonne","Liberal","Libéral",Y,Y,117
+10004,"Labrador","Labrador"," 39","L'Anse-au-Loup",N,N,"",1,476,"Penashue","","Peter","Conservative","Conservateur",N,N,41
+10004,"Labrador","Labrador"," 39","L'Anse-au-Loup",N,N,"",1,476,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+10004,"Labrador","Labrador"," 40","Forteau",N,N,"",0,337,"Jones","","Yvonne","Liberal","Libéral",Y,Y,121
+10004,"Labrador","Labrador"," 40","Forteau",N,N,"",0,337,"Penashue","","Peter","Conservative","Conservateur",N,N,12
+10004,"Labrador","Labrador"," 40","Forteau",N,N,"",0,337,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+10004,"Labrador","Labrador"," 41","L'Anse-au-Clair",N,N,"",0,171,"Jones","","Yvonne","Liberal","Libéral",Y,Y,70
+10004,"Labrador","Labrador"," 41","L'Anse-au-Clair",N,N,"",0,171,"Penashue","","Peter","Conservative","Conservateur",N,N,12
+10004,"Labrador","Labrador"," 41","L'Anse-au-Clair",N,N,"",0,171,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+10004,"Labrador","Labrador"," 42","Churchill Falls",N,N,"",0,187,"Jones","","Yvonne","Liberal","Libéral",Y,Y,88
+10004,"Labrador","Labrador"," 42","Churchill Falls",N,N,"",0,187,"Penashue","","Peter","Conservative","Conservateur",N,N,17
+10004,"Labrador","Labrador"," 42","Churchill Falls",N,N,"",0,187,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+10004,"Labrador","Labrador"," 43","Churchill Falls",N,N,"",0,236,"Jones","","Yvonne","Liberal","Libéral",Y,Y,122
+10004,"Labrador","Labrador"," 43","Churchill Falls",N,N,"",0,236,"Penashue","","Peter","Conservative","Conservateur",N,N,21
+10004,"Labrador","Labrador"," 43","Churchill Falls",N,N,"",0,236,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+10004,"Labrador","Labrador"," 44","Wabush",N,N,"",0,369,"Jones","","Yvonne","Liberal","Libéral",Y,Y,157
+10004,"Labrador","Labrador"," 44","Wabush",N,N,"",0,369,"Penashue","","Peter","Conservative","Conservateur",N,N,16
+10004,"Labrador","Labrador"," 44","Wabush",N,N,"",0,369,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,57
+10004,"Labrador","Labrador"," 45","Wabush",N,N,"",0,245,"Jones","","Yvonne","Liberal","Libéral",Y,Y,101
+10004,"Labrador","Labrador"," 45","Wabush",N,N,"",0,245,"Penashue","","Peter","Conservative","Conservateur",N,N,6
+10004,"Labrador","Labrador"," 45","Wabush",N,N,"",0,245,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+10004,"Labrador","Labrador"," 46","Wabush",N,N,"",0,274,"Jones","","Yvonne","Liberal","Libéral",Y,Y,86
+10004,"Labrador","Labrador"," 46","Wabush",N,N,"",0,274,"Penashue","","Peter","Conservative","Conservateur",N,N,13
+10004,"Labrador","Labrador"," 46","Wabush",N,N,"",0,274,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+10004,"Labrador","Labrador"," 47","Wabush",N,N,"",0,505,"Jones","","Yvonne","Liberal","Libéral",Y,Y,177
+10004,"Labrador","Labrador"," 47","Wabush",N,N,"",0,505,"Penashue","","Peter","Conservative","Conservateur",N,N,27
+10004,"Labrador","Labrador"," 47","Wabush",N,N,"",0,505,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,68
+10004,"Labrador","Labrador"," 48","Labrador City",N,N,"",0,404,"Jones","","Yvonne","Liberal","Libéral",Y,Y,160
+10004,"Labrador","Labrador"," 48","Labrador City",N,N,"",0,404,"Penashue","","Peter","Conservative","Conservateur",N,N,38
+10004,"Labrador","Labrador"," 48","Labrador City",N,N,"",0,404,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,54
+10004,"Labrador","Labrador"," 49","Labrador City",N,N,"",2,376,"Jones","","Yvonne","Liberal","Libéral",Y,Y,170
+10004,"Labrador","Labrador"," 49","Labrador City",N,N,"",2,376,"Penashue","","Peter","Conservative","Conservateur",N,N,23
+10004,"Labrador","Labrador"," 49","Labrador City",N,N,"",2,376,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+10004,"Labrador","Labrador"," 50","Labrador City",N,N,"",2,392,"Jones","","Yvonne","Liberal","Libéral",Y,Y,168
+10004,"Labrador","Labrador"," 50","Labrador City",N,N,"",2,392,"Penashue","","Peter","Conservative","Conservateur",N,N,28
+10004,"Labrador","Labrador"," 50","Labrador City",N,N,"",2,392,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,47
+10004,"Labrador","Labrador"," 51","Labrador City",N,N,"",1,359,"Jones","","Yvonne","Liberal","Libéral",Y,Y,150
+10004,"Labrador","Labrador"," 51","Labrador City",N,N,"",1,359,"Penashue","","Peter","Conservative","Conservateur",N,N,24
+10004,"Labrador","Labrador"," 51","Labrador City",N,N,"",1,359,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+10004,"Labrador","Labrador"," 52","Labrador City",N,N,"",2,377,"Jones","","Yvonne","Liberal","Libéral",Y,Y,140
+10004,"Labrador","Labrador"," 52","Labrador City",N,N,"",2,377,"Penashue","","Peter","Conservative","Conservateur",N,N,13
+10004,"Labrador","Labrador"," 52","Labrador City",N,N,"",2,377,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+10004,"Labrador","Labrador"," 53","Labrador City",N,N,"",0,313,"Jones","","Yvonne","Liberal","Libéral",Y,Y,131
+10004,"Labrador","Labrador"," 53","Labrador City",N,N,"",0,313,"Penashue","","Peter","Conservative","Conservateur",N,N,6
+10004,"Labrador","Labrador"," 53","Labrador City",N,N,"",0,313,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+10004,"Labrador","Labrador"," 54","Labrador City",N,N,"",1,372,"Jones","","Yvonne","Liberal","Libéral",Y,Y,122
+10004,"Labrador","Labrador"," 54","Labrador City",N,N,"",1,372,"Penashue","","Peter","Conservative","Conservateur",N,N,16
+10004,"Labrador","Labrador"," 54","Labrador City",N,N,"",1,372,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+10004,"Labrador","Labrador"," 55","Labrador City",N,N,"",0,318,"Jones","","Yvonne","Liberal","Libéral",Y,Y,122
+10004,"Labrador","Labrador"," 55","Labrador City",N,N,"",0,318,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 55","Labrador City",N,N,"",0,318,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+10004,"Labrador","Labrador"," 56","Labrador City",N,N,"",0,318,"Jones","","Yvonne","Liberal","Libéral",Y,Y,104
+10004,"Labrador","Labrador"," 56","Labrador City",N,N,"",0,318,"Penashue","","Peter","Conservative","Conservateur",N,N,15
+10004,"Labrador","Labrador"," 56","Labrador City",N,N,"",0,318,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+10004,"Labrador","Labrador"," 57","Labrador City",N,N,"",0,411,"Jones","","Yvonne","Liberal","Libéral",Y,Y,175
+10004,"Labrador","Labrador"," 57","Labrador City",N,N,"",0,411,"Penashue","","Peter","Conservative","Conservateur",N,N,21
+10004,"Labrador","Labrador"," 57","Labrador City",N,N,"",0,411,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+10004,"Labrador","Labrador"," 58","Labrador City",N,N,"",0,389,"Jones","","Yvonne","Liberal","Libéral",Y,Y,163
+10004,"Labrador","Labrador"," 58","Labrador City",N,N,"",0,389,"Penashue","","Peter","Conservative","Conservateur",N,N,10
+10004,"Labrador","Labrador"," 58","Labrador City",N,N,"",0,389,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,47
+10004,"Labrador","Labrador"," 59","Labrador City",N,N,"",1,377,"Jones","","Yvonne","Liberal","Libéral",Y,Y,145
+10004,"Labrador","Labrador"," 59","Labrador City",N,N,"",1,377,"Penashue","","Peter","Conservative","Conservateur",N,N,14
+10004,"Labrador","Labrador"," 59","Labrador City",N,N,"",1,377,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+10004,"Labrador","Labrador"," 60","Labrador City",N,N,"",2,390,"Jones","","Yvonne","Liberal","Libéral",Y,Y,138
+10004,"Labrador","Labrador"," 60","Labrador City",N,N,"",2,390,"Penashue","","Peter","Conservative","Conservateur",N,N,7
+10004,"Labrador","Labrador"," 60","Labrador City",N,N,"",2,390,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+10004,"Labrador","Labrador"," 61","Labrador City",N,N,"",0,357,"Jones","","Yvonne","Liberal","Libéral",Y,Y,129
+10004,"Labrador","Labrador"," 61","Labrador City",N,N,"",0,357,"Penashue","","Peter","Conservative","Conservateur",N,N,3
+10004,"Labrador","Labrador"," 61","Labrador City",N,N,"",0,357,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,51
+10004,"Labrador","Labrador"," 62","Labrador City",N,N,"",1,340,"Jones","","Yvonne","Liberal","Libéral",Y,Y,138
+10004,"Labrador","Labrador"," 62","Labrador City",N,N,"",1,340,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 62","Labrador City",N,N,"",1,340,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+10004,"Labrador","Labrador"," 500","Mobile poll/Bureau itinérant",N,N,"",1,40,"Jones","","Yvonne","Liberal","Libéral",Y,Y,21
+10004,"Labrador","Labrador"," 500","Mobile poll/Bureau itinérant",N,N,"",1,40,"Penashue","","Peter","Conservative","Conservateur",N,N,3
+10004,"Labrador","Labrador"," 500","Mobile poll/Bureau itinérant",N,N,"",1,40,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+10004,"Labrador","Labrador"," 501","Mobile poll/Bureau itinérant",N,N,"",0,43,"Jones","","Yvonne","Liberal","Libéral",Y,Y,22
+10004,"Labrador","Labrador"," 501","Mobile poll/Bureau itinérant",N,N,"",0,43,"Penashue","","Peter","Conservative","Conservateur",N,N,5
+10004,"Labrador","Labrador"," 501","Mobile poll/Bureau itinérant",N,N,"",0,43,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+10004,"Labrador","Labrador"," 600","Nain",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,28
+10004,"Labrador","Labrador"," 600","Nain",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,4
+10004,"Labrador","Labrador"," 600","Nain",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+10004,"Labrador","Labrador"," 601","Natuashish",N,N,"",2,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,37
+10004,"Labrador","Labrador"," 601","Natuashish",N,N,"",2,0,"Penashue","","Peter","Conservative","Conservateur",N,N,17
+10004,"Labrador","Labrador"," 601","Natuashish",N,N,"",2,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+10004,"Labrador","Labrador"," 602","Hopedale",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,7
+10004,"Labrador","Labrador"," 602","Hopedale",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,1
+10004,"Labrador","Labrador"," 602","Hopedale",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 603","Postville",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 603","Postville",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,1
+10004,"Labrador","Labrador"," 603","Postville",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 604","Makkovik",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,36
+10004,"Labrador","Labrador"," 604","Makkovik",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,7
+10004,"Labrador","Labrador"," 604","Makkovik",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 605","Rigolet",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,14
+10004,"Labrador","Labrador"," 605","Rigolet",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,4
+10004,"Labrador","Labrador"," 605","Rigolet",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+10004,"Labrador","Labrador"," 606","Labrador City",N,N,"",2,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,274
+10004,"Labrador","Labrador"," 606","Labrador City",N,N,"",2,0,"Penashue","","Peter","Conservative","Conservateur",N,N,38
+10004,"Labrador","Labrador"," 606","Labrador City",N,N,"",2,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,60
+10004,"Labrador","Labrador"," 607","Churchill Falls",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 607","Churchill Falls",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,2
+10004,"Labrador","Labrador"," 607","Churchill Falls",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+10004,"Labrador","Labrador"," 608","North West River",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,38
+10004,"Labrador","Labrador"," 608","North West River",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,9
+10004,"Labrador","Labrador"," 608","North West River",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+10004,"Labrador","Labrador"," 609","Sheshatsheits",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,19
+10004,"Labrador","Labrador"," 609","Sheshatsheits",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,25
+10004,"Labrador","Labrador"," 609","Sheshatsheits",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+10004,"Labrador","Labrador"," 610","Happy Valley-Goose Bay",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,381
+10004,"Labrador","Labrador"," 610","Happy Valley-Goose Bay",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,99
+10004,"Labrador","Labrador"," 610","Happy Valley-Goose Bay",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,70
+10004,"Labrador","Labrador"," 611","Cartwright",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,60
+10004,"Labrador","Labrador"," 611","Cartwright",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,3
+10004,"Labrador","Labrador"," 611","Cartwright",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+10004,"Labrador","Labrador"," 612","Black Tickle",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,34
+10004,"Labrador","Labrador"," 612","Black Tickle",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,5
+10004,"Labrador","Labrador"," 612","Black Tickle",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+10004,"Labrador","Labrador"," 613","Norman's Bay",N,N,"612",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,0
+10004,"Labrador","Labrador"," 613","Norman's Bay",N,N,"612",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 613","Norman's Bay",N,N,"612",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+10004,"Labrador","Labrador"," 614","Charlottetown",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,23
+10004,"Labrador","Labrador"," 614","Charlottetown",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,1
+10004,"Labrador","Labrador"," 614","Charlottetown",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+10004,"Labrador","Labrador"," 615","Williams Harbour",N,N,"614",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,0
+10004,"Labrador","Labrador"," 615","Williams Harbour",N,N,"614",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,0
+10004,"Labrador","Labrador"," 615","Williams Harbour",N,N,"614",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+10004,"Labrador","Labrador"," 616","Port Hope Simpson",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 616","Port Hope Simpson",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,1
+10004,"Labrador","Labrador"," 616","Port Hope Simpson",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+10004,"Labrador","Labrador"," 617","Mary's Harbour",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,66
+10004,"Labrador","Labrador"," 617","Mary's Harbour",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,1
+10004,"Labrador","Labrador"," 617","Mary's Harbour",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+10004,"Labrador","Labrador"," 618","Red Bay",N,N,"",1,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,20
+10004,"Labrador","Labrador"," 618","Red Bay",N,N,"",1,0,"Penashue","","Peter","Conservative","Conservateur",N,N,2
+10004,"Labrador","Labrador"," 618","Red Bay",N,N,"",1,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+10004,"Labrador","Labrador"," 619","L'Anse-au-Loup",N,N,"",0,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,80
+10004,"Labrador","Labrador"," 619","L'Anse-au-Loup",N,N,"",0,0,"Penashue","","Peter","Conservative","Conservateur",N,N,23
+10004,"Labrador","Labrador"," 619","L'Anse-au-Loup",N,N,"",0,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+10004,"Labrador","Labrador"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",1,58,"Jones","","Yvonne","Liberal","Libéral",Y,Y,64
+10004,"Labrador","Labrador"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",1,58,"Penashue","","Peter","Conservative","Conservateur",N,N,30
+10004,"Labrador","Labrador"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",1,58,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+10004,"Labrador","Labrador"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",8,0,"Jones","","Yvonne","Liberal","Libéral",Y,Y,502
+10004,"Labrador","Labrador"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",8,0,"Penashue","","Peter","Conservative","Conservateur",N,N,62
+10004,"Labrador","Labrador"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",8,0,"Rudkowski","","Edward","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,101

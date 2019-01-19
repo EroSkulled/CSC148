@@ -1,0 +1,829 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Station Number/Numéro du bureau de scrutin,Polling Station Name/Nom du bureau de scrutin,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Merge With/Fusionné avec,Rejected Ballots for Polling Station/Bulletins rejetés du bureau,Electors for Polling Station/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Poll Votes Count/Votes du candidat pour le bureau
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 1","Toronto",N,N,"",1,367,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,113
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 1","Toronto",N,N,"",1,367,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 1","Toronto",N,N,"",1,367,"MacDougall","","Marnie","Conservative","Conservateur",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 1","Toronto",N,N,"",1,367,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 2","Toronto",N,N,"",0,502,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,102
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 2","Toronto",N,N,"",0,502,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 2","Toronto",N,N,"",0,502,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 2","Toronto",N,N,"",0,502,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 3","Toronto",N,N,"",0,581,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,174
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 3","Toronto",N,N,"",0,581,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 3","Toronto",N,N,"",0,581,"MacDougall","","Marnie","Conservative","Conservateur",N,N,85
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 3","Toronto",N,N,"",0,581,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4A","Toronto",N,N,"",2,359,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,126
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4A","Toronto",N,N,"",2,359,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4A","Toronto",N,N,"",2,359,"MacDougall","","Marnie","Conservative","Conservateur",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4A","Toronto",N,N,"",2,359,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4B","Toronto",N,N,"",0,326,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,115
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4B","Toronto",N,N,"",0,326,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4B","Toronto",N,N,"",0,326,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 4B","Toronto",N,N,"",0,326,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 5","Toronto",N,N,"",1,442,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,119
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 5","Toronto",N,N,"",1,442,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 5","Toronto",N,N,"",1,442,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 5","Toronto",N,N,"",1,442,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 6","Toronto",N,N,"",0,239,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,71
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 6","Toronto",N,N,"",0,239,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 6","Toronto",N,N,"",0,239,"MacDougall","","Marnie","Conservative","Conservateur",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 6","Toronto",N,N,"",0,239,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 7","Toronto",N,N,"",0,380,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 7","Toronto",N,N,"",0,380,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 7","Toronto",N,N,"",0,380,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 7","Toronto",N,N,"",0,380,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 8","Toronto",N,N,"",1,391,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 8","Toronto",N,N,"",1,391,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 8","Toronto",N,N,"",1,391,"MacDougall","","Marnie","Conservative","Conservateur",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 8","Toronto",N,N,"",1,391,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 9","Toronto",N,N,"",0,484,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,104
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 9","Toronto",N,N,"",0,484,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 9","Toronto",N,N,"",0,484,"MacDougall","","Marnie","Conservative","Conservateur",N,N,35
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 9","Toronto",N,N,"",0,484,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 10","Toronto",N,N,"",2,555,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,151
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 10","Toronto",N,N,"",2,555,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 10","Toronto",N,N,"",2,555,"MacDougall","","Marnie","Conservative","Conservateur",N,N,113
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 10","Toronto",N,N,"",2,555,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 11","Toronto",N,N,"",0,547,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,114
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 11","Toronto",N,N,"",0,547,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 11","Toronto",N,N,"",0,547,"MacDougall","","Marnie","Conservative","Conservateur",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 11","Toronto",N,N,"",0,547,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 12","Toronto",N,N,"",0,337,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,134
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 12","Toronto",N,N,"",0,337,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 12","Toronto",N,N,"",0,337,"MacDougall","","Marnie","Conservative","Conservateur",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 12","Toronto",N,N,"",0,337,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 13","Toronto",N,N,"",0,310,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,105
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 13","Toronto",N,N,"",0,310,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 13","Toronto",N,N,"",0,310,"MacDougall","","Marnie","Conservative","Conservateur",N,N,46
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 13","Toronto",N,N,"",0,310,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 14","Toronto",N,N,"",1,450,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,131
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 14","Toronto",N,N,"",1,450,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 14","Toronto",N,N,"",1,450,"MacDougall","","Marnie","Conservative","Conservateur",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 14","Toronto",N,N,"",1,450,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 15","Toronto",N,N,"",3,374,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 15","Toronto",N,N,"",3,374,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 15","Toronto",N,N,"",3,374,"MacDougall","","Marnie","Conservative","Conservateur",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 15","Toronto",N,N,"",3,374,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 16","Toronto",N,N,"",0,487,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,113
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 16","Toronto",N,N,"",0,487,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 16","Toronto",N,N,"",0,487,"MacDougall","","Marnie","Conservative","Conservateur",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 16","Toronto",N,N,"",0,487,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 17","Toronto",N,N,"",1,622,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,212
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 17","Toronto",N,N,"",1,622,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 17","Toronto",N,N,"",1,622,"MacDougall","","Marnie","Conservative","Conservateur",N,N,84
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 17","Toronto",N,N,"",1,622,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 18","Toronto",N,N,"",1,366,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 18","Toronto",N,N,"",1,366,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 18","Toronto",N,N,"",1,366,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 18","Toronto",N,N,"",1,366,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 19","Toronto",N,N,"",0,446,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,160
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 19","Toronto",N,N,"",0,446,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 19","Toronto",N,N,"",0,446,"MacDougall","","Marnie","Conservative","Conservateur",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 19","Toronto",N,N,"",0,446,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 20","Toronto",N,N,"",1,435,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,117
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 20","Toronto",N,N,"",1,435,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 20","Toronto",N,N,"",1,435,"MacDougall","","Marnie","Conservative","Conservateur",N,N,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 20","Toronto",N,N,"",1,435,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 21","Toronto",N,N,"",1,341,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,120
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 21","Toronto",N,N,"",1,341,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 21","Toronto",N,N,"",1,341,"MacDougall","","Marnie","Conservative","Conservateur",N,N,75
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 21","Toronto",N,N,"",1,341,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 22","Toronto",N,N,"",0,472,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,148
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 22","Toronto",N,N,"",0,472,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 22","Toronto",N,N,"",0,472,"MacDougall","","Marnie","Conservative","Conservateur",N,N,85
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 22","Toronto",N,N,"",0,472,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 23","Toronto",N,N,"",2,435,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,154
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 23","Toronto",N,N,"",2,435,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 23","Toronto",N,N,"",2,435,"MacDougall","","Marnie","Conservative","Conservateur",N,N,54
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 23","Toronto",N,N,"",2,435,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 24","Toronto",N,N,"",1,409,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,127
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 24","Toronto",N,N,"",1,409,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 24","Toronto",N,N,"",1,409,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 24","Toronto",N,N,"",1,409,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 25","Toronto",N,N,"",0,497,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,166
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 25","Toronto",N,N,"",0,497,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 25","Toronto",N,N,"",0,497,"MacDougall","","Marnie","Conservative","Conservateur",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 25","Toronto",N,N,"",0,497,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 26","Toronto",N,N,"",1,345,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 26","Toronto",N,N,"",1,345,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 26","Toronto",N,N,"",1,345,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 26","Toronto",N,N,"",1,345,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 27","Toronto",N,N,"",0,558,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,185
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 27","Toronto",N,N,"",0,558,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 27","Toronto",N,N,"",0,558,"MacDougall","","Marnie","Conservative","Conservateur",N,N,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 27","Toronto",N,N,"",0,558,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 28","Toronto",N,N,"",2,403,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,125
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 28","Toronto",N,N,"",2,403,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 28","Toronto",N,N,"",2,403,"MacDougall","","Marnie","Conservative","Conservateur",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 28","Toronto",N,N,"",2,403,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 29","Toronto",N,N,"",2,332,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,85
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 29","Toronto",N,N,"",2,332,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 29","Toronto",N,N,"",2,332,"MacDougall","","Marnie","Conservative","Conservateur",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 29","Toronto",N,N,"",2,332,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 30","Toronto",N,N,"",1,346,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,87
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 30","Toronto",N,N,"",1,346,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 30","Toronto",N,N,"",1,346,"MacDougall","","Marnie","Conservative","Conservateur",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 30","Toronto",N,N,"",1,346,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 31","Toronto",N,N,"",2,502,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,173
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 31","Toronto",N,N,"",2,502,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 31","Toronto",N,N,"",2,502,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 31","Toronto",N,N,"",2,502,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 32","Toronto",N,N,"",1,417,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,123
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 32","Toronto",N,N,"",1,417,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 32","Toronto",N,N,"",1,417,"MacDougall","","Marnie","Conservative","Conservateur",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 32","Toronto",N,N,"",1,417,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 33","Toronto",N,N,"",1,511,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,155
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 33","Toronto",N,N,"",1,511,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 33","Toronto",N,N,"",1,511,"MacDougall","","Marnie","Conservative","Conservateur",N,N,46
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 33","Toronto",N,N,"",1,511,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 34","Toronto",N,N,"",2,320,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,129
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 34","Toronto",N,N,"",2,320,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 34","Toronto",N,N,"",2,320,"MacDougall","","Marnie","Conservative","Conservateur",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 34","Toronto",N,N,"",2,320,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 35","Toronto",N,N,"",0,343,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,129
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 35","Toronto",N,N,"",0,343,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 35","Toronto",N,N,"",0,343,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 35","Toronto",N,N,"",0,343,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 36","Toronto",N,N,"",1,502,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,169
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 36","Toronto",N,N,"",1,502,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 36","Toronto",N,N,"",1,502,"MacDougall","","Marnie","Conservative","Conservateur",N,N,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 36","Toronto",N,N,"",1,502,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 37","Toronto",N,N,"",1,169,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 37","Toronto",N,N,"",1,169,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 37","Toronto",N,N,"",1,169,"MacDougall","","Marnie","Conservative","Conservateur",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 37","Toronto",N,N,"",1,169,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 38","Toronto",N,N,"",2,456,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,176
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 38","Toronto",N,N,"",2,456,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 38","Toronto",N,N,"",2,456,"MacDougall","","Marnie","Conservative","Conservateur",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 38","Toronto",N,N,"",2,456,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 39","Toronto",N,N,"",0,514,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,165
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 39","Toronto",N,N,"",0,514,"Farmer","","Kevin","Green Party","Parti Vert",N,N,17
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 39","Toronto",N,N,"",0,514,"MacDougall","","Marnie","Conservative","Conservateur",N,N,46
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 39","Toronto",N,N,"",0,514,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 40","Toronto",N,N,"",0,519,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,150
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 40","Toronto",N,N,"",0,519,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 40","Toronto",N,N,"",0,519,"MacDougall","","Marnie","Conservative","Conservateur",N,N,93
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 40","Toronto",N,N,"",0,519,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 41","Toronto",N,N,"",2,476,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,163
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 41","Toronto",N,N,"",2,476,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 41","Toronto",N,N,"",2,476,"MacDougall","","Marnie","Conservative","Conservateur",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 41","Toronto",N,N,"",2,476,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 42","Toronto",N,N,"",2,444,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,179
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 42","Toronto",N,N,"",2,444,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 42","Toronto",N,N,"",2,444,"MacDougall","","Marnie","Conservative","Conservateur",N,N,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 42","Toronto",N,N,"",2,444,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 43","Toronto",N,N,"",0,490,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,195
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 43","Toronto",N,N,"",0,490,"Farmer","","Kevin","Green Party","Parti Vert",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 43","Toronto",N,N,"",0,490,"MacDougall","","Marnie","Conservative","Conservateur",N,N,71
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 43","Toronto",N,N,"",0,490,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 44","Toronto",N,N,"",0,378,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,122
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 44","Toronto",N,N,"",0,378,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 44","Toronto",N,N,"",0,378,"MacDougall","","Marnie","Conservative","Conservateur",N,N,62
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 44","Toronto",N,N,"",0,378,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 45","Toronto",N,N,"",1,395,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,162
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 45","Toronto",N,N,"",1,395,"Farmer","","Kevin","Green Party","Parti Vert",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 45","Toronto",N,N,"",1,395,"MacDougall","","Marnie","Conservative","Conservateur",N,N,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 45","Toronto",N,N,"",1,395,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 46","Toronto",N,N,"",0,482,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,155
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 46","Toronto",N,N,"",0,482,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 46","Toronto",N,N,"",0,482,"MacDougall","","Marnie","Conservative","Conservateur",N,N,97
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 46","Toronto",N,N,"",0,482,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 47","Toronto",N,N,"",2,438,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,156
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 47","Toronto",N,N,"",2,438,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 47","Toronto",N,N,"",2,438,"MacDougall","","Marnie","Conservative","Conservateur",N,N,86
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 47","Toronto",N,N,"",2,438,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 48","Toronto",N,N,"",2,360,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,57
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 48","Toronto",N,N,"",2,360,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 48","Toronto",N,N,"",2,360,"MacDougall","","Marnie","Conservative","Conservateur",N,N,112
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 48","Toronto",N,N,"",2,360,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 49","Toronto",N,N,"",1,350,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,33
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 49","Toronto",N,N,"",1,350,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 49","Toronto",N,N,"",1,350,"MacDougall","","Marnie","Conservative","Conservateur",N,N,137
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 49","Toronto",N,N,"",1,350,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 50","Toronto",N,N,"",2,484,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,130
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 50","Toronto",N,N,"",2,484,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 50","Toronto",N,N,"",2,484,"MacDougall","","Marnie","Conservative","Conservateur",N,N,99
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 50","Toronto",N,N,"",2,484,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 51","Toronto",N,N,"",2,356,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,125
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 51","Toronto",N,N,"",2,356,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 51","Toronto",N,N,"",2,356,"MacDougall","","Marnie","Conservative","Conservateur",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 51","Toronto",N,N,"",2,356,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 52","Toronto",N,N,"",0,438,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,87
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 52","Toronto",N,N,"",0,438,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 52","Toronto",N,N,"",0,438,"MacDougall","","Marnie","Conservative","Conservateur",N,N,58
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 52","Toronto",N,N,"",0,438,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 53","Toronto",N,N,"",0,246,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 53","Toronto",N,N,"",0,246,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 53","Toronto",N,N,"",0,246,"MacDougall","","Marnie","Conservative","Conservateur",N,N,88
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 53","Toronto",N,N,"",0,246,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 54","Toronto",N,N,"",0,416,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,75
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 54","Toronto",N,N,"",0,416,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 54","Toronto",N,N,"",0,416,"MacDougall","","Marnie","Conservative","Conservateur",N,N,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 54","Toronto",N,N,"",0,416,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 55","Toronto",N,N,"",0,322,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,58
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 55","Toronto",N,N,"",0,322,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 55","Toronto",N,N,"",0,322,"MacDougall","","Marnie","Conservative","Conservateur",N,N,87
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 55","Toronto",N,N,"",0,322,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 56","Toronto",N,N,"",0,340,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 56","Toronto",N,N,"",0,340,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 56","Toronto",N,N,"",0,340,"MacDougall","","Marnie","Conservative","Conservateur",N,N,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 56","Toronto",N,N,"",0,340,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 57","Toronto",N,N,"",0,367,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 57","Toronto",N,N,"",0,367,"Farmer","","Kevin","Green Party","Parti Vert",N,N,0
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 57","Toronto",N,N,"",0,367,"MacDougall","","Marnie","Conservative","Conservateur",N,N,127
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 57","Toronto",N,N,"",0,367,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 58","York",N,N,"",1,383,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 58","York",N,N,"",1,383,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 58","York",N,N,"",1,383,"MacDougall","","Marnie","Conservative","Conservateur",N,N,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 58","York",N,N,"",1,383,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 59","York",N,N,"",0,332,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 59","York",N,N,"",0,332,"Farmer","","Kevin","Green Party","Parti Vert",N,N,0
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 59","York",N,N,"",0,332,"MacDougall","","Marnie","Conservative","Conservateur",N,N,79
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 59","York",N,N,"",0,332,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 60","York",N,N,"",2,382,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,80
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 60","York",N,N,"",2,382,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 60","York",N,N,"",2,382,"MacDougall","","Marnie","Conservative","Conservateur",N,N,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 60","York",N,N,"",2,382,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 61","York",N,N,"",0,403,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,96
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 61","York",N,N,"",0,403,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 61","York",N,N,"",0,403,"MacDougall","","Marnie","Conservative","Conservateur",N,N,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 61","York",N,N,"",0,403,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 62","York",N,N,"",0,495,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,135
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 62","York",N,N,"",0,495,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 62","York",N,N,"",0,495,"MacDougall","","Marnie","Conservative","Conservateur",N,N,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 62","York",N,N,"",0,495,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 63","York",N,N,"",2,503,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,160
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 63","York",N,N,"",2,503,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 63","York",N,N,"",2,503,"MacDougall","","Marnie","Conservative","Conservateur",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 63","York",N,N,"",2,503,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 64","York",N,N,"",0,518,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,187
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 64","York",N,N,"",0,518,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 64","York",N,N,"",0,518,"MacDougall","","Marnie","Conservative","Conservateur",N,N,57
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 64","York",N,N,"",0,518,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 65","York",N,N,"",6,338,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,156
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 65","York",N,N,"",6,338,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 65","York",N,N,"",6,338,"MacDougall","","Marnie","Conservative","Conservateur",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 65","York",N,N,"",6,338,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 66","York",N,N,"",1,380,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,76
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 66","York",N,N,"",1,380,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 66","York",N,N,"",1,380,"MacDougall","","Marnie","Conservative","Conservateur",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 66","York",N,N,"",1,380,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 67","York",N,N,"",2,457,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,142
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 67","York",N,N,"",2,457,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 67","York",N,N,"",2,457,"MacDougall","","Marnie","Conservative","Conservateur",N,N,32
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 67","York",N,N,"",2,457,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 68","York",N,N,"",0,407,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,135
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 68","York",N,N,"",0,407,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 68","York",N,N,"",0,407,"MacDougall","","Marnie","Conservative","Conservateur",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 68","York",N,N,"",0,407,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 69","York",N,N,"",1,471,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,142
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 69","York",N,N,"",1,471,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 69","York",N,N,"",1,471,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 69","York",N,N,"",1,471,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 70","York",N,N,"",0,512,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,142
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 70","York",N,N,"",0,512,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 70","York",N,N,"",0,512,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 70","York",N,N,"",0,512,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 71","York",N,N,"",0,422,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,137
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 71","York",N,N,"",0,422,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 71","York",N,N,"",0,422,"MacDougall","","Marnie","Conservative","Conservateur",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 71","York",N,N,"",0,422,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 72","York",N,N,"",0,407,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,113
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 72","York",N,N,"",0,407,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 72","York",N,N,"",0,407,"MacDougall","","Marnie","Conservative","Conservateur",N,N,50
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 72","York",N,N,"",0,407,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 73","York",N,N,"",0,528,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,151
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 73","York",N,N,"",0,528,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 73","York",N,N,"",0,528,"MacDougall","","Marnie","Conservative","Conservateur",N,N,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 73","York",N,N,"",0,528,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 74","York",N,N,"",1,535,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,132
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 74","York",N,N,"",1,535,"Farmer","","Kevin","Green Party","Parti Vert",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 74","York",N,N,"",1,535,"MacDougall","","Marnie","Conservative","Conservateur",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 74","York",N,N,"",1,535,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 75","York",N,N,"",1,532,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,178
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 75","York",N,N,"",1,532,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 75","York",N,N,"",1,532,"MacDougall","","Marnie","Conservative","Conservateur",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 75","York",N,N,"",1,532,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 76","York",N,N,"",3,402,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,122
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 76","York",N,N,"",3,402,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 76","York",N,N,"",3,402,"MacDougall","","Marnie","Conservative","Conservateur",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 76","York",N,N,"",3,402,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,65
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 77","York",N,N,"",2,460,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,153
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 77","York",N,N,"",2,460,"Farmer","","Kevin","Green Party","Parti Vert",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 77","York",N,N,"",2,460,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 77","York",N,N,"",2,460,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,59
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 78","York",N,N,"",0,382,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 78","York",N,N,"",0,382,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 78","York",N,N,"",0,382,"MacDougall","","Marnie","Conservative","Conservateur",N,N,122
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 78","York",N,N,"",0,382,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 79","York",N,N,"",0,492,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,145
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 79","York",N,N,"",0,492,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 79","York",N,N,"",0,492,"MacDougall","","Marnie","Conservative","Conservateur",N,N,71
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 79","York",N,N,"",0,492,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 80","York",N,N,"",0,315,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 80","York",N,N,"",0,315,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 80","York",N,N,"",0,315,"MacDougall","","Marnie","Conservative","Conservateur",N,N,119
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 80","York",N,N,"",0,315,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 81","York",N,N,"",2,450,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,132
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 81","York",N,N,"",2,450,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 81","York",N,N,"",2,450,"MacDougall","","Marnie","Conservative","Conservateur",N,N,64
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 81","York",N,N,"",2,450,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 82","York",N,N,"",1,368,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,130
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 82","York",N,N,"",1,368,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 82","York",N,N,"",1,368,"MacDougall","","Marnie","Conservative","Conservateur",N,N,50
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 82","York",N,N,"",1,368,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 83","Toronto",N,N,"",1,306,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,77
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 83","Toronto",N,N,"",1,306,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 83","Toronto",N,N,"",1,306,"MacDougall","","Marnie","Conservative","Conservateur",N,N,83
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 83","Toronto",N,N,"",1,306,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 84","Toronto",N,N,"",1,474,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,56
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 84","Toronto",N,N,"",1,474,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 84","Toronto",N,N,"",1,474,"MacDougall","","Marnie","Conservative","Conservateur",N,N,165
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 84","Toronto",N,N,"",1,474,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 85","York",N,N,"",1,451,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,96
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 85","York",N,N,"",1,451,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 85","York",N,N,"",1,451,"MacDougall","","Marnie","Conservative","Conservateur",N,N,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 85","York",N,N,"",1,451,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 86","York",N,N,"",0,486,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,132
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 86","York",N,N,"",0,486,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 86","York",N,N,"",0,486,"MacDougall","","Marnie","Conservative","Conservateur",N,N,40
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 86","York",N,N,"",0,486,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,72
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 87","Toronto",N,N,"",0,359,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 87","Toronto",N,N,"",0,359,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 87","Toronto",N,N,"",0,359,"MacDougall","","Marnie","Conservative","Conservateur",N,N,133
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 87","Toronto",N,N,"",0,359,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 88","Toronto",N,N,"",1,506,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 88","Toronto",N,N,"",1,506,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 88","Toronto",N,N,"",1,506,"MacDougall","","Marnie","Conservative","Conservateur",N,N,136
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 88","Toronto",N,N,"",1,506,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 89","Toronto",N,N,"",1,443,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,104
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 89","Toronto",N,N,"",1,443,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 89","Toronto",N,N,"",1,443,"MacDougall","","Marnie","Conservative","Conservateur",N,N,96
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 89","Toronto",N,N,"",1,443,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 90","Toronto",N,N,"",1,585,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,138
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 90","Toronto",N,N,"",1,585,"Farmer","","Kevin","Green Party","Parti Vert",N,N,17
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 90","Toronto",N,N,"",1,585,"MacDougall","","Marnie","Conservative","Conservateur",N,N,68
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 90","Toronto",N,N,"",1,585,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 91","Toronto",N,N,"",0,430,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,124
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 91","Toronto",N,N,"",0,430,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 91","Toronto",N,N,"",0,430,"MacDougall","","Marnie","Conservative","Conservateur",N,N,46
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 91","Toronto",N,N,"",0,430,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 92","York",N,N,"",0,394,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,98
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 92","York",N,N,"",0,394,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 92","York",N,N,"",0,394,"MacDougall","","Marnie","Conservative","Conservateur",N,N,58
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 92","York",N,N,"",0,394,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 93","Toronto",N,N,"",1,561,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,126
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 93","Toronto",N,N,"",1,561,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 93","Toronto",N,N,"",1,561,"MacDougall","","Marnie","Conservative","Conservateur",N,N,100
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 93","Toronto",N,N,"",1,561,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 94","York",N,N,"",0,395,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 94","York",N,N,"",0,395,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 94","York",N,N,"",0,395,"MacDougall","","Marnie","Conservative","Conservateur",N,N,68
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 94","York",N,N,"",0,395,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 95","York",N,N,"",1,606,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,238
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 95","York",N,N,"",1,606,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 95","York",N,N,"",1,606,"MacDougall","","Marnie","Conservative","Conservateur",N,N,94
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 95","York",N,N,"",1,606,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 96","Toronto",N,N,"",0,413,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,76
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 96","Toronto",N,N,"",0,413,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 96","Toronto",N,N,"",0,413,"MacDougall","","Marnie","Conservative","Conservateur",N,N,99
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 96","Toronto",N,N,"",0,413,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 97","Toronto",N,N,"",0,410,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,90
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 97","Toronto",N,N,"",0,410,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 97","Toronto",N,N,"",0,410,"MacDougall","","Marnie","Conservative","Conservateur",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 97","Toronto",N,N,"",0,410,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 98","Toronto",N,N,"",0,448,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,93
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 98","Toronto",N,N,"",0,448,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 98","Toronto",N,N,"",0,448,"MacDougall","","Marnie","Conservative","Conservateur",N,N,103
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 98","Toronto",N,N,"",0,448,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 99","Toronto",N,N,"",2,398,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,75
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 99","Toronto",N,N,"",2,398,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 99","Toronto",N,N,"",2,398,"MacDougall","","Marnie","Conservative","Conservateur",N,N,75
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 99","Toronto",N,N,"",2,398,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 100","Toronto",N,N,"",0,396,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 100","Toronto",N,N,"",0,396,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 100","Toronto",N,N,"",0,396,"MacDougall","","Marnie","Conservative","Conservateur",N,N,57
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 100","Toronto",N,N,"",0,396,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 101","Toronto",N,N,"",0,439,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,86
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 101","Toronto",N,N,"",0,439,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 101","Toronto",N,N,"",0,439,"MacDougall","","Marnie","Conservative","Conservateur",N,N,60
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 101","Toronto",N,N,"",0,439,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 102","Toronto",N,N,"",1,485,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,129
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 102","Toronto",N,N,"",1,485,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 102","Toronto",N,N,"",1,485,"MacDougall","","Marnie","Conservative","Conservateur",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 102","Toronto",N,N,"",1,485,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 103","Toronto",N,N,"",0,347,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,70
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 103","Toronto",N,N,"",0,347,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 103","Toronto",N,N,"",0,347,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 103","Toronto",N,N,"",0,347,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 104","Toronto",N,N,"",0,374,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,102
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 104","Toronto",N,N,"",0,374,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 104","Toronto",N,N,"",0,374,"MacDougall","","Marnie","Conservative","Conservateur",N,N,36
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 104","Toronto",N,N,"",0,374,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 105","Toronto",N,N,"",1,417,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,112
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 105","Toronto",N,N,"",1,417,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 105","Toronto",N,N,"",1,417,"MacDougall","","Marnie","Conservative","Conservateur",N,N,54
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 105","Toronto",N,N,"",1,417,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 106","Toronto",N,N,"",0,376,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 106","Toronto",N,N,"",0,376,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 106","Toronto",N,N,"",0,376,"MacDougall","","Marnie","Conservative","Conservateur",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 106","Toronto",N,N,"",0,376,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 107","Toronto",N,N,"",1,516,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,131
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 107","Toronto",N,N,"",1,516,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 107","Toronto",N,N,"",1,516,"MacDougall","","Marnie","Conservative","Conservateur",N,N,84
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 107","Toronto",N,N,"",1,516,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 108","Toronto",N,N,"",0,323,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,115
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 108","Toronto",N,N,"",0,323,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 108","Toronto",N,N,"",0,323,"MacDougall","","Marnie","Conservative","Conservateur",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 108","Toronto",N,N,"",0,323,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 109","Toronto",N,N,"",1,396,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,125
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 109","Toronto",N,N,"",1,396,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 109","Toronto",N,N,"",1,396,"MacDougall","","Marnie","Conservative","Conservateur",N,N,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 109","Toronto",N,N,"",1,396,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 110","Toronto",N,N,"",0,314,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,88
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 110","Toronto",N,N,"",0,314,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 110","Toronto",N,N,"",0,314,"MacDougall","","Marnie","Conservative","Conservateur",N,N,36
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 110","Toronto",N,N,"",0,314,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 111","Toronto",N,N,"",1,435,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 111","Toronto",N,N,"",1,435,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 111","Toronto",N,N,"",1,435,"MacDougall","","Marnie","Conservative","Conservateur",N,N,98
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 111","Toronto",N,N,"",1,435,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 112","Toronto",N,N,"",0,298,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,86
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 112","Toronto",N,N,"",0,298,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 112","Toronto",N,N,"",0,298,"MacDougall","","Marnie","Conservative","Conservateur",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 112","Toronto",N,N,"",0,298,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 113","Toronto",N,N,"",0,484,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,123
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 113","Toronto",N,N,"",0,484,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 113","Toronto",N,N,"",0,484,"MacDougall","","Marnie","Conservative","Conservateur",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 113","Toronto",N,N,"",0,484,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 114","Toronto",N,N,"",0,353,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,102
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 114","Toronto",N,N,"",0,353,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 114","Toronto",N,N,"",0,353,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 114","Toronto",N,N,"",0,353,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 115","Toronto",N,N,"",0,423,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,117
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 115","Toronto",N,N,"",0,423,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 115","Toronto",N,N,"",0,423,"MacDougall","","Marnie","Conservative","Conservateur",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 115","Toronto",N,N,"",0,423,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116A","Toronto",N,N,"",1,234,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,95
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116A","Toronto",N,N,"",1,234,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116A","Toronto",N,N,"",1,234,"MacDougall","","Marnie","Conservative","Conservateur",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116A","Toronto",N,N,"",1,234,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116B","Toronto",N,N,"",0,223,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116B","Toronto",N,N,"",0,223,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116B","Toronto",N,N,"",0,223,"MacDougall","","Marnie","Conservative","Conservateur",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 116B","Toronto",N,N,"",0,223,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 117","Toronto",N,N,"",1,322,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,115
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 117","Toronto",N,N,"",1,322,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 117","Toronto",N,N,"",1,322,"MacDougall","","Marnie","Conservative","Conservateur",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 117","Toronto",N,N,"",1,322,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 118","Toronto",N,N,"",0,323,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,121
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 118","Toronto",N,N,"",0,323,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 118","Toronto",N,N,"",0,323,"MacDougall","","Marnie","Conservative","Conservateur",N,N,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 118","Toronto",N,N,"",0,323,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 119","Toronto",N,N,"",0,300,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,84
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 119","Toronto",N,N,"",0,300,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 119","Toronto",N,N,"",0,300,"MacDougall","","Marnie","Conservative","Conservateur",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 119","Toronto",N,N,"",0,300,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 120","Toronto",N,N,"",0,471,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,149
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 120","Toronto",N,N,"",0,471,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 120","Toronto",N,N,"",0,471,"MacDougall","","Marnie","Conservative","Conservateur",N,N,88
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 120","Toronto",N,N,"",0,471,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 121","Toronto",N,N,"",1,314,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,93
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 121","Toronto",N,N,"",1,314,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 121","Toronto",N,N,"",1,314,"MacDougall","","Marnie","Conservative","Conservateur",N,N,56
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 121","Toronto",N,N,"",1,314,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 122","Toronto",N,N,"",0,336,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,106
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 122","Toronto",N,N,"",0,336,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 122","Toronto",N,N,"",0,336,"MacDougall","","Marnie","Conservative","Conservateur",N,N,65
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 122","Toronto",N,N,"",0,336,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 123","Toronto",N,N,"",0,368,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,121
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 123","Toronto",N,N,"",0,368,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 123","Toronto",N,N,"",0,368,"MacDougall","","Marnie","Conservative","Conservateur",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 123","Toronto",N,N,"",0,368,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 124","Toronto",N,N,"",0,367,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,143
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 124","Toronto",N,N,"",0,367,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 124","Toronto",N,N,"",0,367,"MacDougall","","Marnie","Conservative","Conservateur",N,N,57
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 124","Toronto",N,N,"",0,367,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 125","Toronto",N,N,"",1,403,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,130
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 125","Toronto",N,N,"",1,403,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 125","Toronto",N,N,"",1,403,"MacDougall","","Marnie","Conservative","Conservateur",N,N,62
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 125","Toronto",N,N,"",1,403,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 126","Toronto",N,N,"",0,456,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,69
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 126","Toronto",N,N,"",0,456,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 126","Toronto",N,N,"",0,456,"MacDougall","","Marnie","Conservative","Conservateur",N,N,54
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 126","Toronto",N,N,"",0,456,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 127","Toronto",N,N,"",0,310,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,66
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 127","Toronto",N,N,"",0,310,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 127","Toronto",N,N,"",0,310,"MacDougall","","Marnie","Conservative","Conservateur",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 127","Toronto",N,N,"",0,310,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 128","Toronto",N,N,"",0,370,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,133
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 128","Toronto",N,N,"",0,370,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 128","Toronto",N,N,"",0,370,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 128","Toronto",N,N,"",0,370,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 129","Toronto",N,N,"",0,315,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,80
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 129","Toronto",N,N,"",0,315,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 129","Toronto",N,N,"",0,315,"MacDougall","","Marnie","Conservative","Conservateur",N,N,65
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 129","Toronto",N,N,"",0,315,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 130","Toronto",N,N,"",1,404,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,109
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 130","Toronto",N,N,"",1,404,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 130","Toronto",N,N,"",1,404,"MacDougall","","Marnie","Conservative","Conservateur",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 130","Toronto",N,N,"",1,404,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 131","Toronto",N,N,"",0,397,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,139
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 131","Toronto",N,N,"",0,397,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 131","Toronto",N,N,"",0,397,"MacDougall","","Marnie","Conservative","Conservateur",N,N,28
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 131","Toronto",N,N,"",0,397,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 132","Toronto",N,N,"",1,334,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,105
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 132","Toronto",N,N,"",1,334,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 132","Toronto",N,N,"",1,334,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 132","Toronto",N,N,"",1,334,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 133","Toronto",N,N,"",0,431,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,128
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 133","Toronto",N,N,"",0,431,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 133","Toronto",N,N,"",0,431,"MacDougall","","Marnie","Conservative","Conservateur",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 133","Toronto",N,N,"",0,431,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 134","Toronto",N,N,"",0,394,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,106
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 134","Toronto",N,N,"",0,394,"Farmer","","Kevin","Green Party","Parti Vert",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 134","Toronto",N,N,"",0,394,"MacDougall","","Marnie","Conservative","Conservateur",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 134","Toronto",N,N,"",0,394,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 135","Toronto",N,N,"",0,416,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,138
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 135","Toronto",N,N,"",0,416,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 135","Toronto",N,N,"",0,416,"MacDougall","","Marnie","Conservative","Conservateur",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 135","Toronto",N,N,"",0,416,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 136","Toronto",N,N,"",1,407,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,109
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 136","Toronto",N,N,"",1,407,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 136","Toronto",N,N,"",1,407,"MacDougall","","Marnie","Conservative","Conservateur",N,N,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 136","Toronto",N,N,"",1,407,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 137","Toronto",N,N,"",1,500,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,160
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 137","Toronto",N,N,"",1,500,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 137","Toronto",N,N,"",1,500,"MacDougall","","Marnie","Conservative","Conservateur",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 137","Toronto",N,N,"",1,500,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,66
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 138","Toronto",N,N,"",2,562,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,185
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 138","Toronto",N,N,"",2,562,"Farmer","","Kevin","Green Party","Parti Vert",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 138","Toronto",N,N,"",2,562,"MacDougall","","Marnie","Conservative","Conservateur",N,N,36
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 138","Toronto",N,N,"",2,562,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 139","York",N,N,"",4,523,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,189
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 139","York",N,N,"",4,523,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 139","York",N,N,"",4,523,"MacDougall","","Marnie","Conservative","Conservateur",N,N,50
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 139","York",N,N,"",4,523,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,59
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 140","York",N,N,"",0,431,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,148
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 140","York",N,N,"",0,431,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 140","York",N,N,"",0,431,"MacDougall","","Marnie","Conservative","Conservateur",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 140","York",N,N,"",0,431,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,58
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 141","York",N,N,"",0,369,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,135
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 141","York",N,N,"",0,369,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 141","York",N,N,"",0,369,"MacDougall","","Marnie","Conservative","Conservateur",N,N,25
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 141","York",N,N,"",0,369,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 142","York",N,N,"",0,407,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,142
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 142","York",N,N,"",0,407,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 142","York",N,N,"",0,407,"MacDougall","","Marnie","Conservative","Conservateur",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 142","York",N,N,"",0,407,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,91
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 143","York",N,N,"",4,444,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,169
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 143","York",N,N,"",4,444,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 143","York",N,N,"",4,444,"MacDougall","","Marnie","Conservative","Conservateur",N,N,52
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 143","York",N,N,"",4,444,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,68
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 144","York",N,N,"",0,252,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 144","York",N,N,"",0,252,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 144","York",N,N,"",0,252,"MacDougall","","Marnie","Conservative","Conservateur",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 144","York",N,N,"",0,252,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,48
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 145","Toronto",N,N,"",1,451,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,136
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 145","Toronto",N,N,"",1,451,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 145","Toronto",N,N,"",1,451,"MacDougall","","Marnie","Conservative","Conservateur",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 145","Toronto",N,N,"",1,451,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,64
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 146","Toronto",N,N,"",0,433,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,120
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 146","Toronto",N,N,"",0,433,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 146","Toronto",N,N,"",0,433,"MacDougall","","Marnie","Conservative","Conservateur",N,N,108
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 146","Toronto",N,N,"",0,433,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 147","York",N,N,"",0,531,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,162
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 147","York",N,N,"",0,531,"Farmer","","Kevin","Green Party","Parti Vert",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 147","York",N,N,"",0,531,"MacDougall","","Marnie","Conservative","Conservateur",N,N,68
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 147","York",N,N,"",0,531,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 148","York",N,N,"",1,365,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,137
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 148","York",N,N,"",1,365,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 148","York",N,N,"",1,365,"MacDougall","","Marnie","Conservative","Conservateur",N,N,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 148","York",N,N,"",1,365,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 149","York",N,N,"",1,420,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,115
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 149","York",N,N,"",1,420,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 149","York",N,N,"",1,420,"MacDougall","","Marnie","Conservative","Conservateur",N,N,47
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 149","York",N,N,"",1,420,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,65
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 150","York",N,N,"",1,353,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,100
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 150","York",N,N,"",1,353,"Farmer","","Kevin","Green Party","Parti Vert",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 150","York",N,N,"",1,353,"MacDougall","","Marnie","Conservative","Conservateur",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 150","York",N,N,"",1,353,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 151","York",N,N,"",1,482,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,163
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 151","York",N,N,"",1,482,"Farmer","","Kevin","Green Party","Parti Vert",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 151","York",N,N,"",1,482,"MacDougall","","Marnie","Conservative","Conservateur",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 151","York",N,N,"",1,482,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,66
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 152","York",N,N,"",0,305,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 152","York",N,N,"",0,305,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 152","York",N,N,"",0,305,"MacDougall","","Marnie","Conservative","Conservateur",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 152","York",N,N,"",0,305,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,46
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 153","York",N,N,"",0,466,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,180
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 153","York",N,N,"",0,466,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 153","York",N,N,"",0,466,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 153","York",N,N,"",0,466,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,69
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 154","York",N,N,"",1,458,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,194
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 154","York",N,N,"",1,458,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 154","York",N,N,"",1,458,"MacDougall","","Marnie","Conservative","Conservateur",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 154","York",N,N,"",1,458,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 155","York",N,N,"",1,419,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,152
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 155","York",N,N,"",1,419,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 155","York",N,N,"",1,419,"MacDougall","","Marnie","Conservative","Conservateur",N,N,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 155","York",N,N,"",1,419,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,75
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 156","York",N,N,"",0,376,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,134
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 156","York",N,N,"",0,376,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 156","York",N,N,"",0,376,"MacDougall","","Marnie","Conservative","Conservateur",N,N,40
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 156","York",N,N,"",0,376,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 157","York",N,N,"",0,456,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,160
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 157","York",N,N,"",0,456,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 157","York",N,N,"",0,456,"MacDougall","","Marnie","Conservative","Conservateur",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 157","York",N,N,"",0,456,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,62
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 158","York",N,N,"",0,491,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,197
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 158","York",N,N,"",0,491,"Farmer","","Kevin","Green Party","Parti Vert",N,N,16
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 158","York",N,N,"",0,491,"MacDougall","","Marnie","Conservative","Conservateur",N,N,33
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 158","York",N,N,"",0,491,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 159","Toronto",N,N,"",2,564,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,168
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 159","Toronto",N,N,"",2,564,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 159","Toronto",N,N,"",2,564,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 159","Toronto",N,N,"",2,564,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 160","Toronto",N,N,"",1,378,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,128
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 160","Toronto",N,N,"",1,378,"Farmer","","Kevin","Green Party","Parti Vert",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 160","Toronto",N,N,"",1,378,"MacDougall","","Marnie","Conservative","Conservateur",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 160","Toronto",N,N,"",1,378,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,58
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 161","Toronto",N,N,"",3,459,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,153
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 161","Toronto",N,N,"",3,459,"Farmer","","Kevin","Green Party","Parti Vert",N,N,13
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 161","Toronto",N,N,"",3,459,"MacDougall","","Marnie","Conservative","Conservateur",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 161","Toronto",N,N,"",3,459,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,68
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 162","Toronto",N,N,"",1,357,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,141
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 162","Toronto",N,N,"",1,357,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 162","Toronto",N,N,"",1,357,"MacDougall","","Marnie","Conservative","Conservateur",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 162","Toronto",N,N,"",1,357,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 163","Toronto",N,N,"",0,403,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,118
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 163","Toronto",N,N,"",0,403,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 163","Toronto",N,N,"",0,403,"MacDougall","","Marnie","Conservative","Conservateur",N,N,32
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 163","Toronto",N,N,"",0,403,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 164","Toronto",N,N,"",11,437,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,213
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 164","Toronto",N,N,"",11,437,"Farmer","","Kevin","Green Party","Parti Vert",N,N,10
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 164","Toronto",N,N,"",11,437,"MacDougall","","Marnie","Conservative","Conservateur",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 164","Toronto",N,N,"",11,437,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 165","Toronto",N,N,"",0,479,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,132
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 165","Toronto",N,N,"",0,479,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 165","Toronto",N,N,"",0,479,"MacDougall","","Marnie","Conservative","Conservateur",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 165","Toronto",N,N,"",0,479,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,84
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 166","Toronto",N,N,"",0,464,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,99
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 166","Toronto",N,N,"",0,464,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 166","Toronto",N,N,"",0,464,"MacDougall","","Marnie","Conservative","Conservateur",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 166","Toronto",N,N,"",0,464,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 167","Toronto",N,N,"",4,335,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,99
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 167","Toronto",N,N,"",4,335,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 167","Toronto",N,N,"",4,335,"MacDougall","","Marnie","Conservative","Conservateur",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 167","Toronto",N,N,"",4,335,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,55
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 168","Toronto",N,N,"",0,388,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,99
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 168","Toronto",N,N,"",0,388,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 168","Toronto",N,N,"",0,388,"MacDougall","","Marnie","Conservative","Conservateur",N,N,36
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 168","Toronto",N,N,"",0,388,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,53
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 169","Toronto",N,N,"",1,371,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,116
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 169","Toronto",N,N,"",1,371,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 169","Toronto",N,N,"",1,371,"MacDougall","","Marnie","Conservative","Conservateur",N,N,22
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 169","Toronto",N,N,"",1,371,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 170","Toronto",N,N,"",2,428,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,112
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 170","Toronto",N,N,"",2,428,"Farmer","","Kevin","Green Party","Parti Vert",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 170","Toronto",N,N,"",2,428,"MacDougall","","Marnie","Conservative","Conservateur",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 170","Toronto",N,N,"",2,428,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,71
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 171","Toronto",N,N,"",2,452,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,111
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 171","Toronto",N,N,"",2,452,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 171","Toronto",N,N,"",2,452,"MacDougall","","Marnie","Conservative","Conservateur",N,N,42
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 171","Toronto",N,N,"",2,452,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,63
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 400","Toronto",N,N,"",1,241,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,65
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 400","Toronto",N,N,"",1,241,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 400","Toronto",N,N,"",1,241,"MacDougall","","Marnie","Conservative","Conservateur",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 400","Toronto",N,N,"",1,241,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 401","Toronto",N,N,"",1,253,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,37
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 401","Toronto",N,N,"",1,253,"Farmer","","Kevin","Green Party","Parti Vert",N,N,2
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 401","Toronto",N,N,"",1,253,"MacDougall","","Marnie","Conservative","Conservateur",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 401","Toronto",N,N,"",1,253,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 402","Toronto",N,N,"",0,201,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,78
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 402","Toronto",N,N,"",0,201,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 402","Toronto",N,N,"",0,201,"MacDougall","","Marnie","Conservative","Conservateur",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 402","Toronto",N,N,"",0,201,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 403","Toronto",N,N,"",4,599,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,176
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 403","Toronto",N,N,"",4,599,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 403","Toronto",N,N,"",4,599,"MacDougall","","Marnie","Conservative","Conservateur",N,N,111
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 403","Toronto",N,N,"",4,599,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 404","Toronto",N,N,"",1,516,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,195
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 404","Toronto",N,N,"",1,516,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 404","Toronto",N,N,"",1,516,"MacDougall","","Marnie","Conservative","Conservateur",N,N,59
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 404","Toronto",N,N,"",1,516,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,57
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 405","Toronto",N,N,"",2,448,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,180
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 405","Toronto",N,N,"",2,448,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 405","Toronto",N,N,"",2,448,"MacDougall","","Marnie","Conservative","Conservateur",N,N,51
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 405","Toronto",N,N,"",2,448,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 406","Toronto",N,N,"",0,381,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,144
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 406","Toronto",N,N,"",0,381,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 406","Toronto",N,N,"",0,381,"MacDougall","","Marnie","Conservative","Conservateur",N,N,56
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 406","Toronto",N,N,"",0,381,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 407","Toronto",N,N,"",0,470,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,143
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 407","Toronto",N,N,"",0,470,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 407","Toronto",N,N,"",0,470,"MacDougall","","Marnie","Conservative","Conservateur",N,N,44
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 407","Toronto",N,N,"",0,470,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 408","Toronto",N,N,"",1,345,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,134
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 408","Toronto",N,N,"",1,345,"Farmer","","Kevin","Green Party","Parti Vert",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 408","Toronto",N,N,"",1,345,"MacDougall","","Marnie","Conservative","Conservateur",N,N,39
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 408","Toronto",N,N,"",1,345,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 409","Toronto",N,N,"",0,252,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,84
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 409","Toronto",N,N,"",0,252,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 409","Toronto",N,N,"",0,252,"MacDougall","","Marnie","Conservative","Conservateur",N,N,30
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 409","Toronto",N,N,"",0,252,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 410","York",N,N,"",0,186,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,73
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 410","York",N,N,"",0,186,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 410","York",N,N,"",0,186,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 410","York",N,N,"",0,186,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411A","Toronto",N,N,"",0,331,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,110
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411A","Toronto",N,N,"",0,331,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411A","Toronto",N,N,"",0,331,"MacDougall","","Marnie","Conservative","Conservateur",N,N,91
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411A","Toronto",N,N,"",0,331,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411B","Toronto",N,N,"",1,353,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,124
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411B","Toronto",N,N,"",1,353,"Farmer","","Kevin","Green Party","Parti Vert",N,N,3
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411B","Toronto",N,N,"",1,353,"MacDougall","","Marnie","Conservative","Conservateur",N,N,88
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 411B","Toronto",N,N,"",1,353,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 412","Toronto",N,N,"",1,297,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,101
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 412","Toronto",N,N,"",1,297,"Farmer","","Kevin","Green Party","Parti Vert",N,N,1
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 412","Toronto",N,N,"",1,297,"MacDougall","","Marnie","Conservative","Conservateur",N,N,98
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 412","Toronto",N,N,"",1,297,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 413","Toronto",N,N,"",0,317,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,133
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 413","Toronto",N,N,"",0,317,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 413","Toronto",N,N,"",0,317,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 413","Toronto",N,N,"",0,317,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 414","Toronto",N,N,"",4,455,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,178
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 414","Toronto",N,N,"",4,455,"Farmer","","Kevin","Green Party","Parti Vert",N,N,5
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 414","Toronto",N,N,"",4,455,"MacDougall","","Marnie","Conservative","Conservateur",N,N,76
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 414","Toronto",N,N,"",4,455,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 415","Toronto",N,N,"",4,299,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,118
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 415","Toronto",N,N,"",4,299,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 415","Toronto",N,N,"",4,299,"MacDougall","","Marnie","Conservative","Conservateur",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 415","Toronto",N,N,"",4,299,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 416","Toronto",N,N,"",2,293,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,105
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 416","Toronto",N,N,"",2,293,"Farmer","","Kevin","Green Party","Parti Vert",N,N,8
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 416","Toronto",N,N,"",2,293,"MacDougall","","Marnie","Conservative","Conservateur",N,N,43
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 416","Toronto",N,N,"",2,293,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 417","Toronto",N,N,"",1,309,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,152
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 417","Toronto",N,N,"",1,309,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 417","Toronto",N,N,"",1,309,"MacDougall","","Marnie","Conservative","Conservateur",N,N,49
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 417","Toronto",N,N,"",1,309,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 500","Mobile poll/Bureau itinérant",N,N,"",3,159,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,60
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 500","Mobile poll/Bureau itinérant",N,N,"",3,159,"Farmer","","Kevin","Green Party","Parti Vert",N,N,4
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 500","Mobile poll/Bureau itinérant",N,N,"",3,159,"MacDougall","","Marnie","Conservative","Conservateur",N,N,24
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 500","Mobile poll/Bureau itinérant",N,N,"",3,159,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 600","Toronto",N,N,"",9,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,722
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 600","Toronto",N,N,"",9,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,34
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 600","Toronto",N,N,"",9,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,304
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 600","Toronto",N,N,"",9,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,169
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 601","Toronto",N,N,"",3,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,657
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 601","Toronto",N,N,"",3,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,31
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 601","Toronto",N,N,"",3,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,213
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 601","Toronto",N,N,"",3,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,139
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 602","Toronto",N,N,"",0,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,519
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 602","Toronto",N,N,"",0,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,19
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 602","Toronto",N,N,"",0,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,321
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 602","Toronto",N,N,"",0,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,105
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 603","York",N,N,"",6,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,505
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 603","York",N,N,"",6,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 603","York",N,N,"",6,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,575
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 603","York",N,N,"",6,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,112
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 604","York",N,N,"",13,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,351
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 604","York",N,N,"",13,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,25
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 604","York",N,N,"",13,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,142
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 604","York",N,N,"",13,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,132
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 605","York",N,N,"",1,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,312
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 605","York",N,N,"",1,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,21
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 605","York",N,N,"",1,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,89
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 605","York",N,N,"",1,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,188
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 606","York",N,N,"",2,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,467
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 606","York",N,N,"",2,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 606","York",N,N,"",2,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,83
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 606","York",N,N,"",2,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,267
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 607","Toronto",N,N,"",4,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,691
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 607","Toronto",N,N,"",4,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,41
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 607","Toronto",N,N,"",4,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,226
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 607","Toronto",N,N,"",4,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,201
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 608","Toronto",N,N,"",0,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,510
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 608","Toronto",N,N,"",0,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,23
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 608","Toronto",N,N,"",0,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,513
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 608","Toronto",N,N,"",0,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,124
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 609","Toronto",N,N,"",2,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,682
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 609","Toronto",N,N,"",2,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,31
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 609","Toronto",N,N,"",2,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,488
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 609","Toronto",N,N,"",2,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,107
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 610","Toronto",N,N,"",1,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,434
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 610","Toronto",N,N,"",1,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,26
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 610","Toronto",N,N,"",1,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,181
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 610","Toronto",N,N,"",1,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,70
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 611","Toronto",N,N,"",4,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,643
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 611","Toronto",N,N,"",4,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,14
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 611","Toronto",N,N,"",4,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,402
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," 611","Toronto",N,N,"",4,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,91
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",6,188,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,106
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",6,188,"Farmer","","Kevin","Green Party","Parti Vert",N,N,6
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",6,188,"MacDougall","","Marnie","Conservative","Conservateur",N,N,18
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",6,188,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",35,0,"Bennett","","Carolyn","Liberal","Libéral",Y,Y,1462
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",35,0,"Farmer","","Kevin","Green Party","Parti Vert",N,N,66
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",35,0,"MacDougall","","Marnie","Conservative","Conservateur",N,N,789
+35090,"Toronto--St. Paul's","Toronto--St. Paul's"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",35,0,"Richler","","Noah","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,565

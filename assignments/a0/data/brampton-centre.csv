@@ -1,0 +1,916 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Station Number/Numéro du bureau de scrutin,Polling Station Name/Nom du bureau de scrutin,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Merge With/Fusionné avec,Rejected Ballots for Polling Station/Bulletins rejetés du bureau,Electors for Polling Station/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Poll Votes Count/Votes du candidat pour le bureau
+35008,"Brampton Centre","Brampton-Centre"," 1","Brampton",N,N,"",0,436,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 1","Brampton",N,N,"",0,436,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 1","Brampton",N,N,"",0,436,"Gosal","","Bal","Conservative","Conservateur",Y,N,90
+35008,"Brampton Centre","Brampton-Centre"," 1","Brampton",N,N,"",0,436,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 1","Brampton",N,N,"",0,436,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 2","Brampton",N,N,"",0,431,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 2","Brampton",N,N,"",0,431,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 2","Brampton",N,N,"",0,431,"Gosal","","Bal","Conservative","Conservateur",Y,N,86
+35008,"Brampton Centre","Brampton-Centre"," 2","Brampton",N,N,"",0,431,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35008,"Brampton Centre","Brampton-Centre"," 2","Brampton",N,N,"",0,431,"Sangha","","Ramesh","Liberal","Libéral",N,Y,55
+35008,"Brampton Centre","Brampton-Centre"," 3","Brampton",N,N,"",1,302,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 3","Brampton",N,N,"",1,302,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 3","Brampton",N,N,"",1,302,"Gosal","","Bal","Conservative","Conservateur",Y,N,55
+35008,"Brampton Centre","Brampton-Centre"," 3","Brampton",N,N,"",1,302,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 3","Brampton",N,N,"",1,302,"Sangha","","Ramesh","Liberal","Libéral",N,Y,56
+35008,"Brampton Centre","Brampton-Centre"," 4","Brampton",N,N,"",0,334,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 4","Brampton",N,N,"",0,334,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 4","Brampton",N,N,"",0,334,"Gosal","","Bal","Conservative","Conservateur",Y,N,53
+35008,"Brampton Centre","Brampton-Centre"," 4","Brampton",N,N,"",0,334,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," 4","Brampton",N,N,"",0,334,"Sangha","","Ramesh","Liberal","Libéral",N,Y,90
+35008,"Brampton Centre","Brampton-Centre"," 5","Brampton",N,N,"",1,323,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 5","Brampton",N,N,"",1,323,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 5","Brampton",N,N,"",1,323,"Gosal","","Bal","Conservative","Conservateur",Y,N,67
+35008,"Brampton Centre","Brampton-Centre"," 5","Brampton",N,N,"",1,323,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 5","Brampton",N,N,"",1,323,"Sangha","","Ramesh","Liberal","Libéral",N,Y,54
+35008,"Brampton Centre","Brampton-Centre"," 6","Brampton",N,N,"",0,323,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 6","Brampton",N,N,"",0,323,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 6","Brampton",N,N,"",0,323,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 6","Brampton",N,N,"",0,323,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 6","Brampton",N,N,"",0,323,"Sangha","","Ramesh","Liberal","Libéral",N,Y,59
+35008,"Brampton Centre","Brampton-Centre"," 7","Brampton",N,N,"",0,440,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 7","Brampton",N,N,"",0,440,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 7","Brampton",N,N,"",0,440,"Gosal","","Bal","Conservative","Conservateur",Y,N,98
+35008,"Brampton Centre","Brampton-Centre"," 7","Brampton",N,N,"",0,440,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 7","Brampton",N,N,"",0,440,"Sangha","","Ramesh","Liberal","Libéral",N,Y,91
+35008,"Brampton Centre","Brampton-Centre"," 8","Brampton",N,N,"",0,289,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 8","Brampton",N,N,"",0,289,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 8","Brampton",N,N,"",0,289,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 8","Brampton",N,N,"",0,289,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 8","Brampton",N,N,"",0,289,"Sangha","","Ramesh","Liberal","Libéral",N,Y,66
+35008,"Brampton Centre","Brampton-Centre"," 9","Brampton",N,N,"",1,306,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 9","Brampton",N,N,"",1,306,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 9","Brampton",N,N,"",1,306,"Gosal","","Bal","Conservative","Conservateur",Y,N,55
+35008,"Brampton Centre","Brampton-Centre"," 9","Brampton",N,N,"",1,306,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 9","Brampton",N,N,"",1,306,"Sangha","","Ramesh","Liberal","Libéral",N,Y,72
+35008,"Brampton Centre","Brampton-Centre"," 10","Brampton",N,N,"",1,447,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 10","Brampton",N,N,"",1,447,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 10","Brampton",N,N,"",1,447,"Gosal","","Bal","Conservative","Conservateur",Y,N,57
+35008,"Brampton Centre","Brampton-Centre"," 10","Brampton",N,N,"",1,447,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35008,"Brampton Centre","Brampton-Centre"," 10","Brampton",N,N,"",1,447,"Sangha","","Ramesh","Liberal","Libéral",N,Y,115
+35008,"Brampton Centre","Brampton-Centre"," 11","Brampton",N,N,"",2,384,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 11","Brampton",N,N,"",2,384,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 11","Brampton",N,N,"",2,384,"Gosal","","Bal","Conservative","Conservateur",Y,N,72
+35008,"Brampton Centre","Brampton-Centre"," 11","Brampton",N,N,"",2,384,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35008,"Brampton Centre","Brampton-Centre"," 11","Brampton",N,N,"",2,384,"Sangha","","Ramesh","Liberal","Libéral",N,Y,112
+35008,"Brampton Centre","Brampton-Centre"," 12","Brampton",N,N,"",1,428,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 12","Brampton",N,N,"",1,428,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 12","Brampton",N,N,"",1,428,"Gosal","","Bal","Conservative","Conservateur",Y,N,84
+35008,"Brampton Centre","Brampton-Centre"," 12","Brampton",N,N,"",1,428,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35008,"Brampton Centre","Brampton-Centre"," 12","Brampton",N,N,"",1,428,"Sangha","","Ramesh","Liberal","Libéral",N,Y,82
+35008,"Brampton Centre","Brampton-Centre"," 13","Brampton",N,N,"",2,348,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 13","Brampton",N,N,"",2,348,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 13","Brampton",N,N,"",2,348,"Gosal","","Bal","Conservative","Conservateur",Y,N,58
+35008,"Brampton Centre","Brampton-Centre"," 13","Brampton",N,N,"",2,348,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35008,"Brampton Centre","Brampton-Centre"," 13","Brampton",N,N,"",2,348,"Sangha","","Ramesh","Liberal","Libéral",N,Y,66
+35008,"Brampton Centre","Brampton-Centre"," 14","Brampton",N,N,"",4,474,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 14","Brampton",N,N,"",4,474,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 14","Brampton",N,N,"",4,474,"Gosal","","Bal","Conservative","Conservateur",Y,N,87
+35008,"Brampton Centre","Brampton-Centre"," 14","Brampton",N,N,"",4,474,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35008,"Brampton Centre","Brampton-Centre"," 14","Brampton",N,N,"",4,474,"Sangha","","Ramesh","Liberal","Libéral",N,Y,95
+35008,"Brampton Centre","Brampton-Centre"," 15","Brampton",N,N,"",1,348,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 15","Brampton",N,N,"",1,348,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 15","Brampton",N,N,"",1,348,"Gosal","","Bal","Conservative","Conservateur",Y,N,43
+35008,"Brampton Centre","Brampton-Centre"," 15","Brampton",N,N,"",1,348,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 15","Brampton",N,N,"",1,348,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 16","Brampton",N,N,"",0,404,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 16","Brampton",N,N,"",0,404,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 16","Brampton",N,N,"",0,404,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 16","Brampton",N,N,"",0,404,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 16","Brampton",N,N,"",0,404,"Sangha","","Ramesh","Liberal","Libéral",N,Y,101
+35008,"Brampton Centre","Brampton-Centre"," 17","Brampton",N,N,"",0,420,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 17","Brampton",N,N,"",0,420,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 17","Brampton",N,N,"",0,420,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 17","Brampton",N,N,"",0,420,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 17","Brampton",N,N,"",0,420,"Sangha","","Ramesh","Liberal","Libéral",N,Y,105
+35008,"Brampton Centre","Brampton-Centre"," 18","Brampton",N,N,"",0,411,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,11
+35008,"Brampton Centre","Brampton-Centre"," 18","Brampton",N,N,"",0,411,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 18","Brampton",N,N,"",0,411,"Gosal","","Bal","Conservative","Conservateur",Y,N,87
+35008,"Brampton Centre","Brampton-Centre"," 18","Brampton",N,N,"",0,411,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 18","Brampton",N,N,"",0,411,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 19","Brampton",N,N,"",2,497,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 19","Brampton",N,N,"",2,497,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 19","Brampton",N,N,"",2,497,"Gosal","","Bal","Conservative","Conservateur",Y,N,111
+35008,"Brampton Centre","Brampton-Centre"," 19","Brampton",N,N,"",2,497,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35008,"Brampton Centre","Brampton-Centre"," 19","Brampton",N,N,"",2,497,"Sangha","","Ramesh","Liberal","Libéral",N,Y,109
+35008,"Brampton Centre","Brampton-Centre"," 20","Brampton",N,N,"",0,442,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 20","Brampton",N,N,"",0,442,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 20","Brampton",N,N,"",0,442,"Gosal","","Bal","Conservative","Conservateur",Y,N,77
+35008,"Brampton Centre","Brampton-Centre"," 20","Brampton",N,N,"",0,442,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35008,"Brampton Centre","Brampton-Centre"," 20","Brampton",N,N,"",0,442,"Sangha","","Ramesh","Liberal","Libéral",N,Y,99
+35008,"Brampton Centre","Brampton-Centre"," 21","Brampton",N,N,"",10,476,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 21","Brampton",N,N,"",10,476,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 21","Brampton",N,N,"",10,476,"Gosal","","Bal","Conservative","Conservateur",Y,N,68
+35008,"Brampton Centre","Brampton-Centre"," 21","Brampton",N,N,"",10,476,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35008,"Brampton Centre","Brampton-Centre"," 21","Brampton",N,N,"",10,476,"Sangha","","Ramesh","Liberal","Libéral",N,Y,81
+35008,"Brampton Centre","Brampton-Centre"," 22","Brampton",N,N,"",2,497,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 22","Brampton",N,N,"",2,497,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 22","Brampton",N,N,"",2,497,"Gosal","","Bal","Conservative","Conservateur",Y,N,75
+35008,"Brampton Centre","Brampton-Centre"," 22","Brampton",N,N,"",2,497,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35008,"Brampton Centre","Brampton-Centre"," 22","Brampton",N,N,"",2,497,"Sangha","","Ramesh","Liberal","Libéral",N,Y,115
+35008,"Brampton Centre","Brampton-Centre"," 23","Brampton",N,N,"",1,390,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 23","Brampton",N,N,"",1,390,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 23","Brampton",N,N,"",1,390,"Gosal","","Bal","Conservative","Conservateur",Y,N,68
+35008,"Brampton Centre","Brampton-Centre"," 23","Brampton",N,N,"",1,390,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35008,"Brampton Centre","Brampton-Centre"," 23","Brampton",N,N,"",1,390,"Sangha","","Ramesh","Liberal","Libéral",N,Y,63
+35008,"Brampton Centre","Brampton-Centre"," 24","Brampton",N,N,"",6,549,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 24","Brampton",N,N,"",6,549,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 24","Brampton",N,N,"",6,549,"Gosal","","Bal","Conservative","Conservateur",Y,N,117
+35008,"Brampton Centre","Brampton-Centre"," 24","Brampton",N,N,"",6,549,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35008,"Brampton Centre","Brampton-Centre"," 24","Brampton",N,N,"",6,549,"Sangha","","Ramesh","Liberal","Libéral",N,Y,123
+35008,"Brampton Centre","Brampton-Centre"," 25","Brampton",N,N,"",0,311,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 25","Brampton",N,N,"",0,311,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 25","Brampton",N,N,"",0,311,"Gosal","","Bal","Conservative","Conservateur",Y,N,73
+35008,"Brampton Centre","Brampton-Centre"," 25","Brampton",N,N,"",0,311,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," 25","Brampton",N,N,"",0,311,"Sangha","","Ramesh","Liberal","Libéral",N,Y,75
+35008,"Brampton Centre","Brampton-Centre"," 26","Brampton",N,N,"",0,305,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 26","Brampton",N,N,"",0,305,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 26","Brampton",N,N,"",0,305,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 26","Brampton",N,N,"",0,305,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 26","Brampton",N,N,"",0,305,"Sangha","","Ramesh","Liberal","Libéral",N,Y,84
+35008,"Brampton Centre","Brampton-Centre"," 27","Brampton",N,N,"",4,506,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 27","Brampton",N,N,"",4,506,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 27","Brampton",N,N,"",4,506,"Gosal","","Bal","Conservative","Conservateur",Y,N,94
+35008,"Brampton Centre","Brampton-Centre"," 27","Brampton",N,N,"",4,506,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35008,"Brampton Centre","Brampton-Centre"," 27","Brampton",N,N,"",4,506,"Sangha","","Ramesh","Liberal","Libéral",N,Y,102
+35008,"Brampton Centre","Brampton-Centre"," 28","Brampton",N,N,"",3,530,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 28","Brampton",N,N,"",3,530,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 28","Brampton",N,N,"",3,530,"Gosal","","Bal","Conservative","Conservateur",Y,N,89
+35008,"Brampton Centre","Brampton-Centre"," 28","Brampton",N,N,"",3,530,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,145
+35008,"Brampton Centre","Brampton-Centre"," 28","Brampton",N,N,"",3,530,"Sangha","","Ramesh","Liberal","Libéral",N,Y,94
+35008,"Brampton Centre","Brampton-Centre"," 29","Brampton",N,N,"",1,499,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 29","Brampton",N,N,"",1,499,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 29","Brampton",N,N,"",1,499,"Gosal","","Bal","Conservative","Conservateur",Y,N,79
+35008,"Brampton Centre","Brampton-Centre"," 29","Brampton",N,N,"",1,499,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35008,"Brampton Centre","Brampton-Centre"," 29","Brampton",N,N,"",1,499,"Sangha","","Ramesh","Liberal","Libéral",N,Y,141
+35008,"Brampton Centre","Brampton-Centre"," 30","Brampton",N,N,"",2,324,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 30","Brampton",N,N,"",2,324,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 30","Brampton",N,N,"",2,324,"Gosal","","Bal","Conservative","Conservateur",Y,N,48
+35008,"Brampton Centre","Brampton-Centre"," 30","Brampton",N,N,"",2,324,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 30","Brampton",N,N,"",2,324,"Sangha","","Ramesh","Liberal","Libéral",N,Y,77
+35008,"Brampton Centre","Brampton-Centre"," 31","Brampton",N,N,"",0,368,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 31","Brampton",N,N,"",0,368,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 31","Brampton",N,N,"",0,368,"Gosal","","Bal","Conservative","Conservateur",Y,N,68
+35008,"Brampton Centre","Brampton-Centre"," 31","Brampton",N,N,"",0,368,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35008,"Brampton Centre","Brampton-Centre"," 31","Brampton",N,N,"",0,368,"Sangha","","Ramesh","Liberal","Libéral",N,Y,72
+35008,"Brampton Centre","Brampton-Centre"," 32","Brampton",N,N,"",0,317,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 32","Brampton",N,N,"",0,317,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 32","Brampton",N,N,"",0,317,"Gosal","","Bal","Conservative","Conservateur",Y,N,48
+35008,"Brampton Centre","Brampton-Centre"," 32","Brampton",N,N,"",0,317,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35008,"Brampton Centre","Brampton-Centre"," 32","Brampton",N,N,"",0,317,"Sangha","","Ramesh","Liberal","Libéral",N,Y,69
+35008,"Brampton Centre","Brampton-Centre"," 33","Brampton",N,N,"",2,282,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 33","Brampton",N,N,"",2,282,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 33","Brampton",N,N,"",2,282,"Gosal","","Bal","Conservative","Conservateur",Y,N,36
+35008,"Brampton Centre","Brampton-Centre"," 33","Brampton",N,N,"",2,282,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 33","Brampton",N,N,"",2,282,"Sangha","","Ramesh","Liberal","Libéral",N,Y,80
+35008,"Brampton Centre","Brampton-Centre"," 34","Brampton",N,N,"",0,510,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,9
+35008,"Brampton Centre","Brampton-Centre"," 34","Brampton",N,N,"",0,510,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 34","Brampton",N,N,"",0,510,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 34","Brampton",N,N,"",0,510,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 34","Brampton",N,N,"",0,510,"Sangha","","Ramesh","Liberal","Libéral",N,Y,161
+35008,"Brampton Centre","Brampton-Centre"," 35","Brampton",N,N,"",0,499,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 35","Brampton",N,N,"",0,499,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 35","Brampton",N,N,"",0,499,"Gosal","","Bal","Conservative","Conservateur",Y,N,57
+35008,"Brampton Centre","Brampton-Centre"," 35","Brampton",N,N,"",0,499,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 35","Brampton",N,N,"",0,499,"Sangha","","Ramesh","Liberal","Libéral",N,Y,141
+35008,"Brampton Centre","Brampton-Centre"," 36A","Brampton",N,N,"",0,428,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 36A","Brampton",N,N,"",0,428,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 36A","Brampton",N,N,"",0,428,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 36A","Brampton",N,N,"",0,428,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 36A","Brampton",N,N,"",0,428,"Sangha","","Ramesh","Liberal","Libéral",N,Y,115
+35008,"Brampton Centre","Brampton-Centre"," 36B","Brampton",N,N,"",1,50,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 36B","Brampton",N,N,"",1,50,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 36B","Brampton",N,N,"",1,50,"Gosal","","Bal","Conservative","Conservateur",Y,N,12
+35008,"Brampton Centre","Brampton-Centre"," 36B","Brampton",N,N,"",1,50,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 36B","Brampton",N,N,"",1,50,"Sangha","","Ramesh","Liberal","Libéral",N,Y,20
+35008,"Brampton Centre","Brampton-Centre"," 37","Brampton",N,N,"",1,419,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 37","Brampton",N,N,"",1,419,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 37","Brampton",N,N,"",1,419,"Gosal","","Bal","Conservative","Conservateur",Y,N,64
+35008,"Brampton Centre","Brampton-Centre"," 37","Brampton",N,N,"",1,419,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35008,"Brampton Centre","Brampton-Centre"," 37","Brampton",N,N,"",1,419,"Sangha","","Ramesh","Liberal","Libéral",N,Y,92
+35008,"Brampton Centre","Brampton-Centre"," 38","Brampton",N,N,"",0,354,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 38","Brampton",N,N,"",0,354,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 38","Brampton",N,N,"",0,354,"Gosal","","Bal","Conservative","Conservateur",Y,N,44
+35008,"Brampton Centre","Brampton-Centre"," 38","Brampton",N,N,"",0,354,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 38","Brampton",N,N,"",0,354,"Sangha","","Ramesh","Liberal","Libéral",N,Y,54
+35008,"Brampton Centre","Brampton-Centre"," 39","Brampton",N,N,"",1,312,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 39","Brampton",N,N,"",1,312,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 39","Brampton",N,N,"",1,312,"Gosal","","Bal","Conservative","Conservateur",Y,N,60
+35008,"Brampton Centre","Brampton-Centre"," 39","Brampton",N,N,"",1,312,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35008,"Brampton Centre","Brampton-Centre"," 39","Brampton",N,N,"",1,312,"Sangha","","Ramesh","Liberal","Libéral",N,Y,55
+35008,"Brampton Centre","Brampton-Centre"," 40","Brampton",N,N,"",1,346,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 40","Brampton",N,N,"",1,346,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 40","Brampton",N,N,"",1,346,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 40","Brampton",N,N,"",1,346,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 40","Brampton",N,N,"",1,346,"Sangha","","Ramesh","Liberal","Libéral",N,Y,74
+35008,"Brampton Centre","Brampton-Centre"," 41","Brampton",N,N,"",1,371,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 41","Brampton",N,N,"",1,371,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 41","Brampton",N,N,"",1,371,"Gosal","","Bal","Conservative","Conservateur",Y,N,29
+35008,"Brampton Centre","Brampton-Centre"," 41","Brampton",N,N,"",1,371,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 41","Brampton",N,N,"",1,371,"Sangha","","Ramesh","Liberal","Libéral",N,Y,105
+35008,"Brampton Centre","Brampton-Centre"," 42","Brampton",N,N,"",3,545,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 42","Brampton",N,N,"",3,545,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 42","Brampton",N,N,"",3,545,"Gosal","","Bal","Conservative","Conservateur",Y,N,41
+35008,"Brampton Centre","Brampton-Centre"," 42","Brampton",N,N,"",3,545,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 42","Brampton",N,N,"",3,545,"Sangha","","Ramesh","Liberal","Libéral",N,Y,133
+35008,"Brampton Centre","Brampton-Centre"," 43","Brampton",N,N,"",1,347,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 43","Brampton",N,N,"",1,347,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 43","Brampton",N,N,"",1,347,"Gosal","","Bal","Conservative","Conservateur",Y,N,38
+35008,"Brampton Centre","Brampton-Centre"," 43","Brampton",N,N,"",1,347,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35008,"Brampton Centre","Brampton-Centre"," 43","Brampton",N,N,"",1,347,"Sangha","","Ramesh","Liberal","Libéral",N,Y,89
+35008,"Brampton Centre","Brampton-Centre"," 44","Brampton",N,N,"",2,353,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 44","Brampton",N,N,"",2,353,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 44","Brampton",N,N,"",2,353,"Gosal","","Bal","Conservative","Conservateur",Y,N,63
+35008,"Brampton Centre","Brampton-Centre"," 44","Brampton",N,N,"",2,353,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 44","Brampton",N,N,"",2,353,"Sangha","","Ramesh","Liberal","Libéral",N,Y,83
+35008,"Brampton Centre","Brampton-Centre"," 45","Brampton",N,N,"",2,376,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 45","Brampton",N,N,"",2,376,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 45","Brampton",N,N,"",2,376,"Gosal","","Bal","Conservative","Conservateur",Y,N,71
+35008,"Brampton Centre","Brampton-Centre"," 45","Brampton",N,N,"",2,376,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35008,"Brampton Centre","Brampton-Centre"," 45","Brampton",N,N,"",2,376,"Sangha","","Ramesh","Liberal","Libéral",N,Y,73
+35008,"Brampton Centre","Brampton-Centre"," 46","Brampton",N,N,"",0,421,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 46","Brampton",N,N,"",0,421,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 46","Brampton",N,N,"",0,421,"Gosal","","Bal","Conservative","Conservateur",Y,N,63
+35008,"Brampton Centre","Brampton-Centre"," 46","Brampton",N,N,"",0,421,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35008,"Brampton Centre","Brampton-Centre"," 46","Brampton",N,N,"",0,421,"Sangha","","Ramesh","Liberal","Libéral",N,Y,86
+35008,"Brampton Centre","Brampton-Centre"," 47","Brampton",N,N,"",3,439,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 47","Brampton",N,N,"",3,439,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 47","Brampton",N,N,"",3,439,"Gosal","","Bal","Conservative","Conservateur",Y,N,59
+35008,"Brampton Centre","Brampton-Centre"," 47","Brampton",N,N,"",3,439,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 47","Brampton",N,N,"",3,439,"Sangha","","Ramesh","Liberal","Libéral",N,Y,97
+35008,"Brampton Centre","Brampton-Centre"," 48","Brampton",N,N,"",0,507,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 48","Brampton",N,N,"",0,507,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 48","Brampton",N,N,"",0,507,"Gosal","","Bal","Conservative","Conservateur",Y,N,70
+35008,"Brampton Centre","Brampton-Centre"," 48","Brampton",N,N,"",0,507,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35008,"Brampton Centre","Brampton-Centre"," 48","Brampton",N,N,"",0,507,"Sangha","","Ramesh","Liberal","Libéral",N,Y,97
+35008,"Brampton Centre","Brampton-Centre"," 49","Brampton",N,N,"",1,482,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,9
+35008,"Brampton Centre","Brampton-Centre"," 49","Brampton",N,N,"",1,482,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 49","Brampton",N,N,"",1,482,"Gosal","","Bal","Conservative","Conservateur",Y,N,83
+35008,"Brampton Centre","Brampton-Centre"," 49","Brampton",N,N,"",1,482,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,37
+35008,"Brampton Centre","Brampton-Centre"," 49","Brampton",N,N,"",1,482,"Sangha","","Ramesh","Liberal","Libéral",N,Y,108
+35008,"Brampton Centre","Brampton-Centre"," 50","Brampton",N,N,"",1,315,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 50","Brampton",N,N,"",1,315,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 50","Brampton",N,N,"",1,315,"Gosal","","Bal","Conservative","Conservateur",Y,N,63
+35008,"Brampton Centre","Brampton-Centre"," 50","Brampton",N,N,"",1,315,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 50","Brampton",N,N,"",1,315,"Sangha","","Ramesh","Liberal","Libéral",N,Y,64
+35008,"Brampton Centre","Brampton-Centre"," 51","Brampton",N,N,"",2,357,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 51","Brampton",N,N,"",2,357,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 51","Brampton",N,N,"",2,357,"Gosal","","Bal","Conservative","Conservateur",Y,N,59
+35008,"Brampton Centre","Brampton-Centre"," 51","Brampton",N,N,"",2,357,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 51","Brampton",N,N,"",2,357,"Sangha","","Ramesh","Liberal","Libéral",N,Y,80
+35008,"Brampton Centre","Brampton-Centre"," 52","Brampton",N,N,"",0,354,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 52","Brampton",N,N,"",0,354,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 52","Brampton",N,N,"",0,354,"Gosal","","Bal","Conservative","Conservateur",Y,N,71
+35008,"Brampton Centre","Brampton-Centre"," 52","Brampton",N,N,"",0,354,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 52","Brampton",N,N,"",0,354,"Sangha","","Ramesh","Liberal","Libéral",N,Y,87
+35008,"Brampton Centre","Brampton-Centre"," 53","Brampton",N,N,"",0,381,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 53","Brampton",N,N,"",0,381,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 53","Brampton",N,N,"",0,381,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 53","Brampton",N,N,"",0,381,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 53","Brampton",N,N,"",0,381,"Sangha","","Ramesh","Liberal","Libéral",N,Y,84
+35008,"Brampton Centre","Brampton-Centre"," 54","Brampton",N,N,"",0,273,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 54","Brampton",N,N,"",0,273,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 54","Brampton",N,N,"",0,273,"Gosal","","Bal","Conservative","Conservateur",Y,N,75
+35008,"Brampton Centre","Brampton-Centre"," 54","Brampton",N,N,"",0,273,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 54","Brampton",N,N,"",0,273,"Sangha","","Ramesh","Liberal","Libéral",N,Y,53
+35008,"Brampton Centre","Brampton-Centre"," 55","Brampton",N,N,"",1,424,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 55","Brampton",N,N,"",1,424,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 55","Brampton",N,N,"",1,424,"Gosal","","Bal","Conservative","Conservateur",Y,N,59
+35008,"Brampton Centre","Brampton-Centre"," 55","Brampton",N,N,"",1,424,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,37
+35008,"Brampton Centre","Brampton-Centre"," 55","Brampton",N,N,"",1,424,"Sangha","","Ramesh","Liberal","Libéral",N,Y,99
+35008,"Brampton Centre","Brampton-Centre"," 56","Brampton",N,N,"",0,292,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 56","Brampton",N,N,"",0,292,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 56","Brampton",N,N,"",0,292,"Gosal","","Bal","Conservative","Conservateur",Y,N,47
+35008,"Brampton Centre","Brampton-Centre"," 56","Brampton",N,N,"",0,292,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 56","Brampton",N,N,"",0,292,"Sangha","","Ramesh","Liberal","Libéral",N,Y,50
+35008,"Brampton Centre","Brampton-Centre"," 57","Brampton",N,N,"",0,327,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 57","Brampton",N,N,"",0,327,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 57","Brampton",N,N,"",0,327,"Gosal","","Bal","Conservative","Conservateur",Y,N,47
+35008,"Brampton Centre","Brampton-Centre"," 57","Brampton",N,N,"",0,327,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 57","Brampton",N,N,"",0,327,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 58","Brampton",N,N,"",1,506,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 58","Brampton",N,N,"",1,506,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 58","Brampton",N,N,"",1,506,"Gosal","","Bal","Conservative","Conservateur",Y,N,114
+35008,"Brampton Centre","Brampton-Centre"," 58","Brampton",N,N,"",1,506,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35008,"Brampton Centre","Brampton-Centre"," 58","Brampton",N,N,"",1,506,"Sangha","","Ramesh","Liberal","Libéral",N,Y,119
+35008,"Brampton Centre","Brampton-Centre"," 59","Brampton",N,N,"",2,388,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 59","Brampton",N,N,"",2,388,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 59","Brampton",N,N,"",2,388,"Gosal","","Bal","Conservative","Conservateur",Y,N,69
+35008,"Brampton Centre","Brampton-Centre"," 59","Brampton",N,N,"",2,388,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," 59","Brampton",N,N,"",2,388,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 60","Brampton",N,N,"",1,483,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 60","Brampton",N,N,"",1,483,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 60","Brampton",N,N,"",1,483,"Gosal","","Bal","Conservative","Conservateur",Y,N,68
+35008,"Brampton Centre","Brampton-Centre"," 60","Brampton",N,N,"",1,483,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35008,"Brampton Centre","Brampton-Centre"," 60","Brampton",N,N,"",1,483,"Sangha","","Ramesh","Liberal","Libéral",N,Y,91
+35008,"Brampton Centre","Brampton-Centre"," 61","Brampton",N,N,"",0,423,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 61","Brampton",N,N,"",0,423,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 61","Brampton",N,N,"",0,423,"Gosal","","Bal","Conservative","Conservateur",Y,N,36
+35008,"Brampton Centre","Brampton-Centre"," 61","Brampton",N,N,"",0,423,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 61","Brampton",N,N,"",0,423,"Sangha","","Ramesh","Liberal","Libéral",N,Y,93
+35008,"Brampton Centre","Brampton-Centre"," 62","Brampton",N,N,"",0,344,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 62","Brampton",N,N,"",0,344,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 62","Brampton",N,N,"",0,344,"Gosal","","Bal","Conservative","Conservateur",Y,N,50
+35008,"Brampton Centre","Brampton-Centre"," 62","Brampton",N,N,"",0,344,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 62","Brampton",N,N,"",0,344,"Sangha","","Ramesh","Liberal","Libéral",N,Y,74
+35008,"Brampton Centre","Brampton-Centre"," 63","Brampton",N,N,"",1,384,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 63","Brampton",N,N,"",1,384,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 63","Brampton",N,N,"",1,384,"Gosal","","Bal","Conservative","Conservateur",Y,N,85
+35008,"Brampton Centre","Brampton-Centre"," 63","Brampton",N,N,"",1,384,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35008,"Brampton Centre","Brampton-Centre"," 63","Brampton",N,N,"",1,384,"Sangha","","Ramesh","Liberal","Libéral",N,Y,65
+35008,"Brampton Centre","Brampton-Centre"," 64","Brampton",N,N,"",6,341,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 64","Brampton",N,N,"",6,341,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 64","Brampton",N,N,"",6,341,"Gosal","","Bal","Conservative","Conservateur",Y,N,60
+35008,"Brampton Centre","Brampton-Centre"," 64","Brampton",N,N,"",6,341,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35008,"Brampton Centre","Brampton-Centre"," 64","Brampton",N,N,"",6,341,"Sangha","","Ramesh","Liberal","Libéral",N,Y,70
+35008,"Brampton Centre","Brampton-Centre"," 65","Brampton",N,N,"",0,294,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 65","Brampton",N,N,"",0,294,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 65","Brampton",N,N,"",0,294,"Gosal","","Bal","Conservative","Conservateur",Y,N,64
+35008,"Brampton Centre","Brampton-Centre"," 65","Brampton",N,N,"",0,294,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 65","Brampton",N,N,"",0,294,"Sangha","","Ramesh","Liberal","Libéral",N,Y,60
+35008,"Brampton Centre","Brampton-Centre"," 66A","Brampton",N,N,"",0,339,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,14
+35008,"Brampton Centre","Brampton-Centre"," 66A","Brampton",N,N,"",0,339,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 66A","Brampton",N,N,"",0,339,"Gosal","","Bal","Conservative","Conservateur",Y,N,53
+35008,"Brampton Centre","Brampton-Centre"," 66A","Brampton",N,N,"",0,339,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35008,"Brampton Centre","Brampton-Centre"," 66A","Brampton",N,N,"",0,339,"Sangha","","Ramesh","Liberal","Libéral",N,Y,53
+35008,"Brampton Centre","Brampton-Centre"," 66B","Brampton",N,N,"",1,228,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 66B","Brampton",N,N,"",1,228,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 66B","Brampton",N,N,"",1,228,"Gosal","","Bal","Conservative","Conservateur",Y,N,24
+35008,"Brampton Centre","Brampton-Centre"," 66B","Brampton",N,N,"",1,228,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 66B","Brampton",N,N,"",1,228,"Sangha","","Ramesh","Liberal","Libéral",N,Y,80
+35008,"Brampton Centre","Brampton-Centre"," 67","Brampton",N,N,"",0,454,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 67","Brampton",N,N,"",0,454,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 67","Brampton",N,N,"",0,454,"Gosal","","Bal","Conservative","Conservateur",Y,N,56
+35008,"Brampton Centre","Brampton-Centre"," 67","Brampton",N,N,"",0,454,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 67","Brampton",N,N,"",0,454,"Sangha","","Ramesh","Liberal","Libéral",N,Y,134
+35008,"Brampton Centre","Brampton-Centre"," 68","Brampton",N,N,"",0,473,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 68","Brampton",N,N,"",0,473,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 68","Brampton",N,N,"",0,473,"Gosal","","Bal","Conservative","Conservateur",Y,N,80
+35008,"Brampton Centre","Brampton-Centre"," 68","Brampton",N,N,"",0,473,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,46
+35008,"Brampton Centre","Brampton-Centre"," 68","Brampton",N,N,"",0,473,"Sangha","","Ramesh","Liberal","Libéral",N,Y,119
+35008,"Brampton Centre","Brampton-Centre"," 69","Brampton",N,N,"",2,369,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 69","Brampton",N,N,"",2,369,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 69","Brampton",N,N,"",2,369,"Gosal","","Bal","Conservative","Conservateur",Y,N,94
+35008,"Brampton Centre","Brampton-Centre"," 69","Brampton",N,N,"",2,369,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 69","Brampton",N,N,"",2,369,"Sangha","","Ramesh","Liberal","Libéral",N,Y,114
+35008,"Brampton Centre","Brampton-Centre"," 70A","Brampton",N,N,"",0,444,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 70A","Brampton",N,N,"",0,444,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 70A","Brampton",N,N,"",0,444,"Gosal","","Bal","Conservative","Conservateur",Y,N,65
+35008,"Brampton Centre","Brampton-Centre"," 70A","Brampton",N,N,"",0,444,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35008,"Brampton Centre","Brampton-Centre"," 70A","Brampton",N,N,"",0,444,"Sangha","","Ramesh","Liberal","Libéral",N,Y,80
+35008,"Brampton Centre","Brampton-Centre"," 70B","Brampton",N,N,"",1,195,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 70B","Brampton",N,N,"",1,195,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 70B","Brampton",N,N,"",1,195,"Gosal","","Bal","Conservative","Conservateur",Y,N,27
+35008,"Brampton Centre","Brampton-Centre"," 70B","Brampton",N,N,"",1,195,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 70B","Brampton",N,N,"",1,195,"Sangha","","Ramesh","Liberal","Libéral",N,Y,40
+35008,"Brampton Centre","Brampton-Centre"," 71","Brampton",N,N,"",0,431,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 71","Brampton",N,N,"",0,431,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 71","Brampton",N,N,"",0,431,"Gosal","","Bal","Conservative","Conservateur",Y,N,46
+35008,"Brampton Centre","Brampton-Centre"," 71","Brampton",N,N,"",0,431,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35008,"Brampton Centre","Brampton-Centre"," 71","Brampton",N,N,"",0,431,"Sangha","","Ramesh","Liberal","Libéral",N,Y,83
+35008,"Brampton Centre","Brampton-Centre"," 72","Brampton",N,N,"",3,550,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 72","Brampton",N,N,"",3,550,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 72","Brampton",N,N,"",3,550,"Gosal","","Bal","Conservative","Conservateur",Y,N,87
+35008,"Brampton Centre","Brampton-Centre"," 72","Brampton",N,N,"",3,550,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 72","Brampton",N,N,"",3,550,"Sangha","","Ramesh","Liberal","Libéral",N,Y,111
+35008,"Brampton Centre","Brampton-Centre"," 73","Brampton",N,N,"",1,473,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 73","Brampton",N,N,"",1,473,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 73","Brampton",N,N,"",1,473,"Gosal","","Bal","Conservative","Conservateur",Y,N,86
+35008,"Brampton Centre","Brampton-Centre"," 73","Brampton",N,N,"",1,473,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 73","Brampton",N,N,"",1,473,"Sangha","","Ramesh","Liberal","Libéral",N,Y,97
+35008,"Brampton Centre","Brampton-Centre"," 74","Brampton",N,N,"",0,467,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 74","Brampton",N,N,"",0,467,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 74","Brampton",N,N,"",0,467,"Gosal","","Bal","Conservative","Conservateur",Y,N,58
+35008,"Brampton Centre","Brampton-Centre"," 74","Brampton",N,N,"",0,467,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35008,"Brampton Centre","Brampton-Centre"," 74","Brampton",N,N,"",0,467,"Sangha","","Ramesh","Liberal","Libéral",N,Y,112
+35008,"Brampton Centre","Brampton-Centre"," 75","Brampton",N,N,"",1,409,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 75","Brampton",N,N,"",1,409,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 75","Brampton",N,N,"",1,409,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 75","Brampton",N,N,"",1,409,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 75","Brampton",N,N,"",1,409,"Sangha","","Ramesh","Liberal","Libéral",N,Y,99
+35008,"Brampton Centre","Brampton-Centre"," 76","Brampton",N,N,"",1,365,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 76","Brampton",N,N,"",1,365,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 76","Brampton",N,N,"",1,365,"Gosal","","Bal","Conservative","Conservateur",Y,N,65
+35008,"Brampton Centre","Brampton-Centre"," 76","Brampton",N,N,"",1,365,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35008,"Brampton Centre","Brampton-Centre"," 76","Brampton",N,N,"",1,365,"Sangha","","Ramesh","Liberal","Libéral",N,Y,106
+35008,"Brampton Centre","Brampton-Centre"," 77","Brampton",N,N,"",2,554,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 77","Brampton",N,N,"",2,554,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 77","Brampton",N,N,"",2,554,"Gosal","","Bal","Conservative","Conservateur",Y,N,120
+35008,"Brampton Centre","Brampton-Centre"," 77","Brampton",N,N,"",2,554,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 77","Brampton",N,N,"",2,554,"Sangha","","Ramesh","Liberal","Libéral",N,Y,116
+35008,"Brampton Centre","Brampton-Centre"," 78","Brampton",N,N,"",0,394,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 78","Brampton",N,N,"",0,394,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 78","Brampton",N,N,"",0,394,"Gosal","","Bal","Conservative","Conservateur",Y,N,97
+35008,"Brampton Centre","Brampton-Centre"," 78","Brampton",N,N,"",0,394,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 78","Brampton",N,N,"",0,394,"Sangha","","Ramesh","Liberal","Libéral",N,Y,87
+35008,"Brampton Centre","Brampton-Centre"," 79","Brampton",N,N,"",0,408,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 79","Brampton",N,N,"",0,408,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 79","Brampton",N,N,"",0,408,"Gosal","","Bal","Conservative","Conservateur",Y,N,53
+35008,"Brampton Centre","Brampton-Centre"," 79","Brampton",N,N,"",0,408,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 79","Brampton",N,N,"",0,408,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 80","Brampton",N,N,"",2,488,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 80","Brampton",N,N,"",2,488,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 80","Brampton",N,N,"",2,488,"Gosal","","Bal","Conservative","Conservateur",Y,N,39
+35008,"Brampton Centre","Brampton-Centre"," 80","Brampton",N,N,"",2,488,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35008,"Brampton Centre","Brampton-Centre"," 80","Brampton",N,N,"",2,488,"Sangha","","Ramesh","Liberal","Libéral",N,Y,115
+35008,"Brampton Centre","Brampton-Centre"," 81","Brampton",N,N,"",1,430,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 81","Brampton",N,N,"",1,430,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 81","Brampton",N,N,"",1,430,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 81","Brampton",N,N,"",1,430,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35008,"Brampton Centre","Brampton-Centre"," 81","Brampton",N,N,"",1,430,"Sangha","","Ramesh","Liberal","Libéral",N,Y,82
+35008,"Brampton Centre","Brampton-Centre"," 82","Brampton",N,N,"",0,311,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 82","Brampton",N,N,"",0,311,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 82","Brampton",N,N,"",0,311,"Gosal","","Bal","Conservative","Conservateur",Y,N,37
+35008,"Brampton Centre","Brampton-Centre"," 82","Brampton",N,N,"",0,311,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35008,"Brampton Centre","Brampton-Centre"," 82","Brampton",N,N,"",0,311,"Sangha","","Ramesh","Liberal","Libéral",N,Y,73
+35008,"Brampton Centre","Brampton-Centre"," 83","Brampton",N,N,"",1,389,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,9
+35008,"Brampton Centre","Brampton-Centre"," 83","Brampton",N,N,"",1,389,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 83","Brampton",N,N,"",1,389,"Gosal","","Bal","Conservative","Conservateur",Y,N,73
+35008,"Brampton Centre","Brampton-Centre"," 83","Brampton",N,N,"",1,389,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+35008,"Brampton Centre","Brampton-Centre"," 83","Brampton",N,N,"",1,389,"Sangha","","Ramesh","Liberal","Libéral",N,Y,54
+35008,"Brampton Centre","Brampton-Centre"," 84","Brampton",N,N,"",3,338,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 84","Brampton",N,N,"",3,338,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 84","Brampton",N,N,"",3,338,"Gosal","","Bal","Conservative","Conservateur",Y,N,65
+35008,"Brampton Centre","Brampton-Centre"," 84","Brampton",N,N,"",3,338,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35008,"Brampton Centre","Brampton-Centre"," 84","Brampton",N,N,"",3,338,"Sangha","","Ramesh","Liberal","Libéral",N,Y,50
+35008,"Brampton Centre","Brampton-Centre"," 85","Brampton",N,N,"",0,340,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 85","Brampton",N,N,"",0,340,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 85","Brampton",N,N,"",0,340,"Gosal","","Bal","Conservative","Conservateur",Y,N,74
+35008,"Brampton Centre","Brampton-Centre"," 85","Brampton",N,N,"",0,340,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35008,"Brampton Centre","Brampton-Centre"," 85","Brampton",N,N,"",0,340,"Sangha","","Ramesh","Liberal","Libéral",N,Y,73
+35008,"Brampton Centre","Brampton-Centre"," 86","Brampton",N,N,"",1,338,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 86","Brampton",N,N,"",1,338,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 86","Brampton",N,N,"",1,338,"Gosal","","Bal","Conservative","Conservateur",Y,N,64
+35008,"Brampton Centre","Brampton-Centre"," 86","Brampton",N,N,"",1,338,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 86","Brampton",N,N,"",1,338,"Sangha","","Ramesh","Liberal","Libéral",N,Y,50
+35008,"Brampton Centre","Brampton-Centre"," 87","Brampton",N,N,"",0,458,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 87","Brampton",N,N,"",0,458,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 87","Brampton",N,N,"",0,458,"Gosal","","Bal","Conservative","Conservateur",Y,N,53
+35008,"Brampton Centre","Brampton-Centre"," 87","Brampton",N,N,"",0,458,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 87","Brampton",N,N,"",0,458,"Sangha","","Ramesh","Liberal","Libéral",N,Y,118
+35008,"Brampton Centre","Brampton-Centre"," 88","Brampton",N,N,"",1,397,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 88","Brampton",N,N,"",1,397,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 88","Brampton",N,N,"",1,397,"Gosal","","Bal","Conservative","Conservateur",Y,N,55
+35008,"Brampton Centre","Brampton-Centre"," 88","Brampton",N,N,"",1,397,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 88","Brampton",N,N,"",1,397,"Sangha","","Ramesh","Liberal","Libéral",N,Y,73
+35008,"Brampton Centre","Brampton-Centre"," 89","Brampton",N,N,"",2,490,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 89","Brampton",N,N,"",2,490,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 89","Brampton",N,N,"",2,490,"Gosal","","Bal","Conservative","Conservateur",Y,N,48
+35008,"Brampton Centre","Brampton-Centre"," 89","Brampton",N,N,"",2,490,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35008,"Brampton Centre","Brampton-Centre"," 89","Brampton",N,N,"",2,490,"Sangha","","Ramesh","Liberal","Libéral",N,Y,122
+35008,"Brampton Centre","Brampton-Centre"," 90","Brampton",N,N,"",0,466,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 90","Brampton",N,N,"",0,466,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 90","Brampton",N,N,"",0,466,"Gosal","","Bal","Conservative","Conservateur",Y,N,80
+35008,"Brampton Centre","Brampton-Centre"," 90","Brampton",N,N,"",0,466,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 90","Brampton",N,N,"",0,466,"Sangha","","Ramesh","Liberal","Libéral",N,Y,93
+35008,"Brampton Centre","Brampton-Centre"," 91","Brampton",N,N,"",2,438,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 91","Brampton",N,N,"",2,438,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 91","Brampton",N,N,"",2,438,"Gosal","","Bal","Conservative","Conservateur",Y,N,62
+35008,"Brampton Centre","Brampton-Centre"," 91","Brampton",N,N,"",2,438,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 91","Brampton",N,N,"",2,438,"Sangha","","Ramesh","Liberal","Libéral",N,Y,98
+35008,"Brampton Centre","Brampton-Centre"," 92","Brampton",N,N,"",1,396,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 92","Brampton",N,N,"",1,396,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 92","Brampton",N,N,"",1,396,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 92","Brampton",N,N,"",1,396,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 92","Brampton",N,N,"",1,396,"Sangha","","Ramesh","Liberal","Libéral",N,Y,98
+35008,"Brampton Centre","Brampton-Centre"," 93","Brampton",N,N,"",2,467,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 93","Brampton",N,N,"",2,467,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 93","Brampton",N,N,"",2,467,"Gosal","","Bal","Conservative","Conservateur",Y,N,60
+35008,"Brampton Centre","Brampton-Centre"," 93","Brampton",N,N,"",2,467,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35008,"Brampton Centre","Brampton-Centre"," 93","Brampton",N,N,"",2,467,"Sangha","","Ramesh","Liberal","Libéral",N,Y,131
+35008,"Brampton Centre","Brampton-Centre"," 94","Brampton",N,N,"",0,297,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 94","Brampton",N,N,"",0,297,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 94","Brampton",N,N,"",0,297,"Gosal","","Bal","Conservative","Conservateur",Y,N,39
+35008,"Brampton Centre","Brampton-Centre"," 94","Brampton",N,N,"",0,297,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 94","Brampton",N,N,"",0,297,"Sangha","","Ramesh","Liberal","Libéral",N,Y,69
+35008,"Brampton Centre","Brampton-Centre"," 95","Brampton",N,N,"",1,335,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 95","Brampton",N,N,"",1,335,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 95","Brampton",N,N,"",1,335,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 95","Brampton",N,N,"",1,335,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 95","Brampton",N,N,"",1,335,"Sangha","","Ramesh","Liberal","Libéral",N,Y,76
+35008,"Brampton Centre","Brampton-Centre"," 96","Brampton",N,N,"",1,450,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 96","Brampton",N,N,"",1,450,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 96","Brampton",N,N,"",1,450,"Gosal","","Bal","Conservative","Conservateur",Y,N,70
+35008,"Brampton Centre","Brampton-Centre"," 96","Brampton",N,N,"",1,450,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 96","Brampton",N,N,"",1,450,"Sangha","","Ramesh","Liberal","Libéral",N,Y,113
+35008,"Brampton Centre","Brampton-Centre"," 97","Brampton",N,N,"",1,456,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 97","Brampton",N,N,"",1,456,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 97","Brampton",N,N,"",1,456,"Gosal","","Bal","Conservative","Conservateur",Y,N,41
+35008,"Brampton Centre","Brampton-Centre"," 97","Brampton",N,N,"",1,456,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 97","Brampton",N,N,"",1,456,"Sangha","","Ramesh","Liberal","Libéral",N,Y,124
+35008,"Brampton Centre","Brampton-Centre"," 98","Brampton",N,N,"",1,460,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 98","Brampton",N,N,"",1,460,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 98","Brampton",N,N,"",1,460,"Gosal","","Bal","Conservative","Conservateur",Y,N,60
+35008,"Brampton Centre","Brampton-Centre"," 98","Brampton",N,N,"",1,460,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 98","Brampton",N,N,"",1,460,"Sangha","","Ramesh","Liberal","Libéral",N,Y,116
+35008,"Brampton Centre","Brampton-Centre"," 99","Brampton",N,N,"",1,406,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 99","Brampton",N,N,"",1,406,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 99","Brampton",N,N,"",1,406,"Gosal","","Bal","Conservative","Conservateur",Y,N,66
+35008,"Brampton Centre","Brampton-Centre"," 99","Brampton",N,N,"",1,406,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35008,"Brampton Centre","Brampton-Centre"," 99","Brampton",N,N,"",1,406,"Sangha","","Ramesh","Liberal","Libéral",N,Y,92
+35008,"Brampton Centre","Brampton-Centre"," 100","Brampton",N,N,"",0,378,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 100","Brampton",N,N,"",0,378,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 100","Brampton",N,N,"",0,378,"Gosal","","Bal","Conservative","Conservateur",Y,N,50
+35008,"Brampton Centre","Brampton-Centre"," 100","Brampton",N,N,"",0,378,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35008,"Brampton Centre","Brampton-Centre"," 100","Brampton",N,N,"",0,378,"Sangha","","Ramesh","Liberal","Libéral",N,Y,106
+35008,"Brampton Centre","Brampton-Centre"," 101","Brampton",N,N,"",3,373,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 101","Brampton",N,N,"",3,373,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 101","Brampton",N,N,"",3,373,"Gosal","","Bal","Conservative","Conservateur",Y,N,74
+35008,"Brampton Centre","Brampton-Centre"," 101","Brampton",N,N,"",3,373,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 101","Brampton",N,N,"",3,373,"Sangha","","Ramesh","Liberal","Libéral",N,Y,82
+35008,"Brampton Centre","Brampton-Centre"," 102","Brampton",N,N,"",0,398,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 102","Brampton",N,N,"",0,398,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 102","Brampton",N,N,"",0,398,"Gosal","","Bal","Conservative","Conservateur",Y,N,44
+35008,"Brampton Centre","Brampton-Centre"," 102","Brampton",N,N,"",0,398,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,33
+35008,"Brampton Centre","Brampton-Centre"," 102","Brampton",N,N,"",0,398,"Sangha","","Ramesh","Liberal","Libéral",N,Y,107
+35008,"Brampton Centre","Brampton-Centre"," 103","Brampton",N,N,"",0,371,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 103","Brampton",N,N,"",0,371,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 103","Brampton",N,N,"",0,371,"Gosal","","Bal","Conservative","Conservateur",Y,N,35
+35008,"Brampton Centre","Brampton-Centre"," 103","Brampton",N,N,"",0,371,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35008,"Brampton Centre","Brampton-Centre"," 103","Brampton",N,N,"",0,371,"Sangha","","Ramesh","Liberal","Libéral",N,Y,84
+35008,"Brampton Centre","Brampton-Centre"," 104","Brampton",N,N,"",2,499,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 104","Brampton",N,N,"",2,499,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 104","Brampton",N,N,"",2,499,"Gosal","","Bal","Conservative","Conservateur",Y,N,59
+35008,"Brampton Centre","Brampton-Centre"," 104","Brampton",N,N,"",2,499,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,53
+35008,"Brampton Centre","Brampton-Centre"," 104","Brampton",N,N,"",2,499,"Sangha","","Ramesh","Liberal","Libéral",N,Y,127
+35008,"Brampton Centre","Brampton-Centre"," 105","Brampton",N,N,"",0,476,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 105","Brampton",N,N,"",0,476,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 105","Brampton",N,N,"",0,476,"Gosal","","Bal","Conservative","Conservateur",Y,N,88
+35008,"Brampton Centre","Brampton-Centre"," 105","Brampton",N,N,"",0,476,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,34
+35008,"Brampton Centre","Brampton-Centre"," 105","Brampton",N,N,"",0,476,"Sangha","","Ramesh","Liberal","Libéral",N,Y,103
+35008,"Brampton Centre","Brampton-Centre"," 106","Brampton",N,N,"",0,295,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 106","Brampton",N,N,"",0,295,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 106","Brampton",N,N,"",0,295,"Gosal","","Bal","Conservative","Conservateur",Y,N,40
+35008,"Brampton Centre","Brampton-Centre"," 106","Brampton",N,N,"",0,295,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35008,"Brampton Centre","Brampton-Centre"," 106","Brampton",N,N,"",0,295,"Sangha","","Ramesh","Liberal","Libéral",N,Y,53
+35008,"Brampton Centre","Brampton-Centre"," 107","Brampton",N,N,"",1,360,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 107","Brampton",N,N,"",1,360,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 107","Brampton",N,N,"",1,360,"Gosal","","Bal","Conservative","Conservateur",Y,N,54
+35008,"Brampton Centre","Brampton-Centre"," 107","Brampton",N,N,"",1,360,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35008,"Brampton Centre","Brampton-Centre"," 107","Brampton",N,N,"",1,360,"Sangha","","Ramesh","Liberal","Libéral",N,Y,65
+35008,"Brampton Centre","Brampton-Centre"," 108","Brampton",N,N,"",3,364,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 108","Brampton",N,N,"",3,364,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 108","Brampton",N,N,"",3,364,"Gosal","","Bal","Conservative","Conservateur",Y,N,44
+35008,"Brampton Centre","Brampton-Centre"," 108","Brampton",N,N,"",3,364,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 108","Brampton",N,N,"",3,364,"Sangha","","Ramesh","Liberal","Libéral",N,Y,82
+35008,"Brampton Centre","Brampton-Centre"," 109","Brampton",N,N,"",1,480,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 109","Brampton",N,N,"",1,480,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 109","Brampton",N,N,"",1,480,"Gosal","","Bal","Conservative","Conservateur",Y,N,71
+35008,"Brampton Centre","Brampton-Centre"," 109","Brampton",N,N,"",1,480,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35008,"Brampton Centre","Brampton-Centre"," 109","Brampton",N,N,"",1,480,"Sangha","","Ramesh","Liberal","Libéral",N,Y,93
+35008,"Brampton Centre","Brampton-Centre"," 110","Brampton",N,N,"",2,492,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 110","Brampton",N,N,"",2,492,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 110","Brampton",N,N,"",2,492,"Gosal","","Bal","Conservative","Conservateur",Y,N,39
+35008,"Brampton Centre","Brampton-Centre"," 110","Brampton",N,N,"",2,492,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,60
+35008,"Brampton Centre","Brampton-Centre"," 110","Brampton",N,N,"",2,492,"Sangha","","Ramesh","Liberal","Libéral",N,Y,92
+35008,"Brampton Centre","Brampton-Centre"," 111","Brampton",N,N,"",1,489,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 111","Brampton",N,N,"",1,489,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 111","Brampton",N,N,"",1,489,"Gosal","","Bal","Conservative","Conservateur",Y,N,58
+35008,"Brampton Centre","Brampton-Centre"," 111","Brampton",N,N,"",1,489,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35008,"Brampton Centre","Brampton-Centre"," 111","Brampton",N,N,"",1,489,"Sangha","","Ramesh","Liberal","Libéral",N,Y,94
+35008,"Brampton Centre","Brampton-Centre"," 112","Brampton",N,N,"",1,303,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 112","Brampton",N,N,"",1,303,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 112","Brampton",N,N,"",1,303,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 112","Brampton",N,N,"",1,303,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 112","Brampton",N,N,"",1,303,"Sangha","","Ramesh","Liberal","Libéral",N,Y,69
+35008,"Brampton Centre","Brampton-Centre"," 113","Brampton",N,N,"",1,441,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 113","Brampton",N,N,"",1,441,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 113","Brampton",N,N,"",1,441,"Gosal","","Bal","Conservative","Conservateur",Y,N,92
+35008,"Brampton Centre","Brampton-Centre"," 113","Brampton",N,N,"",1,441,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35008,"Brampton Centre","Brampton-Centre"," 113","Brampton",N,N,"",1,441,"Sangha","","Ramesh","Liberal","Libéral",N,Y,86
+35008,"Brampton Centre","Brampton-Centre"," 114","Brampton",N,N,"",0,360,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 114","Brampton",N,N,"",0,360,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 114","Brampton",N,N,"",0,360,"Gosal","","Bal","Conservative","Conservateur",Y,N,70
+35008,"Brampton Centre","Brampton-Centre"," 114","Brampton",N,N,"",0,360,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 114","Brampton",N,N,"",0,360,"Sangha","","Ramesh","Liberal","Libéral",N,Y,65
+35008,"Brampton Centre","Brampton-Centre"," 115","Brampton",N,N,"",2,359,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 115","Brampton",N,N,"",2,359,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 115","Brampton",N,N,"",2,359,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 115","Brampton",N,N,"",2,359,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 115","Brampton",N,N,"",2,359,"Sangha","","Ramesh","Liberal","Libéral",N,Y,75
+35008,"Brampton Centre","Brampton-Centre"," 116","Brampton",N,N,"",1,388,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 116","Brampton",N,N,"",1,388,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 116","Brampton",N,N,"",1,388,"Gosal","","Bal","Conservative","Conservateur",Y,N,74
+35008,"Brampton Centre","Brampton-Centre"," 116","Brampton",N,N,"",1,388,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 116","Brampton",N,N,"",1,388,"Sangha","","Ramesh","Liberal","Libéral",N,Y,78
+35008,"Brampton Centre","Brampton-Centre"," 117","Brampton",N,N,"",0,339,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 117","Brampton",N,N,"",0,339,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 117","Brampton",N,N,"",0,339,"Gosal","","Bal","Conservative","Conservateur",Y,N,43
+35008,"Brampton Centre","Brampton-Centre"," 117","Brampton",N,N,"",0,339,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35008,"Brampton Centre","Brampton-Centre"," 117","Brampton",N,N,"",0,339,"Sangha","","Ramesh","Liberal","Libéral",N,Y,80
+35008,"Brampton Centre","Brampton-Centre"," 118","Brampton",N,N,"",0,440,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 118","Brampton",N,N,"",0,440,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 118","Brampton",N,N,"",0,440,"Gosal","","Bal","Conservative","Conservateur",Y,N,72
+35008,"Brampton Centre","Brampton-Centre"," 118","Brampton",N,N,"",0,440,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35008,"Brampton Centre","Brampton-Centre"," 118","Brampton",N,N,"",0,440,"Sangha","","Ramesh","Liberal","Libéral",N,Y,111
+35008,"Brampton Centre","Brampton-Centre"," 119","Brampton",N,N,"",2,343,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 119","Brampton",N,N,"",2,343,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 119","Brampton",N,N,"",2,343,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 119","Brampton",N,N,"",2,343,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 119","Brampton",N,N,"",2,343,"Sangha","","Ramesh","Liberal","Libéral",N,Y,65
+35008,"Brampton Centre","Brampton-Centre"," 120","Brampton",N,N,"",0,442,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 120","Brampton",N,N,"",0,442,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 120","Brampton",N,N,"",0,442,"Gosal","","Bal","Conservative","Conservateur",Y,N,75
+35008,"Brampton Centre","Brampton-Centre"," 120","Brampton",N,N,"",0,442,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35008,"Brampton Centre","Brampton-Centre"," 120","Brampton",N,N,"",0,442,"Sangha","","Ramesh","Liberal","Libéral",N,Y,101
+35008,"Brampton Centre","Brampton-Centre"," 121","Brampton",N,N,"",3,361,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 121","Brampton",N,N,"",3,361,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 121","Brampton",N,N,"",3,361,"Gosal","","Bal","Conservative","Conservateur",Y,N,63
+35008,"Brampton Centre","Brampton-Centre"," 121","Brampton",N,N,"",3,361,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 121","Brampton",N,N,"",3,361,"Sangha","","Ramesh","Liberal","Libéral",N,Y,107
+35008,"Brampton Centre","Brampton-Centre"," 122","Brampton",N,N,"",1,401,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 122","Brampton",N,N,"",1,401,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 122","Brampton",N,N,"",1,401,"Gosal","","Bal","Conservative","Conservateur",Y,N,71
+35008,"Brampton Centre","Brampton-Centre"," 122","Brampton",N,N,"",1,401,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35008,"Brampton Centre","Brampton-Centre"," 122","Brampton",N,N,"",1,401,"Sangha","","Ramesh","Liberal","Libéral",N,Y,104
+35008,"Brampton Centre","Brampton-Centre"," 123","Brampton",N,N,"",0,356,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 123","Brampton",N,N,"",0,356,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 123","Brampton",N,N,"",0,356,"Gosal","","Bal","Conservative","Conservateur",Y,N,55
+35008,"Brampton Centre","Brampton-Centre"," 123","Brampton",N,N,"",0,356,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35008,"Brampton Centre","Brampton-Centre"," 123","Brampton",N,N,"",0,356,"Sangha","","Ramesh","Liberal","Libéral",N,Y,78
+35008,"Brampton Centre","Brampton-Centre"," 124","Brampton",N,N,"",0,475,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 124","Brampton",N,N,"",0,475,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 124","Brampton",N,N,"",0,475,"Gosal","","Bal","Conservative","Conservateur",Y,N,75
+35008,"Brampton Centre","Brampton-Centre"," 124","Brampton",N,N,"",0,475,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35008,"Brampton Centre","Brampton-Centre"," 124","Brampton",N,N,"",0,475,"Sangha","","Ramesh","Liberal","Libéral",N,Y,96
+35008,"Brampton Centre","Brampton-Centre"," 125","Brampton",N,N,"",1,460,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 125","Brampton",N,N,"",1,460,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 125","Brampton",N,N,"",1,460,"Gosal","","Bal","Conservative","Conservateur",Y,N,85
+35008,"Brampton Centre","Brampton-Centre"," 125","Brampton",N,N,"",1,460,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35008,"Brampton Centre","Brampton-Centre"," 125","Brampton",N,N,"",1,460,"Sangha","","Ramesh","Liberal","Libéral",N,Y,99
+35008,"Brampton Centre","Brampton-Centre"," 126","Brampton",N,N,"",0,360,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 126","Brampton",N,N,"",0,360,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 126","Brampton",N,N,"",0,360,"Gosal","","Bal","Conservative","Conservateur",Y,N,60
+35008,"Brampton Centre","Brampton-Centre"," 126","Brampton",N,N,"",0,360,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35008,"Brampton Centre","Brampton-Centre"," 126","Brampton",N,N,"",0,360,"Sangha","","Ramesh","Liberal","Libéral",N,Y,89
+35008,"Brampton Centre","Brampton-Centre"," 127","Brampton",N,N,"",0,371,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 127","Brampton",N,N,"",0,371,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 127","Brampton",N,N,"",0,371,"Gosal","","Bal","Conservative","Conservateur",Y,N,37
+35008,"Brampton Centre","Brampton-Centre"," 127","Brampton",N,N,"",0,371,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 127","Brampton",N,N,"",0,371,"Sangha","","Ramesh","Liberal","Libéral",N,Y,89
+35008,"Brampton Centre","Brampton-Centre"," 128","Brampton",N,N,"",1,298,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 128","Brampton",N,N,"",1,298,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 128","Brampton",N,N,"",1,298,"Gosal","","Bal","Conservative","Conservateur",Y,N,33
+35008,"Brampton Centre","Brampton-Centre"," 128","Brampton",N,N,"",1,298,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 128","Brampton",N,N,"",1,298,"Sangha","","Ramesh","Liberal","Libéral",N,Y,79
+35008,"Brampton Centre","Brampton-Centre"," 129","Brampton",N,N,"",0,538,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 129","Brampton",N,N,"",0,538,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 129","Brampton",N,N,"",0,538,"Gosal","","Bal","Conservative","Conservateur",Y,N,82
+35008,"Brampton Centre","Brampton-Centre"," 129","Brampton",N,N,"",0,538,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 129","Brampton",N,N,"",0,538,"Sangha","","Ramesh","Liberal","Libéral",N,Y,127
+35008,"Brampton Centre","Brampton-Centre"," 130","Brampton",N,N,"",0,457,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 130","Brampton",N,N,"",0,457,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 130","Brampton",N,N,"",0,457,"Gosal","","Bal","Conservative","Conservateur",Y,N,56
+35008,"Brampton Centre","Brampton-Centre"," 130","Brampton",N,N,"",0,457,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35008,"Brampton Centre","Brampton-Centre"," 130","Brampton",N,N,"",0,457,"Sangha","","Ramesh","Liberal","Libéral",N,Y,132
+35008,"Brampton Centre","Brampton-Centre"," 131A","Brampton",N,N,"",4,332,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 131A","Brampton",N,N,"",4,332,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 131A","Brampton",N,N,"",4,332,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 131A","Brampton",N,N,"",4,332,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 131A","Brampton",N,N,"",4,332,"Sangha","","Ramesh","Liberal","Libéral",N,Y,94
+35008,"Brampton Centre","Brampton-Centre"," 131B","Brampton",N,N,"",0,304,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 131B","Brampton",N,N,"",0,304,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 131B","Brampton",N,N,"",0,304,"Gosal","","Bal","Conservative","Conservateur",Y,N,54
+35008,"Brampton Centre","Brampton-Centre"," 131B","Brampton",N,N,"",0,304,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 131B","Brampton",N,N,"",0,304,"Sangha","","Ramesh","Liberal","Libéral",N,Y,88
+35008,"Brampton Centre","Brampton-Centre"," 132","Brampton",N,N,"",1,428,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 132","Brampton",N,N,"",1,428,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 132","Brampton",N,N,"",1,428,"Gosal","","Bal","Conservative","Conservateur",Y,N,70
+35008,"Brampton Centre","Brampton-Centre"," 132","Brampton",N,N,"",1,428,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 132","Brampton",N,N,"",1,428,"Sangha","","Ramesh","Liberal","Libéral",N,Y,125
+35008,"Brampton Centre","Brampton-Centre"," 133","Brampton",N,N,"",2,403,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 133","Brampton",N,N,"",2,403,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 133","Brampton",N,N,"",2,403,"Gosal","","Bal","Conservative","Conservateur",Y,N,51
+35008,"Brampton Centre","Brampton-Centre"," 133","Brampton",N,N,"",2,403,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 133","Brampton",N,N,"",2,403,"Sangha","","Ramesh","Liberal","Libéral",N,Y,103
+35008,"Brampton Centre","Brampton-Centre"," 134","Brampton",N,N,"",3,373,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 134","Brampton",N,N,"",3,373,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 134","Brampton",N,N,"",3,373,"Gosal","","Bal","Conservative","Conservateur",Y,N,46
+35008,"Brampton Centre","Brampton-Centre"," 134","Brampton",N,N,"",3,373,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 134","Brampton",N,N,"",3,373,"Sangha","","Ramesh","Liberal","Libéral",N,Y,106
+35008,"Brampton Centre","Brampton-Centre"," 135","Brampton",N,N,"",2,396,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 135","Brampton",N,N,"",2,396,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 135","Brampton",N,N,"",2,396,"Gosal","","Bal","Conservative","Conservateur",Y,N,90
+35008,"Brampton Centre","Brampton-Centre"," 135","Brampton",N,N,"",2,396,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 135","Brampton",N,N,"",2,396,"Sangha","","Ramesh","Liberal","Libéral",N,Y,107
+35008,"Brampton Centre","Brampton-Centre"," 136","Brampton",N,N,"",2,524,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 136","Brampton",N,N,"",2,524,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 136","Brampton",N,N,"",2,524,"Gosal","","Bal","Conservative","Conservateur",Y,N,98
+35008,"Brampton Centre","Brampton-Centre"," 136","Brampton",N,N,"",2,524,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 136","Brampton",N,N,"",2,524,"Sangha","","Ramesh","Liberal","Libéral",N,Y,126
+35008,"Brampton Centre","Brampton-Centre"," 137","Brampton",N,N,"",0,337,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 137","Brampton",N,N,"",0,337,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 137","Brampton",N,N,"",0,337,"Gosal","","Bal","Conservative","Conservateur",Y,N,49
+35008,"Brampton Centre","Brampton-Centre"," 137","Brampton",N,N,"",0,337,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35008,"Brampton Centre","Brampton-Centre"," 137","Brampton",N,N,"",0,337,"Sangha","","Ramesh","Liberal","Libéral",N,Y,98
+35008,"Brampton Centre","Brampton-Centre"," 138","Brampton",N,N,"",1,385,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 138","Brampton",N,N,"",1,385,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 138","Brampton",N,N,"",1,385,"Gosal","","Bal","Conservative","Conservateur",Y,N,54
+35008,"Brampton Centre","Brampton-Centre"," 138","Brampton",N,N,"",1,385,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 138","Brampton",N,N,"",1,385,"Sangha","","Ramesh","Liberal","Libéral",N,Y,104
+35008,"Brampton Centre","Brampton-Centre"," 139","Brampton",N,N,"",1,433,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 139","Brampton",N,N,"",1,433,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 139","Brampton",N,N,"",1,433,"Gosal","","Bal","Conservative","Conservateur",Y,N,64
+35008,"Brampton Centre","Brampton-Centre"," 139","Brampton",N,N,"",1,433,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 139","Brampton",N,N,"",1,433,"Sangha","","Ramesh","Liberal","Libéral",N,Y,93
+35008,"Brampton Centre","Brampton-Centre"," 140","Brampton",N,N,"",1,394,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 140","Brampton",N,N,"",1,394,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 140","Brampton",N,N,"",1,394,"Gosal","","Bal","Conservative","Conservateur",Y,N,37
+35008,"Brampton Centre","Brampton-Centre"," 140","Brampton",N,N,"",1,394,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 140","Brampton",N,N,"",1,394,"Sangha","","Ramesh","Liberal","Libéral",N,Y,79
+35008,"Brampton Centre","Brampton-Centre"," 141","Brampton",N,N,"",0,488,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 141","Brampton",N,N,"",0,488,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 141","Brampton",N,N,"",0,488,"Gosal","","Bal","Conservative","Conservateur",Y,N,42
+35008,"Brampton Centre","Brampton-Centre"," 141","Brampton",N,N,"",0,488,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35008,"Brampton Centre","Brampton-Centre"," 141","Brampton",N,N,"",0,488,"Sangha","","Ramesh","Liberal","Libéral",N,Y,124
+35008,"Brampton Centre","Brampton-Centre"," 142","Brampton",N,N,"",0,310,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 142","Brampton",N,N,"",0,310,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 142","Brampton",N,N,"",0,310,"Gosal","","Bal","Conservative","Conservateur",Y,N,80
+35008,"Brampton Centre","Brampton-Centre"," 142","Brampton",N,N,"",0,310,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 142","Brampton",N,N,"",0,310,"Sangha","","Ramesh","Liberal","Libéral",N,Y,97
+35008,"Brampton Centre","Brampton-Centre"," 400","Brampton",N,N,"",0,343,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 400","Brampton",N,N,"",0,343,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 400","Brampton",N,N,"",0,343,"Gosal","","Bal","Conservative","Conservateur",Y,N,26
+35008,"Brampton Centre","Brampton-Centre"," 400","Brampton",N,N,"",0,343,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 400","Brampton",N,N,"",0,343,"Sangha","","Ramesh","Liberal","Libéral",N,Y,54
+35008,"Brampton Centre","Brampton-Centre"," 401","Brampton",N,N,"",1,416,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 401","Brampton",N,N,"",1,416,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 401","Brampton",N,N,"",1,416,"Gosal","","Bal","Conservative","Conservateur",Y,N,33
+35008,"Brampton Centre","Brampton-Centre"," 401","Brampton",N,N,"",1,416,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35008,"Brampton Centre","Brampton-Centre"," 401","Brampton",N,N,"",1,416,"Sangha","","Ramesh","Liberal","Libéral",N,Y,92
+35008,"Brampton Centre","Brampton-Centre"," 402","Brampton",N,N,"",1,331,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 402","Brampton",N,N,"",1,331,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 402","Brampton",N,N,"",1,331,"Gosal","","Bal","Conservative","Conservateur",Y,N,56
+35008,"Brampton Centre","Brampton-Centre"," 402","Brampton",N,N,"",1,331,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 402","Brampton",N,N,"",1,331,"Sangha","","Ramesh","Liberal","Libéral",N,Y,85
+35008,"Brampton Centre","Brampton-Centre"," 403","Brampton",N,N,"",2,312,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 403","Brampton",N,N,"",2,312,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 403","Brampton",N,N,"",2,312,"Gosal","","Bal","Conservative","Conservateur",Y,N,58
+35008,"Brampton Centre","Brampton-Centre"," 403","Brampton",N,N,"",2,312,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35008,"Brampton Centre","Brampton-Centre"," 403","Brampton",N,N,"",2,312,"Sangha","","Ramesh","Liberal","Libéral",N,Y,67
+35008,"Brampton Centre","Brampton-Centre"," 404","Brampton",N,N,"",0,295,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 404","Brampton",N,N,"",0,295,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 404","Brampton",N,N,"",0,295,"Gosal","","Bal","Conservative","Conservateur",Y,N,34
+35008,"Brampton Centre","Brampton-Centre"," 404","Brampton",N,N,"",0,295,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 404","Brampton",N,N,"",0,295,"Sangha","","Ramesh","Liberal","Libéral",N,Y,64
+35008,"Brampton Centre","Brampton-Centre"," 405","Brampton",N,N,"",0,331,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 405","Brampton",N,N,"",0,331,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 405","Brampton",N,N,"",0,331,"Gosal","","Bal","Conservative","Conservateur",Y,N,25
+35008,"Brampton Centre","Brampton-Centre"," 405","Brampton",N,N,"",0,331,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 405","Brampton",N,N,"",0,331,"Sangha","","Ramesh","Liberal","Libéral",N,Y,81
+35008,"Brampton Centre","Brampton-Centre"," 406","Brampton",N,N,"",0,216,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 406","Brampton",N,N,"",0,216,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 406","Brampton",N,N,"",0,216,"Gosal","","Bal","Conservative","Conservateur",Y,N,17
+35008,"Brampton Centre","Brampton-Centre"," 406","Brampton",N,N,"",0,216,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 406","Brampton",N,N,"",0,216,"Sangha","","Ramesh","Liberal","Libéral",N,Y,53
+35008,"Brampton Centre","Brampton-Centre"," 407","Brampton",N,N,"",0,349,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 407","Brampton",N,N,"",0,349,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 407","Brampton",N,N,"",0,349,"Gosal","","Bal","Conservative","Conservateur",Y,N,33
+35008,"Brampton Centre","Brampton-Centre"," 407","Brampton",N,N,"",0,349,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35008,"Brampton Centre","Brampton-Centre"," 407","Brampton",N,N,"",0,349,"Sangha","","Ramesh","Liberal","Libéral",N,Y,94
+35008,"Brampton Centre","Brampton-Centre"," 408","Brampton",N,N,"",4,445,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 408","Brampton",N,N,"",4,445,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 408","Brampton",N,N,"",4,445,"Gosal","","Bal","Conservative","Conservateur",Y,N,66
+35008,"Brampton Centre","Brampton-Centre"," 408","Brampton",N,N,"",4,445,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35008,"Brampton Centre","Brampton-Centre"," 408","Brampton",N,N,"",4,445,"Sangha","","Ramesh","Liberal","Libéral",N,Y,137
+35008,"Brampton Centre","Brampton-Centre"," 409","Brampton",N,N,"",0,194,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 409","Brampton",N,N,"",0,194,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 409","Brampton",N,N,"",0,194,"Gosal","","Bal","Conservative","Conservateur",Y,N,54
+35008,"Brampton Centre","Brampton-Centre"," 409","Brampton",N,N,"",0,194,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35008,"Brampton Centre","Brampton-Centre"," 409","Brampton",N,N,"",0,194,"Sangha","","Ramesh","Liberal","Libéral",N,Y,44
+35008,"Brampton Centre","Brampton-Centre"," 410","Brampton",N,N,"",0,202,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 410","Brampton",N,N,"",0,202,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 410","Brampton",N,N,"",0,202,"Gosal","","Bal","Conservative","Conservateur",Y,N,42
+35008,"Brampton Centre","Brampton-Centre"," 410","Brampton",N,N,"",0,202,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 410","Brampton",N,N,"",0,202,"Sangha","","Ramesh","Liberal","Libéral",N,Y,49
+35008,"Brampton Centre","Brampton-Centre"," 411","Brampton",N,N,"",0,135,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 411","Brampton",N,N,"",0,135,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 411","Brampton",N,N,"",0,135,"Gosal","","Bal","Conservative","Conservateur",Y,N,52
+35008,"Brampton Centre","Brampton-Centre"," 411","Brampton",N,N,"",0,135,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 411","Brampton",N,N,"",0,135,"Sangha","","Ramesh","Liberal","Libéral",N,Y,32
+35008,"Brampton Centre","Brampton-Centre"," 412","Brampton",N,N,"",2,241,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 412","Brampton",N,N,"",2,241,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 412","Brampton",N,N,"",2,241,"Gosal","","Bal","Conservative","Conservateur",Y,N,28
+35008,"Brampton Centre","Brampton-Centre"," 412","Brampton",N,N,"",2,241,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35008,"Brampton Centre","Brampton-Centre"," 412","Brampton",N,N,"",2,241,"Sangha","","Ramesh","Liberal","Libéral",N,Y,44
+35008,"Brampton Centre","Brampton-Centre"," 413","Brampton",N,N,"",0,316,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 413","Brampton",N,N,"",0,316,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 413","Brampton",N,N,"",0,316,"Gosal","","Bal","Conservative","Conservateur",Y,N,29
+35008,"Brampton Centre","Brampton-Centre"," 413","Brampton",N,N,"",0,316,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 413","Brampton",N,N,"",0,316,"Sangha","","Ramesh","Liberal","Libéral",N,Y,76
+35008,"Brampton Centre","Brampton-Centre"," 414","Brampton",N,N,"",1,221,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 414","Brampton",N,N,"",1,221,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 414","Brampton",N,N,"",1,221,"Gosal","","Bal","Conservative","Conservateur",Y,N,21
+35008,"Brampton Centre","Brampton-Centre"," 414","Brampton",N,N,"",1,221,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 414","Brampton",N,N,"",1,221,"Sangha","","Ramesh","Liberal","Libéral",N,Y,60
+35008,"Brampton Centre","Brampton-Centre"," 415","Brampton",N,N,"",2,405,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 415","Brampton",N,N,"",2,405,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 415","Brampton",N,N,"",2,405,"Gosal","","Bal","Conservative","Conservateur",Y,N,36
+35008,"Brampton Centre","Brampton-Centre"," 415","Brampton",N,N,"",2,405,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," 415","Brampton",N,N,"",2,405,"Sangha","","Ramesh","Liberal","Libéral",N,Y,96
+35008,"Brampton Centre","Brampton-Centre"," 416","Brampton",N,N,"",0,283,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 416","Brampton",N,N,"",0,283,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 416","Brampton",N,N,"",0,283,"Gosal","","Bal","Conservative","Conservateur",Y,N,17
+35008,"Brampton Centre","Brampton-Centre"," 416","Brampton",N,N,"",0,283,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," 416","Brampton",N,N,"",0,283,"Sangha","","Ramesh","Liberal","Libéral",N,Y,78
+35008,"Brampton Centre","Brampton-Centre"," 417","Brampton",N,N,"",3,224,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 417","Brampton",N,N,"",3,224,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 417","Brampton",N,N,"",3,224,"Gosal","","Bal","Conservative","Conservateur",Y,N,19
+35008,"Brampton Centre","Brampton-Centre"," 417","Brampton",N,N,"",3,224,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35008,"Brampton Centre","Brampton-Centre"," 417","Brampton",N,N,"",3,224,"Sangha","","Ramesh","Liberal","Libéral",N,Y,50
+35008,"Brampton Centre","Brampton-Centre"," 418","Brampton",N,N,"",1,249,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,4
+35008,"Brampton Centre","Brampton-Centre"," 418","Brampton",N,N,"",1,249,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 418","Brampton",N,N,"",1,249,"Gosal","","Bal","Conservative","Conservateur",Y,N,37
+35008,"Brampton Centre","Brampton-Centre"," 418","Brampton",N,N,"",1,249,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35008,"Brampton Centre","Brampton-Centre"," 418","Brampton",N,N,"",1,249,"Sangha","","Ramesh","Liberal","Libéral",N,Y,55
+35008,"Brampton Centre","Brampton-Centre"," 419","Brampton",N,N,"",1,322,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 419","Brampton",N,N,"",1,322,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 419","Brampton",N,N,"",1,322,"Gosal","","Bal","Conservative","Conservateur",Y,N,31
+35008,"Brampton Centre","Brampton-Centre"," 419","Brampton",N,N,"",1,322,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35008,"Brampton Centre","Brampton-Centre"," 419","Brampton",N,N,"",1,322,"Sangha","","Ramesh","Liberal","Libéral",N,Y,57
+35008,"Brampton Centre","Brampton-Centre"," 420","Brampton",N,N,"",0,322,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 420","Brampton",N,N,"",0,322,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 420","Brampton",N,N,"",0,322,"Gosal","","Bal","Conservative","Conservateur",Y,N,39
+35008,"Brampton Centre","Brampton-Centre"," 420","Brampton",N,N,"",0,322,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35008,"Brampton Centre","Brampton-Centre"," 420","Brampton",N,N,"",0,322,"Sangha","","Ramesh","Liberal","Libéral",N,Y,77
+35008,"Brampton Centre","Brampton-Centre"," 421","Brampton",N,N,"",1,299,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 421","Brampton",N,N,"",1,299,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 421","Brampton",N,N,"",1,299,"Gosal","","Bal","Conservative","Conservateur",Y,N,41
+35008,"Brampton Centre","Brampton-Centre"," 421","Brampton",N,N,"",1,299,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35008,"Brampton Centre","Brampton-Centre"," 421","Brampton",N,N,"",1,299,"Sangha","","Ramesh","Liberal","Libéral",N,Y,53
+35008,"Brampton Centre","Brampton-Centre"," 422","Brampton",N,N,"",0,312,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 422","Brampton",N,N,"",0,312,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 422","Brampton",N,N,"",0,312,"Gosal","","Bal","Conservative","Conservateur",Y,N,22
+35008,"Brampton Centre","Brampton-Centre"," 422","Brampton",N,N,"",0,312,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," 422","Brampton",N,N,"",0,312,"Sangha","","Ramesh","Liberal","Libéral",N,Y,69
+35008,"Brampton Centre","Brampton-Centre"," 423","Brampton",N,N,"",0,287,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 423","Brampton",N,N,"",0,287,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 423","Brampton",N,N,"",0,287,"Gosal","","Bal","Conservative","Conservateur",Y,N,27
+35008,"Brampton Centre","Brampton-Centre"," 423","Brampton",N,N,"",0,287,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35008,"Brampton Centre","Brampton-Centre"," 423","Brampton",N,N,"",0,287,"Sangha","","Ramesh","Liberal","Libéral",N,Y,72
+35008,"Brampton Centre","Brampton-Centre"," 424","Brampton",N,N,"",2,279,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 424","Brampton",N,N,"",2,279,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," 424","Brampton",N,N,"",2,279,"Gosal","","Bal","Conservative","Conservateur",Y,N,38
+35008,"Brampton Centre","Brampton-Centre"," 424","Brampton",N,N,"",2,279,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 424","Brampton",N,N,"",2,279,"Sangha","","Ramesh","Liberal","Libéral",N,Y,59
+35008,"Brampton Centre","Brampton-Centre"," 600","Brampton",N,N,"",2,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,20
+35008,"Brampton Centre","Brampton-Centre"," 600","Brampton",N,N,"",2,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 600","Brampton",N,N,"",2,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,361
+35008,"Brampton Centre","Brampton-Centre"," 600","Brampton",N,N,"",2,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,127
+35008,"Brampton Centre","Brampton-Centre"," 600","Brampton",N,N,"",2,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,294
+35008,"Brampton Centre","Brampton-Centre"," 601","Brampton",N,N,"",15,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,19
+35008,"Brampton Centre","Brampton-Centre"," 601","Brampton",N,N,"",15,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 601","Brampton",N,N,"",15,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,321
+35008,"Brampton Centre","Brampton-Centre"," 601","Brampton",N,N,"",15,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,161
+35008,"Brampton Centre","Brampton-Centre"," 601","Brampton",N,N,"",15,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,346
+35008,"Brampton Centre","Brampton-Centre"," 602","Brampton",N,N,"",2,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,24
+35008,"Brampton Centre","Brampton-Centre"," 602","Brampton",N,N,"",2,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 602","Brampton",N,N,"",2,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,351
+35008,"Brampton Centre","Brampton-Centre"," 602","Brampton",N,N,"",2,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,142
+35008,"Brampton Centre","Brampton-Centre"," 602","Brampton",N,N,"",2,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,338
+35008,"Brampton Centre","Brampton-Centre"," 603","Brampton",N,N,"",9,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,12
+35008,"Brampton Centre","Brampton-Centre"," 603","Brampton",N,N,"",9,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 603","Brampton",N,N,"",9,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,345
+35008,"Brampton Centre","Brampton-Centre"," 603","Brampton",N,N,"",9,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,146
+35008,"Brampton Centre","Brampton-Centre"," 603","Brampton",N,N,"",9,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,416
+35008,"Brampton Centre","Brampton-Centre"," 604","Brampton",N,N,"",4,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,11
+35008,"Brampton Centre","Brampton-Centre"," 604","Brampton",N,N,"",4,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 604","Brampton",N,N,"",4,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,264
+35008,"Brampton Centre","Brampton-Centre"," 604","Brampton",N,N,"",4,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,106
+35008,"Brampton Centre","Brampton-Centre"," 604","Brampton",N,N,"",4,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,257
+35008,"Brampton Centre","Brampton-Centre"," 605","Brampton",N,N,"",2,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,19
+35008,"Brampton Centre","Brampton-Centre"," 605","Brampton",N,N,"",2,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,5
+35008,"Brampton Centre","Brampton-Centre"," 605","Brampton",N,N,"",2,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,420
+35008,"Brampton Centre","Brampton-Centre"," 605","Brampton",N,N,"",2,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,154
+35008,"Brampton Centre","Brampton-Centre"," 605","Brampton",N,N,"",2,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,499
+35008,"Brampton Centre","Brampton-Centre"," 606","Brampton",N,N,"",4,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,10
+35008,"Brampton Centre","Brampton-Centre"," 606","Brampton",N,N,"",4,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 606","Brampton",N,N,"",4,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,326
+35008,"Brampton Centre","Brampton-Centre"," 606","Brampton",N,N,"",4,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,153
+35008,"Brampton Centre","Brampton-Centre"," 606","Brampton",N,N,"",4,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,611
+35008,"Brampton Centre","Brampton-Centre"," 607","Brampton",N,N,"",1,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,7
+35008,"Brampton Centre","Brampton-Centre"," 607","Brampton",N,N,"",1,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,2
+35008,"Brampton Centre","Brampton-Centre"," 607","Brampton",N,N,"",1,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,214
+35008,"Brampton Centre","Brampton-Centre"," 607","Brampton",N,N,"",1,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,72
+35008,"Brampton Centre","Brampton-Centre"," 607","Brampton",N,N,"",1,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,315
+35008,"Brampton Centre","Brampton-Centre"," 608","Brampton",N,N,"",9,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,18
+35008,"Brampton Centre","Brampton-Centre"," 608","Brampton",N,N,"",9,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,3
+35008,"Brampton Centre","Brampton-Centre"," 608","Brampton",N,N,"",9,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,276
+35008,"Brampton Centre","Brampton-Centre"," 608","Brampton",N,N,"",9,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,156
+35008,"Brampton Centre","Brampton-Centre"," 608","Brampton",N,N,"",9,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,353
+35008,"Brampton Centre","Brampton-Centre"," 609","Brampton",N,N,"",2,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," 609","Brampton",N,N,"",2,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," 609","Brampton",N,N,"",2,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,244
+35008,"Brampton Centre","Brampton-Centre"," 609","Brampton",N,N,"",2,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,98
+35008,"Brampton Centre","Brampton-Centre"," 609","Brampton",N,N,"",2,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,525
+35008,"Brampton Centre","Brampton-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",8,68,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,1
+35008,"Brampton Centre","Brampton-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",8,68,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,0
+35008,"Brampton Centre","Brampton-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",8,68,"Gosal","","Bal","Conservative","Conservateur",Y,N,16
+35008,"Brampton Centre","Brampton-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",8,68,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35008,"Brampton Centre","Brampton-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",8,68,"Sangha","","Ramesh","Liberal","Libéral",N,Y,45
+35008,"Brampton Centre","Brampton-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",30,0,"Bottcher","","Saul Marquard T.","Green Party","Parti Vert",N,N,16
+35008,"Brampton Centre","Brampton-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",30,0,"Chilelli","","Frank","Marxist-Leninist","Marxiste-Léniniste",N,N,6
+35008,"Brampton Centre","Brampton-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",30,0,"Gosal","","Bal","Conservative","Conservateur",Y,N,271
+35008,"Brampton Centre","Brampton-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",30,0,"Keenan","","Rosemary","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,160
+35008,"Brampton Centre","Brampton-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",30,0,"Sangha","","Ramesh","Liberal","Libéral",N,Y,382
