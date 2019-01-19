@@ -64,8 +64,10 @@ class Election:
         >>> e._d
         datetime.date(2000, 2, 8)
         """
-        # TODO: implement this method!
-        pass
+        self._d = d
+        self._ridings = []
+        self._parties = []
+        self._results = dict(dict())
 
     def ridings_of(self) -> List[str]:
         """Return the ridings in which votes have been recorded in this
@@ -79,8 +81,7 @@ class Election:
         >>> e.ridings_of()
         ['r1', 'r2']
         """
-        # TODO: implement this method!
-        pass
+        return self._ridings
 
     def update_results(self, riding: str, party: str, votes: int) -> None:
         """Update this election to reflect that in <riding>, <party> received
@@ -99,8 +100,23 @@ class Election:
         >>> e.results_for('r1', 'ndp')
         1001
         """
-        # TODO: implement this method!
-        pass
+        if riding not in self._results:
+            if riding not in self._ridings:
+                self._ridings.append(riding)
+            self._results[riding] = dict()
+            if party not in self._results[riding]:
+                if party not in self._parties:
+                    self._parties.append(party)
+                self._results[riding][party] = votes
+            else:
+                self._results[riding][party] += votes
+        else:
+            if party not in self._results[riding]:
+                if party not in self._parties:
+                    self._parties.append(party)
+                self._results[riding][party] = votes
+            else:
+                self._results[riding][party] += votes
 
     def read_results(self, instream: IO[str]) -> None:
         """Update this election with the results in instream.
@@ -108,8 +124,18 @@ class Election:
         Precondition: instream is an open csv file, in the format defined
         in the A0 handout.
         """
-        # TODO: implement this method!
-        pass
+        result = []
+        text = instream.readlines()[1:]
+        for line in text:
+            lst = []
+            tmp = line.strip('\n').split(',')
+            lst.append(tmp[1].strip('\"'))
+            lst.append(tmp[13].strip('\"'))
+            lst.append(tmp[17])
+            result.append(lst)
+        for vote in result:
+            self.update_results(vote[0], vote[1], int(vote[2]))
+        print(e._results)
 
     def results_for(self, riding: str, party: str) -> Optional[int]:
         """Return the number of votes received in <riding> by <party> in
@@ -129,8 +155,10 @@ class Election:
         >>> e.results_for('r2', 'pc')
         1
         """
-        # TODO: implement this method!
-        pass
+        if riding not in self._results or party not in self._results[riding]:
+            return None
+        else:
+            return self._results[riding][party]
 
     def riding_winners(self, riding: str) -> List[str]:
         """Return the winners, in <riding>, of this election.
@@ -149,8 +177,15 @@ class Election:
         >>> e.riding_winners('r1')
         ['pc']
         """
-        # TODO: implement this method!
-        pass
+        lst = []
+        test = self._results[riding]
+        max_num = test[max(test)]
+        for key in test:
+            if test[key] == max_num:
+                lst.append(key)
+            else:
+                pass
+        return lst
 
     def popular_vote(self) -> Dict[str, int]:
         """Return the total number of votes earned by each party, across
@@ -170,8 +205,16 @@ class Election:
         >>> e.popular_vote() == {'ndp': 8, 'lib': 7, 'pc': 7, 'green': 6}
         True
         """
-        # TODO: implement this method!
-        pass
+        result = dict()
+        for party in self._parties:
+            result[party] = 0
+        for ridings in self._ridings:
+            for party in self._results[ridings]:
+                result[party] += self._results[ridings][party]
+        for party in list(result):
+            if result[party] == 0:
+                result.pop(party)
+        return result
 
     def party_seats(self) -> Dict[str, int]:
         """Return the number of ridings that each party won in this election.
@@ -362,16 +405,19 @@ class Jurisdiction:
 
 if __name__ == '__main__':
     import python_ta
-    python_ta.check_all(config={
-        'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
-        'allowed-import-modules': [
-            'doctest', 'python_ta', 'datetime', 'typing'
-        ],
-        'max-attributes': 15
-    })
+    # python_ta.check_all(config={
+    #     'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
+    #     'allowed-import-modules': [
+    #         'doctest', 'python_ta', 'datetime', 'typing'
+    #     ],
+    #     'max-attributes': 15
+    # })
+    fo = open('test_data.csv', "r")
+    e = Election(date(2000, 2, 8))
+    e.read_results(fo)
 
-    import doctest
-    doctest.testmod()
+    # import doctest
+    # doctest.testmod()
 
     # An example of reading election results from a file.
     # c = Jurisdiction('Canada')
