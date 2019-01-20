@@ -367,10 +367,10 @@ class Jurisdiction:
         [datetime.date(2003, 5, 16), datetime.date(2003, 6, 1)]
         """
         lst = []
-        for election in self._history:
-            win = self._history[election].election_winners()
+        for time in self._history:
+            win = self._history[time].election_winners()
             if party in win:
-                lst.append(self._history[election].get_date())
+                lst.append(time)
         return lst
 
     def party_history(self, party: str) -> Dict[date, float]:
