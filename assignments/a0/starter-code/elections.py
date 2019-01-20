@@ -173,10 +173,10 @@ class Election:
         ['pc']
         """
         lst = []
-        test = self._results[riding]
-        max_num = test[max(test)]
-        for key in test:
-            if test[key] == max_num:
+        result = self.get_votes_per_riding(riding)
+        max_num = result[max(result, key=self._results[riding].get)]
+        for key in result:
+            if result[key] == max_num:
                 lst.append(key)
             else:
                 pass
@@ -211,6 +211,26 @@ class Election:
                 result.pop(party)
         return result
 
+    def get_votes_per_riding(self, ridings: str) -> Dict[str, int]:
+        """Return the vote in a single riding in a dictionary (exclude 0 vote)
+        >>> e = Election(date(2000, 2, 8))
+        >>> e.update_results('r1', 'ndp', 1)
+        >>> e.update_results('r1', 'lib', 2)
+        >>> e.update_results('r1', 'pc', 2)
+        >>> e.update_results('r1', 'pc', 1)
+        >>> e.get_votes_per_riding('r1') == {'ndp': 1, 'lib': 2, 'pc': 3}
+        True
+        """
+        result = dict()
+        for party in self._parties:
+            result[party] = 0
+        for party in self._results[ridings]:
+            result[party] += self._results[ridings][party]
+        for party in list(result):
+            if result[party] == 0:
+                result.pop(party)
+        return result
+
     def party_seats(self) -> Dict[str, int]:
         """Return the number of ridings that each party won in this election.
 
@@ -229,8 +249,17 @@ class Election:
         >>> e.party_seats() == {'pc': 1, 'ndp': 1, 'lib': 0, 'green': 0}
         True
         """
-        # TODO: implement this method!
-        pass
+        seat = dict()
+        for party in self._parties:
+            seat[party] = 0
+        for ridings in self._results:
+            result = self.get_votes_per_riding(ridings)
+            max1 = max(result, key=self._results[ridings].get)
+            result.pop(max1)
+            test = max(result, key=self._results[ridings].get)
+            if self._results[ridings][max1] != self._results[ridings][test]:
+                seat[max1] += 1
+        return seat
 
     def election_winners(self) -> List[str]:
         """Return the party (or parties, in the case of a tie) that won the
@@ -250,8 +279,15 @@ class Election:
         >>> e.election_winners()
         ['pc']
         """
-        # TODO: implement this method!
-        pass
+        lst = []
+        seat = self.party_seats()
+        max1 = max(seat, key=seat.get)
+        for key in seat:
+            if seat[key] == seat[max1]:
+                lst.append(key)
+            else:
+                pass
+        return lst
 
 
 class Jurisdiction:
@@ -407,12 +443,12 @@ if __name__ == '__main__':
     #     ],
     #     'max-attributes': 15
     # })
-    fo = open('test_data.csv', "r")
-    e = Election(date(2000, 2, 8))
-    e.read_results(fo)
+    # fo = open('test_data.csv', "r")
+    # e = Election(date(2000, 2, 8))
+    # e.read_results(fo)
 
-    # import doctest
-    # doctest.testmod()
+    import doctest
+    doctest.testmod()
 
     # An example of reading election results from a file.
     # c = Jurisdiction('Canada')
