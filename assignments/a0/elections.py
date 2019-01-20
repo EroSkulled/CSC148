@@ -69,6 +69,9 @@ class Election:
         self._parties = []
         self._results = {}
 
+    def get_ridings(self) -> List[str]:
+        return self._ridings
+
     def ridings_of(self) -> List[str]:
         """Return the ridings in which votes have been recorded in this
          election.
@@ -440,8 +443,17 @@ class Jurisdiction:
         >>> j.riding_changes() == [({'r2'}, {'r3'})]
         True
         """
-        # TODO: implement this method!
-        pass
+        result = []
+        dates = []
+        for time in self._history:
+            dates.append(time)
+        for i in range(len(dates) - 1):
+            temp1 = self._history[dates[i]].get_ridings()
+            temp2 = self._history[dates[i + 1]].get_ridings()
+            removed = set(temp1) - set(temp2)
+            added = set(temp2) - set(temp1)
+            result.append(tuple([removed, added]))
+        return result
 
 
 if __name__ == '__main__':
