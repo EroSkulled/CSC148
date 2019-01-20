@@ -155,12 +155,12 @@ def test_simple_jurisdiction_party_wins() -> None:
     assert j.party_wins('Liberal') == [date(2000, 1, 2)]
 
 
-# def test_simple_jurisdiction_party_history() -> None:
-#     """Test Jurisdiction.party_history with a file with a single line."""
-#     j = simple_jurisdiction_setup()
-#     assert j.party_history('Liberal') == {date(2000, 1, 2): 1.0}
-#
-#
+def test_simple_jurisdiction_party_history() -> None:
+    """Test Jurisdiction.party_history with a file with a single line."""
+    j = simple_jurisdiction_setup()
+    assert j.party_history('Liberal') == {date(2000, 1, 2): 1.0}
+
+
 # def test_simple_jurisdiction_riding_changes() -> None:
 #     """Test Jurisdiction.riding_changes with two Elections."""
 #     j = simple_jurisdiction_setup()

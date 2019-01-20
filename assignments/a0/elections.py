@@ -69,9 +69,6 @@ class Election:
         self._parties = []
         self._results = {}
 
-    def get_date(self) -> date:
-        return self._d
-
     def ridings_of(self) -> List[str]:
         """Return the ridings in which votes have been recorded in this
          election.
@@ -405,8 +402,15 @@ class Jurisdiction:
         date(2004, 5, 16): 0.2}
         True
         """
-        # TODO: implement this method!
-        pass
+        result = dict()
+        for time in self._history:
+            allvote = 0
+            dic = self._history[time].popular_vote()
+            pvote = dic[party]
+            for parties in dic:
+                allvote += dic[parties]
+            result[time] = pvote / allvote
+        return result
 
     def riding_changes(self) -> List[Tuple[Set[str], Set[str]]]:
         """Return the changes in ridings across elections in this jurisdiction.
