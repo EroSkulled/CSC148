@@ -433,15 +433,15 @@ class Jurisdiction:
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
-        'allowed-import-modules': [
-            'doctest', 'python_ta', 'datetime', 'typing'
-        ],
-        'max-attributes': 15
-    })
-    # fo = open('test_data.csv', "r")
+    # import python_ta
+    # python_ta.check_all(config={
+    #     'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
+    #     'allowed-import-modules': [
+    #         'doctest', 'python_ta', 'datetime', 'typing'
+    #     ],
+    #     'max-attributes': 15
+    # })
+    # fo = open('data/short_data.csv', "r")
     # e = Election(date(2000, 2, 8))
     # e.read_results(fo)
 
