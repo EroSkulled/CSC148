@@ -124,18 +124,13 @@ class Election:
         Precondition: instream is an open csv file, in the format defined
         in the A0 handout.
         """
-        result = []
         text = instream.readlines()[1:]
         for line in text:
-            lst = []
             tmp = line.strip('\n').split(',')
-            lst.append(tmp[1].strip('\"'))
-            lst.append(tmp[13].strip('\"'))
-            lst.append(tmp[17])
-            result.append(lst)
-        for vote in result:
-            self.update_results(vote[0], vote[1], int(vote[2]))
-        print(e._results)
+            riding = tmp[1].strip('\"')
+            party = tmp[13].strip('\"')
+            vote = int(tmp[17])
+            self.update_results(riding, party, vote)
 
     def results_for(self, riding: str, party: str) -> Optional[int]:
         """Return the number of votes received in <riding> by <party> in
@@ -404,7 +399,7 @@ class Jurisdiction:
 
 
 if __name__ == '__main__':
-    import python_ta
+    # import python_ta
     # python_ta.check_all(config={
     #     'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
     #     'allowed-import-modules': [
