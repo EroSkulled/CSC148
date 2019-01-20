@@ -67,7 +67,10 @@ class Election:
         self._d = d
         self._ridings = []
         self._parties = []
-        self._results = dict(dict())
+        self._results = {}
+
+    def get_date(self) -> date:
+        return self._d
 
     def ridings_of(self) -> List[str]:
         """Return the ridings in which votes have been recorded in this
@@ -317,8 +320,8 @@ class Jurisdiction:
         >>> country._history
         {}
         """
-        # TODO: implement this method!
-        pass
+        self._name = name
+        self._history = {}
 
     def read_results(self, year: int, month: int, day: int, instream: IO[str]) \
             -> None:
@@ -327,8 +330,9 @@ class Jurisdiction:
         If there are already some results stored for an election on this date,
         add to them.
         """
-        # TODO: implement this method!
-        pass
+        e = Election(date(year, month, day))
+        self._history[date(year, month, day)] = e
+        e.read_results(instream)
 
     def party_wins(self, party: str) -> List[date]:
         """Return a list of all dates on which <party> won
@@ -362,8 +366,12 @@ class Jurisdiction:
         >>> j.party_wins('lib')
         [datetime.date(2003, 5, 16), datetime.date(2003, 6, 1)]
         """
-        # TODO: implement this method!
-        pass
+        lst = []
+        for election in self._history:
+            win = self._history[election].election_winners()
+            if party in win:
+                lst.append(self._history[election].get_date())
+        return lst
 
     def party_history(self, party: str) -> Dict[date, float]:
         """Return this party's percentage of the popular vote

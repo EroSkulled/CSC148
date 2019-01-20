@@ -108,8 +108,8 @@ def test_complex_election_popular_vote() -> None:
 
 def test_read_short_data() -> None:
     """Test read_results method with short_data"""
-    fo = open('test_data.csv', "r")
-    e = simple_election_setup()
+    fo = open('data/short_data.csv', "r")
+    e = Election(date(2000, 2, 8))
     e.read_results(fo)
 
 
@@ -149,11 +149,11 @@ def test_simple_election_win_tie() -> None:
     assert e.election_winners() == ['ndp', 'lib', 'pc']
 
 
-# def test_simple_jurisdiction_party_wins() -> None:
-#     """Test Jurisdiction.party_wins with a file with a single line. """
-#     j = simple_jurisdiction_setup()
-#     assert j.party_wins('Liberal') == [date(2000, 1, 2)]
-#
+def test_simple_jurisdiction_party_wins() -> None:
+    """Test Jurisdiction.party_wins with a file with a single line. """
+    j = simple_jurisdiction_setup()
+    assert j.party_wins('Liberal') == [date(2000, 1, 2)]
+
 
 # def test_simple_jurisdiction_party_history() -> None:
 #     """Test Jurisdiction.party_history with a file with a single line."""
