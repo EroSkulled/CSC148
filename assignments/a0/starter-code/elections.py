@@ -252,13 +252,11 @@ class Election:
         seat = dict()
         for party in self._parties:
             seat[party] = 0
-        for ridings in self._results:
-            result = self.get_votes_per_riding(ridings)
-            max1 = max(result, key=self._results[ridings].get)
-            result.pop(max1)
-            test = max(result, key=self._results[ridings].get)
-            if self._results[ridings][max1] != self._results[ridings][test]:
-                seat[max1] += 1
+        for riding in self._ridings:
+            if len(self.riding_winners(riding)) == 1:
+                seat[self.riding_winners(riding)[0]] += 1
+            else:
+                pass
         return seat
 
     def election_winners(self) -> List[str]:
@@ -435,14 +433,14 @@ class Jurisdiction:
 
 
 if __name__ == '__main__':
-    # import python_ta
-    # python_ta.check_all(config={
-    #     'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
-    #     'allowed-import-modules': [
-    #         'doctest', 'python_ta', 'datetime', 'typing'
-    #     ],
-    #     'max-attributes': 15
-    # })
+    import python_ta
+    python_ta.check_all(config={
+        'allowed-io': ['Election.read_results', 'Jurisdiction.read_results'],
+        'allowed-import-modules': [
+            'doctest', 'python_ta', 'datetime', 'typing'
+        ],
+        'max-attributes': 15
+    })
     # fo = open('test_data.csv', "r")
     # e = Election(date(2000, 2, 8))
     # e.read_results(fo)

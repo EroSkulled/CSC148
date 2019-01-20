@@ -132,6 +132,23 @@ def test_simple_election_win() -> None:
     assert e.election_winners() == ['ndp', 'pc']
 
 
+def test_simple_election_win_single_party() -> None:
+    e = Election(date(2000, 2, 8))
+    e.update_results('r1', 'ndp', 100)
+    e.update_results('r2', 'ndp', 100)
+    assert e.election_winners() == ['ndp']
+
+
+def test_simple_election_win_tie() -> None:
+    e = Election(date(2000, 2, 8))
+    e.update_results('r1', 'ndp', 1)
+    e.update_results('r1', 'lib', 1)
+    e.update_results('r1', 'pc', 1)
+    e.update_results('r2', 'ndp', 1)
+    e.update_results('r2', 'lib', 1)
+    assert e.election_winners() == ['ndp', 'lib', 'pc']
+
+
 # def test_simple_jurisdiction_party_wins() -> None:
 #     """Test Jurisdiction.party_wins with a file with a single line. """
 #     j = simple_jurisdiction_setup()
