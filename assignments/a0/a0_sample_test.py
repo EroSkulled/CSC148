@@ -164,10 +164,29 @@ def test_simple_jurisdiction_party_history() -> None:
 def test_simple_jurisdiction_riding_changes() -> None:
     """Test Jurisdiction.riding_changes with two Elections."""
     j = simple_jurisdiction_setup()
-    res2 = open('sample_data/toronto-stpauls.csv')
+    res2 = open('data/toronto-stpauls.csv')
     j.read_results(2004, 5, 15, res2)
     res2.close()
-    assert j.riding_changes() == [({"St. Paul's"}, {"Toronto--St. Paul's"})]
+    res3 = open('data/labrador.csv')
+    j.read_results(2004, 5, 15, res3)
+    res3.close()
+    res4 = open('data/nunavut.csv')
+    j.read_results(2005, 5, 15, res4)
+    res4.close()
+    assert j.riding_changes() == [({"St. Paul's"}, {"Toronto--St. Paul's", 'Labrador'}),
+                                  ({"Toronto--St. Paul's", 'Labrador'}, {'Nunavut'})]
+
+
+def test_complex_jurisdiction_riding_changes() -> None:
+    """Test Jurisdiction.riding_changes with two Elections."""
+    j = simple_jurisdiction_setup()
+    res2 = open('data/toronto-stpauls.csv')
+    j.read_results(2004, 5, 15, res2)
+    res2.close()
+    res3 = open('data/labrador.csv')
+    j.read_results(2005, 5, 15, res3)
+    res3.close()
+    assert j.riding_changes() == [({"St. Paul's"}, {"Toronto--St. Paul's"}), ({"Toronto--St. Paul's"}, {'Labrador'})]
 
 
 if __name__ == '__main__':

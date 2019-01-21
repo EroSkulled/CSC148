@@ -69,9 +69,6 @@ class Election:
         self._parties = []
         self._results = {}
 
-    def get_ridings(self) -> List[str]:
-        return self._ridings
-
     def ridings_of(self) -> List[str]:
         """Return the ridings in which votes have been recorded in this
          election.
@@ -330,9 +327,12 @@ class Jurisdiction:
         If there are already some results stored for an election on this date,
         add to them.
         """
-        e = Election(date(year, month, day))
-        self._history[date(year, month, day)] = e
-        e.read_results(instream)
+        time = date(year, month, day)
+        if time not in self._history:
+            self._history[time] = Election(time)
+            self._history[time].read_results(instream)
+        else:
+            self._history[time].read_results(instream)
 
     def party_wins(self, party: str) -> List[date]:
         """Return a list of all dates on which <party> won
@@ -448,11 +448,11 @@ class Jurisdiction:
         for time in self._history:
             dates.append(time)
         for i in range(len(dates) - 1):
-            temp1 = self._history[dates[i]].get_ridings()
-            temp2 = self._history[dates[i + 1]].get_ridings()
+            temp1 = self._history[dates[i]].ridings_of()
+            temp2 = self._history[dates[i + 1]].ridings_of()
             removed = set(temp1) - set(temp2)
             added = set(temp2) - set(temp1)
-            result.append(tuple([removed, added]))
+            result.append((removed, added))
         return result
 
 
@@ -465,9 +465,6 @@ if __name__ == '__main__':
     #     ],
     #     'max-attributes': 15
     # })
-    # fo = open('data/short_data.csv', "r")
-    # e = Election(date(2000, 2, 8))
-    # e.read_results(fo)
 
     import doctest
     doctest.testmod()
