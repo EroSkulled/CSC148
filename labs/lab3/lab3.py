@@ -44,6 +44,7 @@ class NumberGame:
     - 0 <= self.current <= self.goal
     - 0 < self.min_step <= self.max_step <= self.goal
     """
+
     goal: int
     min_step: int
     max_step: int
