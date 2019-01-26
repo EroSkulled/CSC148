@@ -486,9 +486,9 @@ def test_party_seats_0_votes() -> None:
     """Test party_seats for each party has 0 votes"""
     e = Election(date(2000, 2, 8))
     e.update_results('r1', 'ndp', 0)
-    e.update_results('r2', 'np', 0)
+    e.update_results('r2', 'np', 1)
     res1 = e.party_seats()
-    assert res1 == {'ndp': 1, 'np': 1}
+    assert res1 == {'ndp': 0, 'np': 1}
 
 
 def test_party_seats_1_riding_2_party_tie() -> None:
