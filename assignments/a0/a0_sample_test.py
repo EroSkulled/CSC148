@@ -767,11 +767,6 @@ def test_riding_changes_3_election_different_ridings() -> None:
     j = Jurisdiction('Canada')
     e1 = Election(date(2000, 2, 8))
     e1.update_results('r1', 'ndp', 1)
-    e1.update_results('r1', 'lib', 1)
-    e1.update_results('r1', 'pc', 1)
-    e1.update_results('r2', 'pc', 1)
-    e1.update_results('r2', 'lib', 1)
-    e1.update_results('r2', 'green', 1)
     e1.update_results('r2', 'ndp', 1)
     e2 = Election(date(2004, 5, 16))
     e2.update_results('r3', 'ndp', 1)
@@ -779,7 +774,7 @@ def test_riding_changes_3_election_different_ridings() -> None:
     e3 = Election(date(2005, 5, 16))
     e3.update_results('r5', 'ndp', 1)
     e3.update_results('r6', 'pc', 1)
-    j._history[date(2005, 5,16)] = e3
+    j._history[date(2005, 5, 16)] = e3
     j._history[date(2004, 5, 16)] = e2
     j._history[date(2000, 2, 8)] = e1
     res1 = j.riding_changes()

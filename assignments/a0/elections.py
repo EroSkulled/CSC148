@@ -174,7 +174,11 @@ class Election:
         """
         lst = []
         result = self.get_votes_per_riding(riding)
-        max_num = result[max(result, key=self._results[riding].get)]
+        try:
+            max_num = result[max(result, key=self._results[riding].get)]
+        except ValueError:
+            return self._parties
+
         for key in result:
             if result[key] == max_num:
                 lst.append(key)
@@ -206,9 +210,6 @@ class Election:
         for ridings in self._ridings:
             for party in self._results[ridings]:
                 result[party] += self._results[ridings][party]
-        for party in list(result):
-            if result[party] == 0:
-                result.pop(party)
         return result
 
     def get_votes_per_riding(self, ridings: str) -> Dict[str, int]:
@@ -279,7 +280,10 @@ class Election:
         """
         lst = []
         seat = self.party_seats()
-        max1 = max(seat, key=seat.get)
+        try:
+            max1 = max(seat, key=seat.get)
+        except ValueError:
+            return self._parties
         for key in seat:
             if seat[key] == seat[max1]:
                 lst.append(key)
@@ -447,6 +451,7 @@ class Jurisdiction:
         dates = []
         for time in self._history:
             dates.append(time)
+        dates.sort()
         for i in range(len(dates) - 1):
             temp1 = self._history[dates[i]].ridings_of()
             temp2 = self._history[dates[i + 1]].ridings_of()
