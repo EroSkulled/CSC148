@@ -17,6 +17,7 @@ from typing import List, Dict
 from visualizer import Visualizer
 from customer import Customer
 from phoneline import PhoneLine
+from call import Call
 
 
 def import_data() -> Dict[str, List[Dict]]:
@@ -111,19 +112,31 @@ def process_event_history(log: Dict[str, List[Dict]],
     handout.
     - The <customer_list> already contains all the customers from the <log>.
     """
+
     # TODO: Implement this method. We are giving you the first few lines of code
     billing_date = datetime.datetime.strptime(log['events'][0]['time'],
                                               "%Y-%m-%d %H:%M:%S")
-    billing_month = billing_date.month
-    
+
+    new_month(customer_list, billing_date.month, billing_date.year)
+
+    for thing in log['events']:
+        month = datetime.datetime.strptime(thing['time'], "%Y-%m-%d %H:%M:%S").month
+        year = datetime.datetime.strptime(thing['time'], "%Y-%m-%d %H:%M:%S").year
+        if month != billing_date.month and billing_date.year == year:
+            new_month(customer_list, month, year)
+        elif billing_date.year != year:
+            new_month(customer_list, month, year)
+        if thing['type'] == 'call':
+            caller = find_customer_by_number(thing['src_number'], customer_list)
+            caller.make_call(Call(thing['src_number'], thing['dst_number'],
+                                  thing['time'], thing['duration'], thing['src_loc'], thing['dst.loc']))
+
     # start recording the bills from this date
     # Note: uncomment the following lines when you're ready to implement this
     # 
-    # new_month(customer_list, billing_date.month, billing_date.year)
-    #
-    # for event_data in log['events']:
-    
-    # ...
+
+
+
 
 
 if __name__ == '__main__':
