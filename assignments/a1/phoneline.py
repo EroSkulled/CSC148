@@ -66,8 +66,12 @@ class PhoneLine:
         If there is no bill for the current monthly billing cycle, then a new
         month must be <started> by advancing to the right month from <call>.
         """
-        # TODO: Implement this method
-        pass
+        month = call.get_bill_date()[0]
+        year = call.get_bill_date()[1]
+        if (month, year) not in self.bills:
+            self.new_month(month, year)
+        self.callhistory.register_outgoing_call(call)
+        self.contract.bill_call(call)
 
     def receive_call(self, call: Call) -> None:
         """ Add the <call> to this phone line's callhistory.
@@ -76,8 +80,11 @@ class PhoneLine:
         then a new month must be <started> by advancing to the right month from
         <call>.
         """
-        # TODO: Implement this method
-        pass
+        month = call.get_bill_date()[0]
+        year = call.get_bill_date()[1]
+        if (month, year) not in self.bills:
+            self.new_month(month, year)
+        self.callhistory.register_incoming_call(call)
 
     def cancel_line(self) -> float:
         """ Cancel this line's contract and return the outstanding bill amount

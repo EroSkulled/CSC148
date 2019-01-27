@@ -38,15 +38,22 @@ class CallHistory:
     def register_outgoing_call(self, call: Call) -> None:
         """ Register a Call <call> into this outgoing call history
         """
-        # TODO: Implement this method
-        pass
+        month = call.get_bill_date()[0]
+        year = call.get_bill_date()[1]
+        try:
+            self.outgoing_calls[(month, year)].append(call)
+        except KeyError:
+            self.outgoing_calls[(month, year)] = [call]
 
     def register_incoming_call(self, call: Call) -> None:
         """ Register a Call <call> into this incoming call history
         """
-        # TODO: Implement this method
-        pass
-
+        month = call.get_bill_date()[0]
+        year = call.get_bill_date()[1]
+        if self.incoming_calls == {}:
+            self.incoming_calls[(month, year)] = [call]
+        else:
+            self.incoming_calls[(month, year)].append(call)
     # ----------------------------------------------------------
     # NOTE: You do not need to understand the implementation of
     # the following methods, to be able to solve this assignment

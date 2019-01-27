@@ -87,6 +87,39 @@ class Contract:
         return self.bill.get_cost()
 
 
+class TermContract(Contract):
+    """ A Term contract for a phone line
+
+        === Public Attributes ===
+        start:
+             starting date for the contract
+        bill:
+             bill for this contract for the last month of call records loaded from
+             the input dataset
+        """
+    start: datetime.datetime
+    end: datetime.datetime
+    bill: Optional[Bill]
+
+    def __init__(self, start: datetime.date, end: datetime.date):
+        """ Create a new TermContract with the <start> date, starts as inactive
+        """
+        Contract.__init__(self, start)
+        self.end = end
+
+    def new_month(self, month: int, year: int, bill: Bill) -> None:
+        """ Advance to a new month in the contract, corresponding to <month> and
+        <year>. This may be the first month of the contract.
+        Store the <bill> argument in this contract and set the appropriate rate
+        per minute and fixed cost.
+        """
+        bill.fixed_cost = TERM_DEPOSIT + TERM_MONTHLY_FEE
+        bill.min_rate = TERM_MINS_COST
+        bill.free_min = TERM_MINS
+
+        self.bill = bill
+        #TODO
+
 # TODO: Implement the MTMContract, TermContract, and PrepaidContract
 
 

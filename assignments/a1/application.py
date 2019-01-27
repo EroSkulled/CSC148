@@ -18,6 +18,7 @@ from visualizer import Visualizer
 from customer import Customer
 from phoneline import PhoneLine
 from call import Call
+from contract import TermContract
 
 
 def import_data() -> Dict[str, List[Dict]]:
@@ -45,24 +46,24 @@ def create_customers(log: Dict[str, List[Dict]]) -> List[Customer]:
     for cust in log['customers']:
         customer = Customer(cust['id'])
         for line in cust['lines']:
-            contract = None
+            contract = TermContract(datetime.date(2017, 12, 25),
+                                        datetime.date(2019, 6, 25))
             # TODO:
             # 1) Uncomment the piece of code below once you've implemented
             #    all types of contracts.
             # 2) Make sure to import the necessary contract classes in this file
             # 3) Remove this TODO list when you're done.
-            """
-            if line['contract'] == 'prepaid':
-                # start with $100 credit on the account
-                contract = PrepaidContract(datetime.date(2017, 12, 25), 100)
-            elif line['contract'] == 'mtm':
-                contract = MTMContract(datetime.date(2017, 12, 25))
-            elif line['contract'] == 'term':
-                contract = TermContract(datetime.date(2017, 12, 25),
-                                        datetime.date(2019, 6, 25))
-            else:
-                print("ERROR: unknown contract type")
-            """
+
+            # if line['contract'] == 'prepaid':
+            #     # start with $100 credit on the account
+            #     contract = PrepaidContract(datetime.date(2017, 12, 25), 100)
+            # elif line['contract'] == 'mtm':
+            #     contract = MTMContract(datetime.date(2017, 12, 25))
+            # elif line['contract'] == 'term':
+            #     contract = TermContract(datetime.date(2017, 12, 25),
+            #                             datetime.date(2019, 6, 25))
+            # else:
+            #     print("ERROR: unknown contract type")
 
             line = PhoneLine(line['number'], contract)
             customer.add_phone_line(line)
@@ -127,9 +128,11 @@ def process_event_history(log: Dict[str, List[Dict]],
         elif billing_date.year != year:
             new_month(customer_list, month, year)
         if thing['type'] == 'call':
+            call = Call(thing['src_number'], thing['dst_number'],
+                        datetime.datetime.strptime(thing['time'], "%Y-%m-%d %H:%M:%S"),
+                        thing['duration'], tuple(thing['src_loc']), tuple(thing['dst_loc']))
             caller = find_customer_by_number(thing['src_number'], customer_list)
-            caller.make_call(Call(thing['src_number'], thing['dst_number'],
-                                  thing['time'], thing['duration'], thing['src_loc'], thing['dst.loc']))
+            caller.make_call(call)
 
 
 if __name__ == '__main__':
