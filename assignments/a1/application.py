@@ -131,13 +131,6 @@ def process_event_history(log: Dict[str, List[Dict]],
             caller.make_call(Call(thing['src_number'], thing['dst_number'],
                                   thing['time'], thing['duration'], thing['src_loc'], thing['dst.loc']))
 
-    # start recording the bills from this date
-    # Note: uncomment the following lines when you're ready to implement this
-    # 
-
-
-
-
 
 if __name__ == '__main__':
     v = Visualizer()
