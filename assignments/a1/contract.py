@@ -93,6 +93,8 @@ class TermContract(Contract):
         === Public Attributes ===
         start:
              starting date for the contract
+        end:
+            ending date for the contract
         bill:
              bill for this contract for the last month of call records loaded from
              the input dataset
@@ -101,7 +103,7 @@ class TermContract(Contract):
     end: datetime.datetime
     bill: Optional[Bill]
 
-    def __init__(self, start: datetime.date, end: datetime.date):
+    def __init__(self, start: datetime.date, end: datetime.date) -> None:
         """ Create a new TermContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
@@ -113,12 +115,131 @@ class TermContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
-        bill.fixed_cost = TERM_DEPOSIT + TERM_MONTHLY_FEE
-        bill.min_rate = TERM_MINS_COST
-        bill.free_min = TERM_MINS
-
         self.bill = bill
-        #TODO
+        if month == self.start.month and year == self.start.year:
+            self.bill.add_fixed_cost(TERM_MONTHLY_FEE + TERM_DEPOSIT)
+        elif month == self.start.month and year == self.start.year:
+            self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+            self.end = None
+        else:
+            self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+        self.bill.set_rates('TERM', TERM_MINS_COST)
+        self.bill.free_min = TERM_MINS
+
+    def bill_call(self, call: Call) -> None:
+        """ Add the <call> to the bill.
+
+        Precondition:
+        - a bill has already been created for the month+year when the <call>
+        was made. In other words, you can safely assume that self.bill has been
+        already advanced to the right month+year.
+        """
+        if self.bill.free_min - call.duration >= 0:
+            self.bill.add_free_minutes(-call.duration)
+        elif self.bill.free_min - call.duration < 0 < self.bill.free_min:
+            self.bill.free_min = 0
+            self.bill.add_billed_minutes(call.duration - self.bill.free_min)
+        else:
+            self.bill.add_billed_minutes(call.duration)
+
+    def cancel_contract(self) -> float:
+        """ Return the amount owed in order to close the phone line associated
+        with this contract.
+
+        Precondition:
+        - a bill has already been created for the month+year when this contract
+        is being cancelled. In other words, you can safely assume that self.bill
+        exists for the right month+year when the cancelation is requested.
+        """
+        self.start = None
+        if self.end is None:
+            return self.bill.get_cost() - TERM_DEPOSIT
+        else:
+            return self.bill.get_cost()
+
+
+class MTMContract(Contract):
+    """ A Term contract for a phone line
+
+    === Public Attributes ===
+    start:
+        starting date for the contract
+    end:
+        ending date for the contract
+    bill:
+        bill for this contract for the last month of call records loaded from
+        the input dataset
+    """
+    start: datetime.datetime
+    end: datetime.datetime
+    bill: Optional[Bill]
+
+    def __init__(self, start: datetime.date) -> None:
+        """ Create a new MTMContract with the <start> date, starts as inactive
+        """
+        Contract.__init__(self, start)
+        self.end = None
+
+    def new_month(self, month: int, year: int, bill: Bill) -> None:
+        """ Advance to a new month in the contract, corresponding to <month> and
+        <year>. This may be the first month of the contract.
+        Store the <bill> argument in this contract and set the appropriate rate
+        per minute and fixed cost.
+        """
+        self.bill = bill
+        self.bill.set_rates('MTM', MTM_MINS_COST)
+
+
+class PrepaidContract(Contract):
+    """ A Term contract for a phone line
+
+    === Public Attributes ===
+    start:
+        starting date for the contract
+    end:
+        ending date for the contract
+    bill:
+        bill for this contract for the last month of call records loaded from
+        the input dataset
+    balance:
+        The balance for this account (negative is credit)
+    """
+    start: datetime.datetime
+    end: datetime.datetime
+    bill: Optional[Bill]
+    balance: int
+
+    def __init__(self, start: datetime.date, money: float) -> None:
+        """ Create a new PrepaidContract with the <start> date, starts as inactive
+        """
+        Contract.__init__(self, start)
+        self.end = None
+        self.balance = -money
+
+    def new_month(self, month: int, year: int, bill: Bill) -> None:
+        """ Advance to a new month in the contract, corresponding to <month> and
+        <year>. This may be the first month of the contract.
+        Store the <bill> argument in this contract and set the appropriate rate
+        per minute and fixed cost.
+        """
+        self.bill = bill
+        self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
+        if month != self.start.month:
+            self.balance += self.bill.get_cost()
+        if self.balance > -10:
+            pass
+
+    def cancel_contract(self) -> float:
+        """ Return the amount owed in order to close the phone line associated
+        with this contract.
+
+        Precondition:
+        - a bill has already been created for the month+year when this contract
+        is being cancelled. In other words, you can safely assume that self.bill
+        exists for the right month+year when the cancelation is requested.
+        """
+        self.start = None
+        return self.bill.get_cost() + self.balance
 
 # TODO: Implement the MTMContract, TermContract, and PrepaidContract
 

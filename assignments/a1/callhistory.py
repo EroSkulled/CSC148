@@ -50,10 +50,10 @@ class CallHistory:
         """
         month = call.get_bill_date()[0]
         year = call.get_bill_date()[1]
-        if self.incoming_calls == {}:
-            self.incoming_calls[(month, year)] = [call]
-        else:
+        try:
             self.incoming_calls[(month, year)].append(call)
+        except KeyError:
+            self.incoming_calls[(month, year)] = [call]
     # ----------------------------------------------------------
     # NOTE: You do not need to understand the implementation of
     # the following methods, to be able to solve this assignment
