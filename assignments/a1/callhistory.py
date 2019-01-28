@@ -10,6 +10,8 @@ any changes, are expressly prohibited.
 
 All of the files in this directory and all subdirectories are:
 Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
+
+Edited by Yuehao Huang github@EroSkulled
 """
 from typing import Dict, List, Tuple
 from call import Call
