@@ -15,9 +15,9 @@ Edited by Yuehao Huang github@EroSkulled
 """
 import datetime
 from typing import Optional
+
 from bill import Bill
 from call import Call
-
 
 # Constants for the month-to-month contract monthly fee and term deposit
 MTM_MONTHLY_FEE = 50.00
@@ -242,8 +242,6 @@ class PrepaidContract(Contract):
         """
         self.start = None
         return self.bill.get_cost() + self.balance
-
-# TODO: Implement the MTMContract, TermContract, and PrepaidContract
 
 
 if __name__ == '__main__':
