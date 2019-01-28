@@ -227,8 +227,7 @@ class PrepaidContract(Contract):
         """
         self.bill = bill
         self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
-        if month != self.start.month:
-            self.bill.add_fixed_cost(self.balance + self.bill.get_cost())
+        self.bill.add_fixed_cost(self.balance + self.bill.get_cost())
         if self.balance > -10:
             pass
 
