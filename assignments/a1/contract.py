@@ -119,7 +119,7 @@ class TermContract(Contract):
         """
         self.bill = bill
         if month == self.start.month and year == self.start.year:
-            self.bill.add_fixed_cost(TERM_MONTHLY_FEE + TERM_DEPOSIT)
+            self.bill.add_fixed_cost(TERM_DEPOSIT + TERM_MONTHLY_FEE)
         elif month == self.start.month and year == self.start.year:
             self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
             self.end = None
@@ -189,6 +189,7 @@ class MTMContract(Contract):
         per minute and fixed cost.
         """
         self.bill = bill
+        self.bill.add_fixed_cost(MTM_MONTHLY_FEE)
         self.bill.set_rates('MTM', MTM_MINS_COST)
 
 
@@ -211,12 +212,12 @@ class PrepaidContract(Contract):
     bill: Optional[Bill]
     balance: int
 
-    def __init__(self, start: datetime.date, money: float) -> None:
+    def __init__(self, start: datetime.date, balance: float) -> None:
         """ Create a new PrepaidContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
         self.end = None
-        self.balance = -money
+        self.balance = -balance
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -227,7 +228,7 @@ class PrepaidContract(Contract):
         self.bill = bill
         self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
         if month != self.start.month:
-            self.balance += self.bill.get_cost()
+            self.bill.add_fixed_cost(self.balance + self.bill.get_cost())
         if self.balance > -10:
             pass
 
