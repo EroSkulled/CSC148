@@ -14,13 +14,13 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 Edited by Yuehao Huang github@EroSkulled
 """
 import datetime
+
 import pytest
 
 from application import create_customers, process_event_history
-from customer import Customer
 from contract import TermContract, MTMContract, PrepaidContract
+from customer import Customer
 from phoneline import PhoneLine
-from filter import DurationFilter, CustomerFilter, ResetFilter
 
 """
 This is a sample test file with a limited set of cases, which are similar in
@@ -170,6 +170,67 @@ def test_events() -> None:
     assert len(history) == 3
     assert len(history[0].incoming_calls) == 1
     assert len(history[0].outgoing_calls) == 1
+
+
+def test_cancel_term_contract_after() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict)
+    customers[0].new_month(6, 2019)
+    customers[0].new_month(7, 2019)
+    customers[0].new_month(8, 2019)
+    assert customers[0].cancel_phone_line('867-5309') == -280
+
+
+def test_cancel_term_contract_normal() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict)
+    customers[0].new_month(6, 2019)
+    assert customers[0].cancel_phone_line('867-5309') == -280
+
+
+def test_cancel_term_contract_before() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict)
+    customers[0].new_month(1, 2019)
+    assert customers[0].cancel_phone_line('867-5309') == 20
+
+
+def test_cancel_mtm_contract() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict)
+    customers[0].new_month(1, 2019)
+    assert customers[0].cancel_phone_line('273-8255') == 50
+
+
+def test_cancel_prepaid_contract_with_credit() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict)
+    process_event_history(test_dict, customers)
+    customers[0].new_month(1, 2017)
+    bill = customers[0].generate_bill(1, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    customers[0].new_month(1, 2018)
+    bill = customers[0].generate_bill(1, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    customers[0].new_month(2, 2018)
+    bill = customers[0].generate_bill(1, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    assert customers[0].cancel_phone_line('649-2568') == 0
 
 
 # def test_filters() -> None:

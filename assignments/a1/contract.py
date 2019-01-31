@@ -118,15 +118,19 @@ class TermContract(Contract):
         per minute and fixed cost.
         """
         self.bill = bill
-        if month == self.start.month and year == self.start.year:
-            self.bill.add_fixed_cost(TERM_DEPOSIT + TERM_MONTHLY_FEE)
-        elif month == self.start.month and year == self.start.year:
+        try:
+            if month == self.start.month and year == self.start.year:
+                self.bill.add_fixed_cost(TERM_DEPOSIT + TERM_MONTHLY_FEE)
+            elif month == self.end.month and year == self.end.year:
+                self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+                self.end = None
+            else:
+                self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+            self.bill.set_rates('TERM', TERM_MINS_COST)
+            self.bill.free_min = TERM_MINS
+        except AttributeError:
             self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
             self.end = None
-        else:
-            self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
-        self.bill.set_rates('TERM', TERM_MINS_COST)
-        self.bill.free_min = TERM_MINS
 
     def bill_call(self, call: Call) -> None:
         """ Add the <call> to the bill.
@@ -241,7 +245,10 @@ class PrepaidContract(Contract):
         exists for the right month+year when the cancelation is requested.
         """
         self.start = None
-        return self.bill.get_cost() + self.balance
+        if self.bill.get_cost() > 0:
+            return self.bill.get_cost()
+        else:
+            return 0
 
 
 if __name__ == '__main__':

@@ -14,9 +14,10 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 Edited by Yuehao Huang github@EroSkulled
 """
 from typing import List, Union, Tuple, Dict
-from phoneline import PhoneLine
+
 from call import Call
 from callhistory import CallHistory
+from phoneline import PhoneLine
 
 
 class Customer:
@@ -75,7 +76,7 @@ class Customer:
         """
         fee = None
         for pl in self._phone_lines:
-            if pl.get_number() is number:
+            if pl.get_number() == number:
                 self._phone_lines.remove(pl)
                 fee = pl.cancel_line()
         return fee
