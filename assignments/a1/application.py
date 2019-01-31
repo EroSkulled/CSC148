@@ -13,6 +13,8 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 
 Edited by Yuehao Huang github@EroSkulled
 """
+#  Copyright (c) 2019. Yuehao Huang huan1387 github@EroSkulled
+
 import datetime
 import json
 from typing import List, Dict
