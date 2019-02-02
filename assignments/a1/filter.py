@@ -104,8 +104,20 @@ class CustomerFilter(Filter):
         - If the filter string is invalid, your code must not crash, as
         specified in the handout.
         """
-        # TODO: Implement this method
-        return data
+        _datas = []
+        _tmpcust = None
+        for cust in customers:
+            try:
+                if cust.get_id() == int(filter_string):
+                    _tmpcust = cust
+            except ValueError:
+                return data
+        if _tmpcust is not None:
+            _historycalls = _tmpcust.get_history()
+            for calls in data:
+                if calls in _historycalls[0] or calls in _historycalls[0]:
+                    _datas.append(calls)
+        return _datas
 
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu
@@ -134,8 +146,20 @@ class DurationFilter(Filter):
         - If the filter string is invalid, your code must not crash, as
         specified in the handout.
         """
-        # TODO: Implement this method
-        return data
+        _datas = []
+        if len(filter_string) > 0 and filter_string[0].isalpha() and \
+                filter_string[1:].isdigit():
+            _threshold = int(filter_string[1:])
+            for calls in data:
+                if filter_string[0].lower() == 'l':
+                    if calls.duration < _threshold:
+                        _datas.append(calls)
+                elif filter_string[0].lower() == 'g':
+                    if calls.duration > _threshold:
+                        _datas.append(calls)
+            return _datas
+        else:
+            return data
 
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu
@@ -172,8 +196,29 @@ class LocationFilter(Filter):
         - If the filter string is invalid, your code must not crash, as
         specified in the handout.
         """
-        # TODO: Implement this method
-        return data
+        _MAP_MIN = (-79.697878, 43.799568)
+        _MAP_MAX = (-79.196382, 43.576959)
+        _data = []
+        try:
+            if len(filter_string) > 3 and ',' in filter_string:
+                _lst = filter_string.split(',')
+                _llong = float(_lst[0])
+                _llat = float(_lst[1])
+                _ulong = float(_lst[2])
+                _ulat = float(_lst[3])
+            else:
+                return data
+        except ValueError:
+            return data
+        if _llong > _MAP_MIN[0] and _llat > _MAP_MAX[1] and \
+                _ulong < _MAP_MAX[0] and _ulat < _MAP_MIN[1]:
+            for calls in data:
+                if _llong < calls.src_loc[0] < _ulong and \
+                        _llat < calls.src_loc[1] < _ulat:
+                    _data.append(calls)
+        else:
+            return data
+        return _data
 
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu
