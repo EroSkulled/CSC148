@@ -229,10 +229,10 @@ class PrepaidContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
-
+        self.bill = bill
+        self._balance += self.bill.get_cost()
         while self._balance > -10:
             self._balance -= 25
-        self.bill = bill
         self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
         self.bill.add_fixed_cost(self._balance + self.bill.get_cost())
 
