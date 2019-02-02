@@ -30,7 +30,13 @@ def _setup_queues(qsize: int, n: int) -> List[Queue]:
     #     queue._items = list(range(qsize))
     #
     # to save a bit of time in setting up the experiment.
-    pass
+    result = []
+    q = Queue()
+    q._items = list(range(qsize))
+    for i in range(n):
+        i += 1
+        result.append(q)
+    return result
 
 
 def time_queue() -> None:
@@ -55,11 +61,14 @@ def time_queue() -> None:
             time += timeit('queue.enqueue(1)', number=1, globals=locals())
         print(f'enqueue: Queue size {queue_size:>7}, time {time}')
 
-    # TODO: using the above loop as an analogy, write a second timing
     # experiment here that runs dequeue on the given queues, and reports the
     # time taken. Note that you can reuse most of the same code.
     for queue_size in queue_sizes:
-        pass
+        queues = _setup_queues(queue_size, trials)
+        time = 0
+        for queue in queues:
+            time += timeit('queue.dequeue()', number=1, globals=locals())
+        print(f'dequeue: Queue size {queue_size:>7}, time {time}')
 
 
 # TODO: implement this function
