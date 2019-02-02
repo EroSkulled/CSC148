@@ -221,18 +221,103 @@ def test_cancel_prepaid_contract_with_credit() -> None:
 
     customers = create_customers(test_dict)
     process_event_history(test_dict, customers)
-    customers[0].new_month(1, 2017)
-    bill = customers[0].generate_bill(1, 2018)
-    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    customers[0].new_month(12, 2017)
+    bill = customers[0].generate_bill(12, 2017)
+    assert bill[2][2]['total'] == pytest.approx(-100)
     customers[0].new_month(1, 2018)
     bill = customers[0].generate_bill(1, 2018)
     assert bill[2][2]['total'] == pytest.approx(-98.75)
     customers[0].new_month(2, 2018)
-    bill = customers[0].generate_bill(1, 2018)
+    bill = customers[0].generate_bill(2, 2018)
     assert bill[2][2]['total'] == pytest.approx(-98.75)
     assert customers[0].cancel_phone_line('649-2568') == 0
 
 
+test_dict2 = {'events': [
+    {"type": "call",
+     "src_number": "273-8255",
+     "dst_number": "867-5309",
+     "time": "2018-01-01 01:01:04",
+     "duration": 10,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "867-5309",
+     "dst_number": "649-2568",
+     "time": "2018-01-01 01:01:05",
+     "duration": 50,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "649-2568",
+     "dst_number": "273-8255",
+     "time": "2018-01-01 01:01:06",
+     "duration": 4000,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "273-8255",
+     "dst_number": "867-5309",
+     "time": "2018-02-01 01:01:04",
+     "duration": 10,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "867-5309",
+     "dst_number": "649-2568",
+     "time": "2018-02-01 01:01:05",
+     "duration": 50,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "649-2568",
+     "dst_number": "273-8255",
+     "time": "2018-02-01 01:01:06",
+     "duration": 0,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "649-2568",
+     "dst_number": "273-8255",
+     "time": "2018-03-01 01:01:06",
+     "duration": 2000,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]}
+    ],
+    'customers': [
+    {'lines': [
+        {'number': '867-5309',
+         'contract': 'term'},
+        {'number': '273-8255',
+         'contract': 'mtm'},
+        {'number': '649-2568',
+         'contract': 'prepaid'}
+    ],
+     'id': 5555}
+    ]
+}
+
+
+def test_cancel_prepaid_contract_with_credit_2() -> None:
+    """ Test for the correct creation of Customer, PhoneLine, and Contract
+    classes
+    """
+
+    customers = create_customers(test_dict2)
+    process_event_history(test_dict2, customers)
+    customers[0].new_month(12, 2017)
+    bill = customers[0].generate_bill(12, 2017)
+    assert bill[2][2]['total'] == pytest.approx(-100)
+    customers[0].new_month(1, 2018)
+    bill = customers[0].generate_bill(1, 2018)
+    assert bill[2][2]['total'] == pytest.approx(0)
+    customers[0].new_month(2, 2018)
+    bill = customers[0].generate_bill(2, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-25)
+    customers[0].new_month(3, 2018)
+    bill = customers[0].generate_bill(3, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-50)
+    assert customers[0].cancel_phone_line('649-2568') == 0
 # def test_filters() -> None:
 #     """ Test the functionality of the filters.
 #

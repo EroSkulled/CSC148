@@ -102,14 +102,14 @@ class TermContract(Contract):
              the input dataset
         """
     start: datetime.datetime
-    end: datetime.datetime
+    _end: datetime.datetime
     bill: Optional[Bill]
 
     def __init__(self, start: datetime.date, end: datetime.date) -> None:
         """ Create a new TermContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
-        self.end = end
+        self._end = end
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -121,16 +121,16 @@ class TermContract(Contract):
         try:
             if month == self.start.month and year == self.start.year:
                 self.bill.add_fixed_cost(TERM_DEPOSIT + TERM_MONTHLY_FEE)
-            elif month == self.end.month and year == self.end.year:
+            elif month == self._end.month and year == self._end.year:
                 self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
-                self.end = None
+                self._end = None
             else:
                 self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
             self.bill.set_rates('TERM', TERM_MINS_COST)
             self.bill.free_min = TERM_MINS
         except AttributeError:
             self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
-            self.end = None
+            self._end = None
 
     def bill_call(self, call: Call) -> None:
         """ Add the <call> to the bill.
@@ -158,7 +158,7 @@ class TermContract(Contract):
         exists for the right month+year when the cancelation is requested.
         """
         self.start = None
-        if self.end is None:
+        if self._end is None:
             return self.bill.get_cost() - TERM_DEPOSIT
         else:
             return self.bill.get_cost()
@@ -177,14 +177,14 @@ class MTMContract(Contract):
         the input dataset
     """
     start: datetime.datetime
-    end: datetime.datetime
+    _end: datetime.datetime
     bill: Optional[Bill]
 
     def __init__(self, start: datetime.date) -> None:
         """ Create a new MTMContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
-        self.end = None
+        self._end = None
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -212,16 +212,16 @@ class PrepaidContract(Contract):
         The balance for this account (negative is credit)
     """
     start: datetime.datetime
-    end: datetime.datetime
+    _end: datetime.datetime
     bill: Optional[Bill]
-    balance: int
+    _balance: int
 
     def __init__(self, start: datetime.date, balance: float) -> None:
         """ Create a new PrepaidContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
-        self.end = None
-        self.balance = -balance
+        self._end = None
+        self._balance = -balance
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -229,11 +229,12 @@ class PrepaidContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
+
+        while self._balance > -10:
+            self._balance -= 25
         self.bill = bill
         self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
-        self.bill.add_fixed_cost(self.balance + self.bill.get_cost())
-        if self.balance > -10:
-            pass
+        self.bill.add_fixed_cost(self._balance + self.bill.get_cost())
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated
