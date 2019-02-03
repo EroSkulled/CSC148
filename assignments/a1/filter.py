@@ -13,9 +13,10 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 
 Edited by Yuehao Huang github@EroSkulled
 """
-import time
-import datetime
-from typing import List, Tuple
+#  Copyright (c) 2019. Yuehao Huang huan1387 github@EroSkulled
+
+from typing import List
+
 from call import Call
 from customer import Customer
 
@@ -117,7 +118,10 @@ class CustomerFilter(Filter):
             for calls in data:
                 if calls in _historycalls[0] or calls in _historycalls[0]:
                     _datas.append(calls)
-        return _datas
+            return _datas
+        else:
+            return data
+
 
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu

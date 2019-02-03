@@ -13,6 +13,8 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 
 Edited by Yuehao Huang github@EroSkulled
 """
+#  Copyright (c) 2019. Yuehao Huang huan1387 github@EroSkulled
+
 import datetime
 from typing import Optional
 
@@ -98,7 +100,7 @@ class TermContract(Contract):
         end:
             ending date for the contract
         bill:
-             bill for this contract for the last month of call records loaded from
+             bill for this contract for the last month of call records loaded
              the input dataset
         """
     start: datetime.datetime
@@ -117,20 +119,18 @@ class TermContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
+
         self.bill = bill
+        self.bill.set_rates('TERM', TERM_MINS_COST)
+        self.bill.free_min = TERM_MINS
+        self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+        if month == self.start.month and year == self.start.year:
+            self.bill.add_fixed_cost(TERM_DEPOSIT)
         try:
-            if month == self.start.month and year == self.start.year:
-                self.bill.add_fixed_cost(TERM_DEPOSIT + TERM_MONTHLY_FEE)
-            elif month == self._end.month and year == self._end.year:
-                self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+            if month == self._end.month and year == self._end.year:
                 self._end = None
-            else:
-                self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
-            self.bill.set_rates('TERM', TERM_MINS_COST)
-            self.bill.free_min = TERM_MINS
         except AttributeError:
-            self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
-            self._end = None
+            pass
 
     def bill_call(self, call: Call) -> None:
         """ Add the <call> to the bill.
@@ -217,7 +217,7 @@ class PrepaidContract(Contract):
     _balance: int
 
     def __init__(self, start: datetime.date, balance: float) -> None:
-        """ Create a new PrepaidContract with the <start> date, starts as inactive
+        """ Create a new PrepaidContract with the <start> date, starts as inact
         """
         Contract.__init__(self, start)
         self._end = None
@@ -229,13 +229,17 @@ class PrepaidContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
-        self.bill = bill
 
-        self._balance = self.bill.get_cost()
-        while self._balance > -10:
-            self._balance -= 25
+        self.bill = bill
+        if month == self.start.month and year == self.start.year:
+            self.bill.add_fixed_cost(self._balance)
+        else:
+            self._balance -= self.bill.get_cost()
+            self.bill.add_fixed_cost(self._balance)
         self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
-        self.bill.add_fixed_cost(self._balance + self.bill.get_cost())
+        while self.bill.fixed_cost > -10:
+            self._balance -= 25
+        # TODO: modify this method
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated

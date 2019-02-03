@@ -18,13 +18,14 @@ Edited by Yuehao Huang github@EroSkulled
 import datetime
 import json
 from typing import List, Dict
-from visualizer import Visualizer
-from customer import Customer
-from phoneline import PhoneLine
+
 from call import Call
-from contract import TermContract
 from contract import MTMContract
 from contract import PrepaidContract
+from contract import TermContract
+from customer import Customer
+from phoneline import PhoneLine
+from visualizer import Visualizer
 
 
 def import_data() -> Dict[str, List[Dict]]:
@@ -115,9 +116,6 @@ def process_event_history(log: Dict[str, List[Dict]],
     """
     billing_date = datetime.datetime.strptime(log['events'][0]['time'],
                                               "%Y-%m-%d %H:%M:%S")
-
-    new_month(customer_list, billing_date.month, billing_date.year)
-
     for thing in log['events']:
         month = datetime.datetime.strptime(thing['time'],
                                            "%Y-%m-%d %H:%M:%S").month
