@@ -230,16 +230,15 @@ class PrepaidContract(Contract):
         per minute and fixed cost.
         """
 
-        self.bill = bill
-        if month == self.start.month and year == self.start.year:
-            self.bill.add_fixed_cost(self._balance)
-        else:
-            self._balance -= self.bill.get_cost()
-            self.bill.add_fixed_cost(self._balance)
-        self.bill.set_rates('PREPAID', PREPAID_MINS_COST)
-        while self.bill.fixed_cost > -10:
+        while self._balance > -10:
             self._balance -= 25
-        # TODO: modify this method
+        bill.set_rates('PREPAID', PREPAID_MINS_COST)
+        try:
+            self._balance = self.bill.get_cost()
+        except AttributeError:
+            pass
+        bill.add_fixed_cost(self._balance)
+        self.bill = bill
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated

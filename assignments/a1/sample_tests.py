@@ -205,8 +205,9 @@ def test_cancel_prepaid_contract_with_credit() -> None:
     """
 
     customers = create_customers(test_dict)
-    process_event_history(test_dict, customers)
     customers[0].new_month(12, 2017)
+    process_event_history(test_dict, customers)
+
     bill = customers[0].generate_bill(12, 2017)
     assert bill[2][2]['total'] == pytest.approx(-100)
     customers[0].new_month(1, 2018)
@@ -277,11 +278,19 @@ def test_events_prepaid() -> None:
     customers = create_customers(test_dict2)
     customers[0].new_month(12, 2017)
     process_event_history(test_dict2, customers)
-
+    bill = customers[0].generate_bill(12, 2017)
+    assert bill[2][2]['total'] == pytest.approx(-100)
     customers[0].new_month(1, 2018)
+    bill = customers[0].generate_bill(1, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-75)
     customers[0].new_month(2, 2018)
+    bill = customers[0].generate_bill(2, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-50)
     customers[0].new_month(3, 2018)
     bill = customers[0].generate_bill(3, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-25)
+    customers[0].new_month(4, 2018)
+    bill = customers[0].generate_bill(4, 2018)
     assert bill[2][2]['total'] == pytest.approx(-25)
     assert customers[0].cancel_phone_line('649-2568') == 0
 
