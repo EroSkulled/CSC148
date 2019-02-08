@@ -77,6 +77,7 @@ class Customer:
         fee = None
         for pl in self._phone_lines:
             if pl.get_number() == number:
+                #TODO: change == to is before submission!!!
                 self._phone_lines.remove(pl)
                 fee = pl.cancel_line()
         return fee

@@ -140,10 +140,10 @@ def test_events() -> None:
     # assert bill[1] == pytest.approx(-28.25)
     assert bill[2][0]['total'] == pytest.approx(20)
     assert bill[2][0]['free_mins'] == 50
-    assert bill[2][1]['total'] == pytest.approx(50.5)
-    assert bill[2][1]['billed_mins'] == 10
-    assert bill[2][2]['total'] == pytest.approx(-98.75)
-    assert bill[2][2]['billed_mins'] == 50
+    assert bill[2][1]['total'] == pytest.approx(50.05)
+    assert bill[2][1]['billed_mins'] == 1
+    assert bill[2][2]['total'] == pytest.approx(-99.975)
+    assert bill[2][2]['billed_mins'] == 1
 
     # Check the CallHistory objects are populated
     history = customers[0].get_call_history('867-5309')
@@ -212,10 +212,10 @@ def test_cancel_prepaid_contract_with_credit() -> None:
     assert bill[2][2]['total'] == pytest.approx(-100)
     customers[0].new_month(1, 2018)
     bill = customers[0].generate_bill(1, 2018)
-    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    assert bill[2][2]['total'] == pytest.approx(-99.975)
     customers[0].new_month(2, 2018)
     bill = customers[0].generate_bill(2, 2018)
-    assert bill[2][2]['total'] == pytest.approx(-98.75)
+    assert bill[2][2]['total'] == pytest.approx(-99.975)
     assert customers[0].cancel_phone_line('649-2568') == 0
 
 
@@ -238,21 +238,21 @@ test_dict2 = {'events': [
      "src_number": "649-2568",
      "dst_number": "273-8255",
      "time": "2018-01-01 01:01:06",
-     "duration": 1000,
+     "duration": 60000,
      "src_loc": [-79.42848154284123, 43.641401675960374],
      "dst_loc": [-79.52745693913239, 43.750338501653374]},
     {"type": "call",
      "src_number": "649-2568",
      "dst_number": "273-8255",
      "time": "2018-02-01 01:01:06",
-     "duration": 1000,
+     "duration": 60000,
      "src_loc": [-79.42848154284123, 43.641401675960374],
      "dst_loc": [-79.52745693913239, 43.750338501653374]},
     {"type": "call",
      "src_number": "649-2568",
      "dst_number": "273-8255",
      "time": "2018-03-01 01:01:06",
-     "duration": 1000,
+     "duration": 60000,
      "src_loc": [-79.42848154284123, 43.641401675960374],
      "dst_loc": [-79.52745693913239, 43.750338501653374]}
 

@@ -20,6 +20,7 @@ from typing import Optional
 
 from bill import Bill
 from call import Call
+from math import ceil
 
 # Constants for the month-to-month contract monthly fee and term deposit
 MTM_MONTHLY_FEE = 50.00
@@ -76,7 +77,7 @@ class Contract:
         was made. In other words, you can safely assume that self.bill has been
         already advanced to the right month+year.
         """
-        self.bill.add_billed_minutes(call.duration)
+        self.bill.add_billed_minutes(ceil(call.duration / 60.0))
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated
