@@ -53,8 +53,6 @@ def create_customers(log: Dict[str, List[Dict]]) -> List[Customer]:
     for cust in log['customers']:
         customer = Customer(cust['id'])
         for line in cust['lines']:
-            contract = TermContract(datetime.date(2017, 12, 25),
-                                    datetime.date(2019, 6, 25))
             if line['contract'] == 'prepaid':
                 # start with $100 credit on the account
                 contract = PrepaidContract(datetime.date(2017, 12, 25), 100)
