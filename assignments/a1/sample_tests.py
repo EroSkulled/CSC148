@@ -175,7 +175,7 @@ def test_cancel_term_contract_normal() -> None:
     """
 
     customers = create_customers(test_dict)
-    customers[0].new_month(6, 2019)
+    customers[0].new_month(7, 2019)
     assert customers[0].cancel_phone_line('867-5309') == -280
 
 

@@ -129,13 +129,8 @@ class TermContract(Contract):
         bill.add_fixed_cost(TERM_MONTHLY_FEE)
         if month == self.start.month and year == self.start.year:
             bill.add_fixed_cost(TERM_DEPOSIT)
-        _curr = datetime.date(year, month, 1)
+        self._curr = datetime.date(year, month, 1)
 
-        # try:
-        #     if month == self._end.month and year == self._end.year:
-        #         self._end = None
-        # except AttributeError:
-        #     pass
         self.bill = bill
 
     def bill_call(self, call: Call) -> None:
@@ -168,7 +163,7 @@ class TermContract(Contract):
         """
 
         self.start = None
-        if self._curr >= self._end:
+        if self._curr > self._end:
             return self.bill.get_cost() - TERM_DEPOSIT
         else:
             return self.bill.get_cost()
