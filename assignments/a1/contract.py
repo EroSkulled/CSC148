@@ -108,6 +108,7 @@ class TermContract(Contract):
     _end: datetime.datetime
     bill: Optional[Bill]
     _free: int
+    curr : datetime
 
     def __init__(self, start: datetime.date, end: datetime.date) -> None:
         """ Create a new TermContract with the <start> date, starts as inactive
@@ -115,6 +116,7 @@ class TermContract(Contract):
         Contract.__init__(self, start)
         self._end = end
         self._free = TERM_MINS
+        self.curr = start
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -127,12 +129,13 @@ class TermContract(Contract):
         bill.add_fixed_cost(TERM_MONTHLY_FEE)
         if month == self.start.month and year == self.start.year:
             bill.add_fixed_cost(TERM_DEPOSIT)
-        try:
-            if month == self._end.month and year == self._end.year:
-                self._end = None
-        except AttributeError:
-            pass
+        #try:
+        #    if month == self._end.month and year == self._end.year:
+        #        self._end = None
+        #except AttributeError:
+        #    pass
         self.bill = bill
+        self.curr = datetime.date(year, month, 1)
 
     def bill_call(self, call: Call) -> None:
         """ Add the <call> to the bill.
@@ -163,7 +166,7 @@ class TermContract(Contract):
         exists for the right month+year when the cancelation is requested.
         """
         self.start = None
-        if self._end is None:
+        if self._end <= self.curr:
             return self.bill.get_cost() - TERM_DEPOSIT
         else:
             return self.bill.get_cost()

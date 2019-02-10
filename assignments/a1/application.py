@@ -116,14 +116,13 @@ def process_event_history(log: Dict[str, List[Dict]],
     """
     billing_date = datetime.datetime.strptime(log['events'][0]['time'],
                                               "%Y-%m-%d %H:%M:%S")
+    new_month(customer_list, billing_date.month, billing_date.year)
     for thing in log['events']:
         month = datetime.datetime.strptime(thing['time'],
                                            "%Y-%m-%d %H:%M:%S").month
         year = datetime.datetime.strptime(thing['time'],
                                           "%Y-%m-%d %H:%M:%S").year
-        if month != billing_date.month and billing_date.year == year:
-            new_month(customer_list, month, year)
-        elif billing_date.year != year:
+        if month != billing_date.month or billing_date.year != year:
             new_month(customer_list, month, year)
         if thing['type'] == 'call':
             call = Call(thing['src_number'], thing['dst_number'],
