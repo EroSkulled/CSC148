@@ -139,7 +139,7 @@ def test_events() -> None:
     assert bill[0] == 5555
     # assert bill[1] == pytest.approx(-28.25)
     assert bill[2][0]['total'] == pytest.approx(20)
-    assert bill[2][0]['free_mins'] == 50
+    assert bill[2][0]['free_mins'] == 1
     assert bill[2][1]['total'] == pytest.approx(50.05)
     assert bill[2][1]['billed_mins'] == 1
     assert bill[2][2]['total'] == pytest.approx(-99.975)
@@ -254,6 +254,20 @@ test_dict2 = {'events': [
      "time": "2018-03-01 01:01:06",
      "duration": 60000,
      "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "649-2568",
+     "dst_number": "273-8255",
+     "time": "2018-04-01 01:01:06",
+     "duration": 6000,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
+     "dst_loc": [-79.52745693913239, 43.750338501653374]},
+    {"type": "call",
+     "src_number": "649-2568",
+     "dst_number": "273-8255",
+     "time": "2018-06-01 01:01:06",
+     "duration": 6000,
+     "src_loc": [-79.42848154284123, 43.641401675960374],
      "dst_loc": [-79.52745693913239, 43.750338501653374]}
 
     ],
@@ -291,7 +305,13 @@ def test_events_prepaid() -> None:
     assert bill[2][2]['total'] == pytest.approx(-25)
     customers[0].new_month(4, 2018)
     bill = customers[0].generate_bill(4, 2018)
-    assert bill[2][2]['total'] == pytest.approx(-25)
+    assert bill[2][2]['total'] == pytest.approx(-22.5)
+    customers[0].new_month(5, 2018)
+    bill = customers[0].generate_bill(5, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-47.5)
+    customers[0].new_month(6, 2018)
+    bill = customers[0].generate_bill(6, 2018)
+    assert bill[2][2]['total'] == pytest.approx(-20)
     assert customers[0].cancel_phone_line('649-2568') == 0
 
 

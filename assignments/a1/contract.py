@@ -107,12 +107,14 @@ class TermContract(Contract):
     start: datetime.datetime
     _end: datetime.datetime
     bill: Optional[Bill]
+    _free: int
 
     def __init__(self, start: datetime.date, end: datetime.date) -> None:
         """ Create a new TermContract with the <start> date, starts as inactive
         """
         Contract.__init__(self, start)
         self._end = end
+        self._free = TERM_MINS
 
     def new_month(self, month: int, year: int, bill: Bill) -> None:
         """ Advance to a new month in the contract, corresponding to <month> and
@@ -121,17 +123,16 @@ class TermContract(Contract):
         per minute and fixed cost.
         """
 
-        self.bill = bill
-        self.bill.set_rates('TERM', TERM_MINS_COST)
-        self.bill.free_min = TERM_MINS
-        self.bill.add_fixed_cost(TERM_MONTHLY_FEE)
+        bill.set_rates('TERM', TERM_MINS_COST)
+        bill.add_fixed_cost(TERM_MONTHLY_FEE)
         if month == self.start.month and year == self.start.year:
-            self.bill.add_fixed_cost(TERM_DEPOSIT)
+            bill.add_fixed_cost(TERM_DEPOSIT)
         try:
             if month == self._end.month and year == self._end.year:
                 self._end = None
         except AttributeError:
             pass
+        self.bill = bill
 
     def bill_call(self, call: Call) -> None:
         """ Add the <call> to the bill.
@@ -141,13 +142,16 @@ class TermContract(Contract):
         was made. In other words, you can safely assume that self.bill has been
         already advanced to the right month+year.
         """
-        if self.bill.free_min - call.duration >= 0:
-            self.bill.add_free_minutes(-call.duration)
-        elif self.bill.free_min - call.duration < 0 < self.bill.free_min:
-            self.bill.free_min = 0
-            self.bill.add_billed_minutes(call.duration - self.bill.free_min)
+        minutes = ceil(call.duration / 60.0)
+        if self._free > minutes:
+            self._free -= minutes
+            self.bill.add_free_minutes(minutes)
+        elif minutes > self._free > 0:
+            self._free = 0
+            self.bill.add_free_minutes(self._free)
+            self.bill.add_billed_minutes(minutes - self._free)
         else:
-            self.bill.add_billed_minutes(call.duration)
+            self.bill.add_billed_minutes(minutes)
 
     def cancel_contract(self) -> float:
         """ Return the amount owed in order to close the phone line associated
@@ -193,9 +197,10 @@ class MTMContract(Contract):
         Store the <bill> argument in this contract and set the appropriate rate
         per minute and fixed cost.
         """
+
+        bill.add_fixed_cost(MTM_MONTHLY_FEE)
+        bill.set_rates('MTM', MTM_MINS_COST)
         self.bill = bill
-        self.bill.add_fixed_cost(MTM_MONTHLY_FEE)
-        self.bill.set_rates('MTM', MTM_MINS_COST)
 
 
 class PrepaidContract(Contract):
@@ -231,13 +236,13 @@ class PrepaidContract(Contract):
         per minute and fixed cost.
         """
 
-        while self._balance > -10:
-            self._balance -= 25
         bill.set_rates('PREPAID', PREPAID_MINS_COST)
         try:
             self._balance = self.bill.get_cost()
         except AttributeError:
             pass
+        while self._balance > -10:
+            self._balance -= 25
         bill.add_fixed_cost(self._balance)
         self.bill = bill
 
@@ -261,7 +266,7 @@ if __name__ == '__main__':
     import python_ta
     python_ta.check_all(config={
         'allowed-import-modules': [
-            'python_ta', 'typing', 'datetime', 'bill', 'call'
+            'python_ta', 'typing', 'datetime', 'bill', 'call', 'math'
         ],
         'disable': ['R0902', 'R0913'],
         'generated-members': 'pygame.*'
