@@ -122,7 +122,6 @@ class CustomerFilter(Filter):
         else:
             return data
 
-
     def __str__(self) -> str:
         """ Return a description of this filter to be displayed in the UI menu
         """

@@ -17,10 +17,10 @@ Edited by Yuehao Huang github@EroSkulled
 
 import datetime
 from typing import Optional
-
+from math import ceil
 from bill import Bill
 from call import Call
-from math import ceil
+
 
 # Constants for the month-to-month contract monthly fee and term deposit
 MTM_MONTHLY_FEE = 50.00

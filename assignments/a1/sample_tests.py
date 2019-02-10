@@ -130,7 +130,7 @@ def test_events() -> None:
     are populated
     """
     customers = create_customers(test_dict)
-    customers[0].new_month(1, 2018)
+    # customers[0].new_month(1, 2018)
 
     process_event_history(test_dict, customers)
 
