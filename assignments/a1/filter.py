@@ -113,10 +113,10 @@ class CustomerFilter(Filter):
                     _tmpcust = cust
             except ValueError:
                 return data
-        if _tmpcust is not None:
+        if _tmpcust:
             _historycalls = _tmpcust.get_history()
             for calls in data:
-                if calls in _historycalls[0] or calls in _historycalls[0]:
+                if calls in _historycalls[0] or calls in _historycalls[1]:
                     _datas.append(calls)
             return _datas
         else:
