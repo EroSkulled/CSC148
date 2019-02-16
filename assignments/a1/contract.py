@@ -16,11 +16,11 @@ Edited by Yuehao Huang github@EroSkulled
 #  Copyright (c) 2019. Yuehao Huang huan1387 github@EroSkulled
 
 import datetime
-from typing import Optional
 from math import ceil
+from typing import Optional
+
 from bill import Bill
 from call import Call
-
 
 # Constants for the month-to-month contract monthly fee and term deposit
 MTM_MONTHLY_FEE = 50.00
@@ -142,7 +142,7 @@ class TermContract(Contract):
         already advanced to the right month+year.
         """
         minutes = ceil(call.duration / 60.0)
-        if self._free > minutes:
+        if self._free >= minutes:
             self._free -= minutes
             self.bill.add_free_minutes(minutes)
         elif minutes > self._free > 0:

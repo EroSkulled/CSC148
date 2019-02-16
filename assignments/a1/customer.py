@@ -13,6 +13,8 @@ Copyright (c) 2019 Bogdan Simion, Diane Horton, Jacqueline Smith
 
 Edited by Yuehao Huang github@EroSkulled
 """
+#  Copyright (c) 2019. Yuehao Huang huan1387 github@EroSkulled
+
 from typing import List, Union, Tuple, Dict
 
 from call import Call
@@ -76,8 +78,7 @@ class Customer:
         """
         fee = None
         for pl in self._phone_lines:
-            if pl.get_number() == number:
-                #TODO: change == to is before submission!!!
+            if pl.get_number() is number:
                 self._phone_lines.remove(pl)
                 fee = pl.cancel_line()
         return fee
