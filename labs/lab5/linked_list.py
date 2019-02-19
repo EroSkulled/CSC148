@@ -13,7 +13,8 @@ LinkedList and _Node.
 All of the code from lecture is here, as well as some exercises to work on.
 """
 from __future__ import annotations
-from typing import Any, List, Optional
+
+from typing import Any, Optional
 
 
 class _Node:
@@ -228,6 +229,45 @@ class LinkedList:
             i += 1
             curr = curr.next
         curr.item = item
+
+
+def swap(lst: LinkedList, i: int, j: int) -> None:
+    '''
+
+    :param lst:
+    :param i:
+    :param j:
+    :return:
+    >>> linky = LinkedList([10, 20, 30, 40, 50])
+    >>> swap(linky, 0, 3)
+    >>> str(linky)
+    '[40 -> 20 -> 30 -> 10 -> 50]'
+
+
+    '''
+    if i > j:
+        i, j = j, i
+    if j > len(lst) or i > len(lst):
+        raise IndexError
+    ct = 0
+    curr = lst._first
+    while ct < j:
+        curr = curr.next
+        ct += 1
+    tmp = curr.item
+    curr = lst._first
+    ct = 0
+    while ct < i:
+        curr = curr.next
+        ct += 1
+    tmp2 = curr.item
+    curr.item = tmp
+    ct = 0
+    curr = lst._first
+    while ct < j:
+        curr = curr.next
+        ct += 1
+    curr.item = tmp2
 
 
 class LinkedListV1:
