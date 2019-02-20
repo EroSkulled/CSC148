@@ -69,6 +69,8 @@ def nested_max(obj: Union[int, List]) -> int:
     17
     >>> nested_max([1, 2, [1, 2, [3], 4, 5], 4])
     5
+    >>> nested_max([])
+    0
     """
 
     s = []
@@ -77,7 +79,10 @@ def nested_max(obj: Union[int, List]) -> int:
     else:
         for sublist in obj:
             s.append(num_positives(sublist))
-    return max(s)
+    try:
+        return max(s)
+    except ValueError:
+        return 0
 
 
 def max_length(obj: Union[int, List]) -> int:
@@ -94,6 +99,8 @@ def max_length(obj: Union[int, List]) -> int:
     4
     >>> max_length([1, 2, [1, 2, [3], 4, 5], 4])
     5
+    >>> max_length([])
+    0
     """
     s = []
     if isinstance(obj, int):
@@ -102,12 +109,15 @@ def max_length(obj: Union[int, List]) -> int:
         s.append(len(obj))
         for sublist in obj:
             s.append(num_positives(sublist))
-    return max(s)
+    try:
+        return max(s)
+    except ValueError:
+        return 0
 
 
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
 
-    import python_ta
-    python_ta.check_all()
+    # import python_ta
+    # python_ta.check_all()
