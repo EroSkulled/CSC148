@@ -99,20 +99,16 @@ def max_length(obj: Union[int, List]) -> int:
     4
     >>> max_length([1, 2, [1, 2, [3], 4, 5], 4])
     5
-    >>> max_length([])
-    0
     """
-    s = []
+    s = 0
     if isinstance(obj, int):
-        s.append(0)
-    else:
-        s.append(len(obj))
-        for sublist in obj:
-            s.append(num_positives(sublist))
-    try:
-        return max(s)
-    except ValueError:
         return 0
+    else:
+        s = len(obj)
+        for sublist in obj:
+            if max_length(sublist) > s:
+                s = max_length(sublist)
+        return s
 
 
 if __name__ == '__main__':
