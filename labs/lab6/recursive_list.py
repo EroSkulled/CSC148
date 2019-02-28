@@ -321,7 +321,7 @@ class RecursiveList:
         ans = []
 
         if self.is_empty():
-            return [RecursiveList(None)]
+            return [RecursiveList([])]
         else:
             rest_selections = self._rest.selections()
             ans.extend(rest_selections)
