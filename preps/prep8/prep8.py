@@ -202,6 +202,60 @@ class Tree:
                     return True
             return False
 
+    def leaves(self) -> list:
+        """
+        >>> t = Tree(1, [Tree(-2, []), Tree(10, []), Tree(-30, [Tree(None, [])])])
+        >>> t.leaves()
+        [-2, 10]
+        """
+        if self.is_empty():
+            return []
+        elif self._subtrees == []:
+            return [self._root]
+        else:
+            ans = []
+            for subtree in self._subtrees:
+                ans.extend(subtree.leaves())
+            return ans
+
+    def average(self) -> float:
+        """
+        >>> t1 = Tree(2, [Tree(2, []), Tree(2, [])])
+        >>> t1.average()
+        2.0
+        >>> t = Tree(2, [Tree(2, [Tree(2, [])]), Tree(2, []), Tree(-2, [])])
+        >>> t.average()
+        1.2
+        >>> t2 = Tree(2, [])
+        >>> t2.average()
+        2.0
+        """
+        if self.is_empty():
+            return 0.0
+        else:
+            total, count = self._avghelper()
+            return total / count
+
+    def _avghelper(self) -> Tuple[int, int]:
+        """Return the total values in this tree and the number of values in this tree
+        >>> t = Tree(2, [Tree(2, [Tree(2, [])]), Tree(2, []), Tree(-2, [])])
+        >>> t._avghelper()
+        (6, 5)
+        """
+        if self.is_empty():
+            return 0, 0
+        elif self._subtrees == []:
+            return self._root, 1
+        else:
+            total = self._root
+            count = 1
+            for subtree in self._subtrees:
+                t, c = subtree._avghelper()
+                total += t
+                count += c
+            return total, count
+
+
 
 if __name__ == '__main__':
     import doctest
