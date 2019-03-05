@@ -194,11 +194,6 @@ class Tree:
         """
         if self.is_empty():
             return False
-        elif self._subtrees == []:
-            if self._root == item:
-                return True
-            else:
-                return False
         else:
             if self._root == item:
                 return True
@@ -212,5 +207,5 @@ if __name__ == '__main__':
     import doctest
     doctest.testmod()
 
-    import python_ta
-    python_ta.check_all()
+    # import python_ta
+    # python_ta.check_all()
