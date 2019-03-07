@@ -94,17 +94,12 @@ class Tree:
         >>> t3 = Tree(1, [Tree(-2, []), Tree(10, []), Tree(30, [])])
         >>> t3.num_positives()
         3
-         >>> t3 = Tree(1, [Tree(-2, [Tree(1, [Tree(-2, []), Tree(10, []), Tree(-30, [])])]), Tree(10, []), Tree(-30, [])])
+         >>> t3 = Tree(1, [Tree(-2, [Tree(1, [Tree(-2, []), Tree(0, []), Tree(-30, [])])]), Tree(10, []), Tree(-30, [])])
         >>> t3.num_positives()
-        4
+        3
         """
         if self.is_empty():
             return 0
-        elif self._subtrees == []:
-            if self._root > 0:
-                return 1
-            else:
-                return 0
         else:
             total = 0
             if self._root > 0:
@@ -133,13 +128,12 @@ class Tree:
 
         if self.is_empty():
             return 0
-        elif self._subtrees == []:
-            return self._root
         else:
-            ans = []
+            maximum = self._root
             for subtree in self._subtrees:
-                ans.append(subtree.maximum())
-            return max(ans)
+               if subtree.maximum() > maximum:
+                   maximum = subtree.maximum()
+            return maximum
 
     def height(self: Tree) -> int:
         """Return the height of this tree.
@@ -162,12 +156,12 @@ class Tree:
 
         if self.is_empty():
             return 0
-        elif self._subtrees == []:
-            return 1
         else:
-            height = 2 - len(self._subtrees)
+            height = 1
+            heights = [0]
             for subtree in self._subtrees:
-                height += subtree.height()
+                heights.append(subtree.height())
+            height += max(heights)
             return height
 
     def __contains__(self, item: Any) -> bool:
