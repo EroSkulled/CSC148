@@ -118,8 +118,6 @@ class TMTree:
         for i in range(len(subtrees)):
             subtrees[i]._parent_tree = self
 
-        #TODO: Check when tree is a single leaf data_size is some measure of the size of the data being modelled
-
     def is_empty(self) -> bool:
         """Return True iff this tree is empty.
         """
@@ -232,13 +230,20 @@ class FileSystemTree(TMTree):
         """Store the file tree structure contained in the given file or folder.
 
         Precondition: <path> is a valid path for this computer.
+        >>> a = FileSystemTree('/Users/walterhuang/Documents/csc148/assignments/a2/')
         """
         # Remember that you should recursively go through the file system
         # and create new FileSystemTree objects for each file and folder
         # encountered.
         #
         # Also remember to make good use of the superclass constructor!
-        # TODO: (Task 1) Implement the initializer
+
+        i = path.find(self.get_separator())
+        if i == -1:
+            super().__init__(path, [], 0)
+        else:
+            next_folder = FileSystemTree(path[i + 1:])
+            super().__init__(path[:i], [next_folder], 0)
 
     def get_separator(self) -> str:
         """Return the file separator for this OS.
@@ -255,9 +260,11 @@ class FileSystemTree(TMTree):
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-import-modules': [
-            'python_ta', 'typing', 'math', 'random', 'os', '__future__'
-        ]
-    })
+    import doctest
+    doctest.testmod()
+    # import python_ta
+    # python_ta.check_all(config={
+    #     'allowed-import-modules': [
+    #         'python_ta', 'typing', 'math', 'random', 'os', '__future__'
+    #     ]
+    # })

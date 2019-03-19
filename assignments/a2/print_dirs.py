@@ -35,4 +35,4 @@ if __name__ == '__main__':
     # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
     # '/Users/walterhuang/Documents/courses/csc148/assignments' (OSX)
     # to print the contents of that folder.
-    print_items('/Users/walterhuang/Documents/courses/csc148/assignments', '')
+    print_items('/Users/walterhuang/Documents/csc148/assignments/a2', '')
