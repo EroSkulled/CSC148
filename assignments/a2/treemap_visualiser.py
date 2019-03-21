@@ -70,7 +70,6 @@ def render_display(screen: pygame.Surface, tree: Optional[TMTree],
 
     subscreen = screen.subsurface((0, 0, WIDTH, TREEMAP_HEIGHT))
 
-    # TODO: Uncomment this afer you have completed Task 2
     for rect, colour in tree.get_rectangles():
         # Note that the arguments are in the opposite order
         pygame.draw.rect(subscreen, colour, rect)
@@ -81,7 +80,6 @@ def render_display(screen: pygame.Surface, tree: Optional[TMTree],
     if hover_node is not None:
         pygame.draw.rect(subscreen, (255, 255, 255), hover_node.rect, 2)
 
-    # TODO: Uncomment this after you have completed Task 2
     _render_text(screen, _get_display_text(selected_node))
 
     # This must be called *after* all other pygame functions have run.
@@ -176,8 +174,6 @@ def _handle_click(button: int, pos: Tuple[int, int], tree: TMTree,
     We need to use old_selected_leaf to handle the case when the selected
     leaf is left-clicked again.
     """
-    # TODO: Delete the line below after completing Task 3
-    return None
 
     # left mouse click
     if button == 1:

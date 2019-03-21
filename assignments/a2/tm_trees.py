@@ -130,14 +130,15 @@ class TMTree:
         >>> a.update_rectangles((0, 0, 100, 100))
 
         """
-        # TODO: (Task 2) Complete the body of this method.
         # Read the handout carefully to help get started identifying base cases,
         # then write the outline of a recursive step.
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
+
+        self.rect = rect
         if not self._expanded:
-            self.rect = rect
+            pass
         else:
             x, y, width, height = rect
             for i in range(len(self._subtrees)):
@@ -172,7 +173,6 @@ class TMTree:
             for tree in self._subtrees:
                 ans.extend(tree.get_rectangles())
             return ans
-        # TODO: (Task 2) Complete the body of this method.
 
     def get_tree_at_position(self, pos: Tuple[int, int]) -> Optional[TMTree]:
         """Return the leaf in the displayed-tree rooted at this tree whose
@@ -182,6 +182,17 @@ class TMTree:
         If <pos> is on the shared edge between two rectangles, return the
         tree represented by the rectangle that is closer to the origin.
         """
+        if self.rect[0] > pos[0] or self.rect[1] > pos[1] or \
+                self.rect[2] - self.rect[0] < pos[0] or \
+                self.rect[3] - self.rect[1] < pos[1]:
+            return None
+        else:
+            if self._subtrees:
+                for tree in self._subtrees:
+                    if tree.get_tree_at_position(pos):
+                        return tree.get_tree_at_position(pos)
+            return self
+
         # TODO: (Task 3) Complete the body of this method
 
     def update_data_sizes(self) -> int:
