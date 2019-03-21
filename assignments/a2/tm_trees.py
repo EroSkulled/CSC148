@@ -80,7 +80,7 @@ class TMTree:
     rect: Tuple[int, int, int, int]
     data_size: int
     _colour: Tuple[int, int, int]
-    _name: str
+    _name: Optional[str]
     _subtrees: List[TMTree]
     _parent_tree: Optional[TMTree]
     _expanded: bool
@@ -126,6 +126,9 @@ class TMTree:
     def update_rectangles(self, rect: Tuple[int, int, int, int]) -> None:
         """Update the rectangles in this tree and its descendents using the
         treemap algorithm to fill the area defined by pygame rectangle <rect>.
+        >>> a = FileSystemTree('F:\example-directory')
+        >>> a.update_rectangles((0, 0, 100, 100))
+
         """
         # TODO: (Task 2) Complete the body of this method.
         # Read the handout carefully to help get started identifying base cases,
@@ -134,12 +137,24 @@ class TMTree:
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
 
+
         x, y, width, height = rect
-        if self._subtrees == []:
-            self.rect = x, y, width, height
-        else:
-            for tree in self._subtrees:
-                tree.update_rectangles(rect)
+        self.rect = x, y, width, height
+        for tree in self._subtrees:
+            percent = tree.data_size / self.data_size
+            tree.rect = (int(x), int(y), int(percent * width), int(height))
+            # xs, ys, widths, heights = tree.rect
+            if tree._subtrees:
+                tree.update_rectangles(tree.rect)
+                # for subtree in tree._subtrees:
+                #     subpercent = subtree.data_size / tree.data_size
+                #     subtree.rect = (int(xs), int(ys), int(widths), int(subpercent * heights))
+                #     if subtree._subtrees:
+                #         subtree.update_rectangles(subtree.rect)
+                #         print(subtree.rect)
+                #     y += subtree.rect[2]
+            x += tree.rect[2]
+            print(tree.rect)
 
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
@@ -148,7 +163,9 @@ class TMTree:
         appropriate pygame rectangle to display for a leaf, and the colour
         to fill it with.
         """
-        if self._subtrees == []:
+        if self.data_size == 0:
+            return []
+        elif len(self._subtrees) == 1:
             return [Tuple[self.rect, self._colour]]
         else:
             ans = []
@@ -243,7 +260,8 @@ class FileSystemTree(TMTree):
         """Store the file tree structure contained in the given file or folder.
 
         Precondition: <path> is a valid path for this computer.
-        >>> a = FileSystemTree('/Users/walterhuang/Documents/csc148/assignments/a2/')
+        # >>> a = FileSystemTree('/Users/walterhuang/Documents/csc148/assignments/a2/')
+        >>> a = FileSystemTree('F:\example-directory')
         """
         # Remember that you should recursively go through the file system
         # and create new FileSystemTree objects for each file and folder
@@ -251,12 +269,22 @@ class FileSystemTree(TMTree):
         #
         # Also remember to make good use of the superclass constructor!
 
-        i = path.find(self.get_separator())
-        if i == -1:
-            super().__init__(path, [], 0)
+        # i = path.find(self.get_separator())
+        # if i == -1:
+        #     super().__init__(path, [], 0)
+        # else:
+        #     next_folder = FileSystemTree(path[i + 1:])
+        #     super().__init__(path[:i], [next_folder], 0)
+        if os.path.isfile(path):
+            TMTree.__init__(self, os.path.basename(path), [], os.path.getsize(path))
         else:
-            next_folder = FileSystemTree(path[i + 1:])
-            super().__init__(path[:i], [next_folder], 0)
+            path_names = []
+            for name in os.listdir(path):
+                path_names.append(os.path.join(path, name))
+            subtrees = []
+            for paths in path_names:
+                subtrees.append(FileSystemTree(paths))
+            TMTree.__init__(self, os.path.basename(path), subtrees, 0)
 
     def get_separator(self) -> str:
         """Return the file separator for this OS.

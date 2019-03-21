@@ -20,9 +20,12 @@ and detecting user events like mouse clicks and key presses and responding
 to them.
 """
 from typing import Optional, Tuple
+
 import pygame
+
 from tm_trees import TMTree, FileSystemTree
-from papers import PaperTree
+
+# from papers import PaperTree
 
 
 # Screen dimensions and coordinates
@@ -68,9 +71,9 @@ def render_display(screen: pygame.Surface, tree: Optional[TMTree],
     subscreen = screen.subsurface((0, 0, WIDTH, TREEMAP_HEIGHT))
 
     # TODO: Uncomment this afer you have completed Task 2
-    # for rect, colour in tree.get_rectangles():
+    for rect, colour in tree.get_rectangles():
         # Note that the arguments are in the opposite order
-        # pygame.draw.rect(subscreen, colour, rect)
+        pygame.draw.rect(subscreen, colour, rect)
 
     # add the hover rectangle
     if selected_node is not None:
@@ -79,7 +82,7 @@ def render_display(screen: pygame.Surface, tree: Optional[TMTree],
         pygame.draw.rect(subscreen, (255, 255, 255), hover_node.rect, 2)
 
     # TODO: Uncomment this after you have completed Task 2
-    # _render_text(screen, _get_display_text(selected_node))
+    _render_text(screen, _get_display_text(selected_node))
 
     # This must be called *after* all other pygame functions have run.
     pygame.display.flip()
@@ -219,19 +222,20 @@ def run_treemap_papers() -> None:
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-import-modules': [
-            'python_ta', 'typing', 'pygame', 'tm_trees', 'papers'
-        ],
-        'generated-members': 'pygame.*'
-    })
+    pass
+    # import python_ta
+    # python_ta.check_all(config={
+    #     'allowed-import-modules': [
+    #         'python_ta', 'typing', 'pygame', 'tm_trees', 'papers'
+    #     ],
+    #     'generated-members': 'pygame.*'
+    # })
 
     # To check your work for Tasks 1-5, try uncommenting the following function
     # call, with the '' replaced by a path like
     # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
     # '/Users/dianeh/Documents/courses/csc148/assignments' (OSX)
-    # run_treemap_file_system('')
+    run_treemap_file_system('F:\music')
 
     # To check your work for Task 6, try uncommenting the following
     # run_treemap_papers()
