@@ -19,8 +19,8 @@ concrete implementation of a subclass to represent files and folders on your
 computer's file system.
 """
 from __future__ import annotations
+
 import os
-import math
 from random import randint
 from typing import List, Tuple, Optional
 
@@ -133,7 +133,13 @@ class TMTree:
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
-        # x, y, width, height = rect
+
+        x, y, width, height = rect
+        if self._subtrees == []:
+            self.rect = x, y, width, height
+        else:
+            for tree in self._subtrees:
+                tree.update_rectangles(rect)
 
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
@@ -142,6 +148,13 @@ class TMTree:
         appropriate pygame rectangle to display for a leaf, and the colour
         to fill it with.
         """
+        if self._subtrees == []:
+            return [Tuple[self.rect, self._colour]]
+        else:
+            ans = []
+            for tree in self._subtrees:
+                ans.extend(tree.get_rectangles())
+            return ans
         # TODO: (Task 2) Complete the body of this method.
 
     def get_tree_at_position(self, pos: Tuple[int, int]) -> Optional[TMTree]:
