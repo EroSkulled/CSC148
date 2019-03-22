@@ -137,8 +137,8 @@ class TMTree:
         # elements of a rectangle, as follows.
 
         self.rect = rect
-        if not self._expanded:
-            pass
+        if not self._expanded or self.data_size == 0:
+            self.rect = rect
         else:
             x, y, width, height = rect
             for i in range(len(self._subtrees)):
@@ -183,8 +183,8 @@ class TMTree:
         tree represented by the rectangle that is closer to the origin.
         """
         if self.rect[0] > pos[0] or self.rect[1] > pos[1] or \
-                self.rect[2] - self.rect[0] < pos[0] or \
-                self.rect[3] - self.rect[1] < pos[1]:
+                self.rect[2] + self.rect[0] < pos[0] or \
+                self.rect[3] + self.rect[1] < pos[1]:
             return None
         else:
             if self._subtrees:
