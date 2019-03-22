@@ -20,6 +20,7 @@ computer's file system.
 """
 from __future__ import annotations
 
+import math
 import os
 from random import randint
 from typing import List, Tuple, Optional
@@ -135,9 +136,8 @@ class TMTree:
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
-
         self.rect = rect
-        if not self._expanded or self.data_size == 0:
+        if not self._expanded:
             self.rect = rect
         else:
             x, y, width, height = rect
@@ -166,7 +166,9 @@ class TMTree:
         appropriate pygame rectangle to display for a leaf, and the colour
         to fill it with.
         """
-        if not self._expanded:
+        if self.data_size == 0 or self.is_empty():
+            return []
+        elif not self._expanded:
             return [(self.rect, self._colour)]
         else:
             ans = []
@@ -182,16 +184,36 @@ class TMTree:
         If <pos> is on the shared edge between two rectangles, return the
         tree represented by the rectangle that is closer to the origin.
         """
-        if self.rect[0] > pos[0] or self.rect[1] > pos[1] or \
-                self.rect[2] + self.rect[0] < pos[0] or \
-                self.rect[3] + self.rect[1] < pos[1]:
+        x, y = pos
+        left, up = self.rect[0], self.rect[1]
+        right, down = left + self.rect[2], up + self.rect[3]
+        if not (left <= x <= right and up <= y <= down):
             return None
+        elif self._subtrees:
+            for tree in self._subtrees:
+                if tree.get_tree_at_position(pos):
+                    return tree.get_tree_at_position(pos)
         else:
-            if self._subtrees:
-                for tree in self._subtrees:
-                    if tree.get_tree_at_position(pos):
-                        return tree.get_tree_at_position(pos)
             return self
+        # else:
+        #     if not self._expanded:
+        #         return self
+        #     else:
+        #         ans = None
+        #         for tree in self._subtrees:
+        #             tmp = tree.get_tree_at_position(pos)
+        #             if tmp:
+        #                 if tmp and not ans:
+        #                     ans = tmp
+        #                 elif tmp and (tmp.rect[0] + tmp.rect[2] == ans.rect[0]) or \
+        #                         (tmp.rect[0] == ans.rect[0] + ans.rect[2]) and \
+        #                         tmp.rect[0] < ans.rect[0]:
+        #                     ans = tmp
+        #                 elif tmp and (tmp.rect[1] + tmp.rect[3] == ans.rect[1]) or \
+        #                         (tmp.rect[1] == ans.rect[1] + ans.rect[3]) and \
+        #                         tmp.rect[1] < ans.rect[1]:
+        #                     ans = tmp
+        #         return ans
 
         # TODO: (Task 3) Complete the body of this method
 
@@ -201,6 +223,15 @@ class TMTree:
 
         If this tree is a leaf, return its size unchanged.
         """
+        if not self._subtrees:
+            return self.data_size
+        else:
+            size = 0
+            for subtree in self._subtrees:
+                size += subtree.update_data_sizes()
+            self.data_size = size
+            return self.data_size
+
         # TODO: (Task 4) Complete the body of this method.
 
     def move(self, destination: TMTree) -> None:
@@ -217,7 +248,17 @@ class TMTree:
 
         Do nothing if this tree is not a leaf.
         """
-        # TODO: (Task 4) Complete the body of this method
+        if self._subtrees:
+            pass
+        else:
+            if factor > 0:
+                add = math.ceil(self.data_size * factor)
+            else:
+                add = math.floor(self.data_size * factor)
+            if self.data_size + add < 1:
+                self.data_size = 1
+            else:
+                self.data_size += add
 
     # TODO: (Task 5) Write the methods expand, expand_all, collapse, and
     # TODO: collapse_all, and add the displayed-tree functionality to the

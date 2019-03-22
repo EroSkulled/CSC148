@@ -125,16 +125,16 @@ def event_loop(screen: pygame.Surface, tree: TMTree) -> None:
             if event.key == pygame.K_UP:
                 pass
                 # TODO: Uncomment once you have completed Task 4
-                # selected_node.change_size(0.01)
-                # tree.update_data_sizes()
-                # tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
+                selected_node.change_size(0.01)
+                tree.update_data_sizes()
+                tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_DOWN:
                 pass
                 # TODO: Uncomment once you have completed Task 4
-                # selected_node.change_size(-0.01)
-                # tree.update_data_sizes()
-                # tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
+                selected_node.change_size(-0.01)
+                tree.update_data_sizes()
+                tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_m:
                 pass
