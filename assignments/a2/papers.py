@@ -23,7 +23,7 @@ hierarchical. This means we are able to model it using a TMTree subclass,
 and we can then run it through our treemap visualisation tool to get a nice
 interactive graphical representation of this data.
 
-TODO: (Task 6) Complete the steps below
+
 Recommended steps:
 1. Start by reviewing the provided dataset in cs1_papers.csv. You can assume
    that any data used to generate this tree has this format,
@@ -64,6 +64,7 @@ import csv
 from typing import List, Dict
 from tm_trees import TMTree
 
+
 # Filename for the dataset
 DATA_FILE = 'cs1_papers.csv'
 
@@ -72,7 +73,12 @@ class PaperTree(TMTree):
     """A tree representation of Computer Science Education research paper data.
 
     === Private Attributes ===
-    TODO: Add any of your new private attributes here.
+    _authors:
+        The authors of this paper in list
+    _doi:
+        the doi of this paper
+    _cat:
+        the nested dict containing all the categories.
     These should store information about this paper's <authors> and <doi>.
 
     === Inherited Attributes ===
@@ -96,12 +102,32 @@ class PaperTree(TMTree):
     === Representation Invariants ===
     - All TMTree RIs are inherited.
     """
-
+    _authors: [str]
+    _doi: str
+    _cat: dict
+    _by_year: bool
     # TODO: Add the type contracts for your new attributes here
 
     def __init__(self, name: str, subtrees: List[TMTree], authors: str = '',
                  doi: str = '', citations: int = 0, by_year: bool = True,
                  all_papers: bool = False) -> None:
+        self._doi = doi
+        self._authors = authors
+        self._cat = {}
+        self._by_year = by_year
+        if all_papers:
+            if by_year:
+                TMTree.__init__(self, name, subtrees, citations)
+                tree = _build_tree_from_dict(_load_papers_to_dict(True))
+
+            else:
+                TMTree.__init__(self, name, subtrees, citations)
+                tree = _build_tree_from_dict(_load_papers_to_dict(False))
+        else:
+            pass
+
+
+
         """Initialize a new PaperTree with the given <name> and <subtrees>,
         <authors> and <doi>, and with <citations> as the size of the data.
 
@@ -118,6 +144,87 @@ class PaperTree(TMTree):
         # TODO: Complete this initializer. Your implementation must not
         # TODO: duplicate anything done in the superclass initializer.
 
+    def get_separator(self) -> str:
+        """Return the string used to separate names in the string
+        representation of a path from the tree root to this tree.
+        """
+        return ': '
+
+    def get_suffix(self) -> str:
+        """Return the string used at the end of the string representation of
+        a path from the tree root to this tree.
+        """
+        if self._by_year:
+            return ' (Year)'
+        elif self._subtrees:
+            return ' (Paper)'
+        else:
+            return ' (Category)'
+
+
+def _get_data(num: int) -> str or int:
+    """
+    store all the data into self._data
+    """
+    with open(DATA_FILE) as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if reader.line_num == num:
+                return row
+
+
+def _get_categories_and_num() -> dict:
+    """
+    get all the categories into a dict
+    """
+    tmp = []
+    with open(DATA_FILE) as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            tmp.append(row[3].split(': ') + [reader.line_num])
+    ans = {}
+    for rows in tmp:
+        curr = ans
+        for cat in rows:
+            if cat not in curr:
+                curr[cat] = {}
+            curr = curr[cat]
+    return ans
+
+
+def _get_categories_and_num_by_year() -> dict:
+    """
+    get all the categories into a dict
+    """
+    final = {}
+    tmp = []
+    with open(DATA_FILE) as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            tmp.append(row[2].split(': ') + [reader.line_num])
+    ans = {}
+    for rows in tmp:
+        curr = ans
+        for cat in rows:
+            if cat not in curr:
+                curr[cat] = {}
+            curr = curr[cat]
+    for key in ans:
+        tmp = []
+        for num in ans[key]:
+            tmp.append(_get_data(num)[3].split(': ') + [num])
+        anss = {}
+        for rows in tmp:
+            curr = anss
+            for cat in rows:
+                if cat not in curr:
+                    curr[cat] = {}
+                curr = curr[cat]
+        final[key] = anss
+    return final
+
 
 def _load_papers_to_dict(by_year: bool = True) -> Dict:
     """Return a nested dictionary of the data read from the papers dataset file.
@@ -125,20 +232,32 @@ def _load_papers_to_dict(by_year: bool = True) -> Dict:
     If <by_year>, then use years as the roots of the subtrees of the root of
     the whole tree. Otherwise, ignore years and use categories only.
     """
-    # TODO: Implement this helper, or remove it if you do not plan to use it
-
+    if by_year:
+        return _get_categories_and_num_by_year()
+    else:
+        return _get_categories_and_num()
 
 
 def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
     """Return a list of trees from the nested dictionary <nested_dict>.
     """
+    for x, y in nested_dict.items():
+        if y == {}:
+            spec = _get_data(x)
+            return [PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], spec[-1], True, True)]
+        else:
+            return _build_tree_from_dict(y)
     # TODO: Implement this helper, or remove it if you do not plan to use it
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config={
-        'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
-        'allowed-io': ['_load_papers_to_dict'],
-        'max-args': 8
-    })
+    a = _build_tree_from_dict(_get_categories_and_num_by_year())
+    print(a)
+    import doctest
+    doctest.testmod()
+    # import python_ta
+    # python_ta.check_all(config={
+    #     'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
+    #     'allowed-io': ['_load_papers_to_dict'],
+    #     'max-args': 8
+    # })

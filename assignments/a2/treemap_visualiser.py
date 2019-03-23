@@ -25,7 +25,7 @@ import pygame
 
 from tm_trees import TMTree, FileSystemTree
 
-# from papers import PaperTree
+from papers import PaperTree
 
 
 # Screen dimensions and coordinates
@@ -224,7 +224,7 @@ if __name__ == '__main__':
     # call, with the '' replaced by a path like
     # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
     # '/Users/dianeh/Documents/courses/csc148/assignments' (OSX)
-    run_treemap_file_system('/Users/walterhuang/Documents/csc148/assignments/a2/example-directory')
+    # run_treemap_file_system('/Users/walterhuang/Documents/csc148/assignments/a2/example-directory')
 
     # To check your work for Task 6, try uncommenting the following
-    # run_treemap_papers()
+    run_treemap_papers()
