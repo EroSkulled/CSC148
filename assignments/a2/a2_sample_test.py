@@ -44,48 +44,48 @@ from tm_trees import TMTree, FileSystemTree
 EXAMPLE_PATH = os.path.join('/Users/walterhuang/Documents/csc148/assignments/a2/example-directory', 'workshop')
 
 
-# def test_single_file() -> None:
-#     """Test a tree with a single file.
-#     """
-#     tree = FileSystemTree(os.path.join(EXAMPLE_PATH, 'draft.pptx'))
-#     assert tree._name == 'draft.pptx'
-#     assert tree._subtrees == []
-#     assert tree._parent_tree is None
-#     assert tree.data_size == 58
-#     assert is_valid_colour(tree._colour)
-#
-#
-# def test_example_data() -> None:
-#     """Test the root of the tree at the 'workshop' folder in the example data
-#     """
-#     tree = FileSystemTree(EXAMPLE_PATH)
-#     assert tree._name == 'workshop'
-#     assert tree._parent_tree is None
-#     assert tree.data_size == 151
-#     assert is_valid_colour(tree._colour)
-#
-#     assert len(tree._subtrees) == 3
-#     for subtree in tree._subtrees:
-#         # Note the use of is rather than ==.
-#         # This checks ids rather than values.
-#         assert subtree._parent_tree is tree
-#
-#
-# @given(integers(min_value=100, max_value=1000),
-#        integers(min_value=100, max_value=1000),
-#        integers(min_value=100, max_value=1000),
-#        integers(min_value=100, max_value=1000))
-# def test_single_file_rectangles(x, y, width, height) -> None:
-#     """Test that the correct rectangle is produced for a single file."""
-#     tree = FileSystemTree(os.path.join(EXAMPLE_PATH, 'draft.pptx'))
-#     tree.update_rectangles((x, y, width, height))
-#     rects = tree.get_rectangles()
-#
-#     # This should be just a single rectangle and colour returned.
-#     assert len(rects) == 1
-#     rect, colour = rects[0]
-#     assert rect == (x, y, width, height)
-#     assert is_valid_colour(colour)
+def test_single_file() -> None:
+    """Test a tree with a single file.
+    """
+    tree = FileSystemTree(os.path.join(EXAMPLE_PATH, 'draft.pptx'))
+    assert tree._name == 'draft.pptx'
+    assert tree._subtrees == []
+    assert tree._parent_tree is None
+    assert tree.data_size == 58
+    assert is_valid_colour(tree._colour)
+
+
+def test_example_data() -> None:
+    """Test the root of the tree at the 'workshop' folder in the example data
+    """
+    tree = FileSystemTree(EXAMPLE_PATH)
+    assert tree._name == 'workshop'
+    assert tree._parent_tree is None
+    assert tree.data_size == 151
+    assert is_valid_colour(tree._colour)
+
+    assert len(tree._subtrees) == 3
+    for subtree in tree._subtrees:
+        # Note the use of is rather than ==.
+        # This checks ids rather than values.
+        assert subtree._parent_tree is tree
+
+
+@given(integers(min_value=100, max_value=1000),
+       integers(min_value=100, max_value=1000),
+       integers(min_value=100, max_value=1000),
+       integers(min_value=100, max_value=1000))
+def test_single_file_rectangles(x, y, width, height) -> None:
+    """Test that the correct rectangle is produced for a single file."""
+    tree = FileSystemTree(os.path.join(EXAMPLE_PATH, 'draft.pptx'))
+    tree.update_rectangles((x, y, width, height))
+    rects = tree.get_rectangles()
+
+    # This should be just a single rectangle and colour returned.
+    assert len(rects) == 1
+    rect, colour = rects[0]
+    assert rect == (x, y, width, height)
+    assert is_valid_colour(colour)
 
 
 def test_example_data_rectangles() -> None:

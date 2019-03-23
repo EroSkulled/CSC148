@@ -124,44 +124,37 @@ def event_loop(screen: pygame.Surface, tree: TMTree) -> None:
         elif event.type == pygame.KEYUP and selected_node is not None:
             if event.key == pygame.K_UP:
                 pass
-                # TODO: Uncomment once you have completed Task 4
                 selected_node.change_size(0.01)
                 tree.update_data_sizes()
                 tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_DOWN:
                 pass
-                # TODO: Uncomment once you have completed Task 4
                 selected_node.change_size(-0.01)
                 tree.update_data_sizes()
                 tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_m:
                 pass
-                # TODO: Uncomment once you have completed Task 4
                 selected_node.move(hover_node)
                 tree.update_data_sizes()
                 tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_e:
                 pass
-                # TODO: Uncomment once you have completed Task 5
-                # selected_node.expand()
+                selected_node.expand()
 
             elif event.key == pygame.K_a:
                 pass
-                # TODO: Uncomment once you have completed Task 5
-                # selected_node.expand_all()
+                selected_node.expand_all()
 
             elif event.key == pygame.K_c:
                 pass
-                # TODO: Uncomment once you have completed Task 5
-                # selected_node.collapse()
+                selected_node.collapse()
 
             elif event.key == pygame.K_x:
                 pass
-                # TODO: Uncomment once you have completed Task 5
-                # selected_node.collapse_all()
+                selected_node.collapse_all()
 
         # Update display
         render_display(screen, tree, selected_node, hover_node)

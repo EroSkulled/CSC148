@@ -105,10 +105,7 @@ class TMTree:
         self._parent_tree = None
 
         # You will change this in Task 5
-        if len(self._subtrees) > 0:
-            self._expanded = True
-        else:
-            self._expanded = False
+        self._expanded = False
         self._colour = (randint(0, 255), randint(0, 255), randint(0, 255))
         if not subtrees:
             self.data_size = data_size
@@ -160,29 +157,6 @@ class TMTree:
                 if self._subtrees[i]._subtrees:
                     self._subtrees[i].update_rectangles(self._subtrees[i].rect)
                 print(self._subtrees[i].rect)
-            # size = self.data_size
-            # subtree_size = []
-            # for subtree in self._subtrees:
-            #     subtree_size.append((subtree, subtree.data_size / size))
-            # if width > height:
-            #     pre_x = x
-            #     for i in range(len(subtree_size) - 1):
-            #         subtree_width = int(subtree_size[i][1] * width)
-            #         subtree_size[i][0].update_rectangles((pre_x, y, subtree_width, height))
-            #         pre_x += subtree_width
-            #     if len(self._subtrees) > 0:
-            #         subtree_width = width - pre_x + x
-            #         subtree_size[-1][0].update_rectangles((pre_x, y, subtree_width, height))
-            # else:
-            #     pre_y = y
-            #     for i in range(len(subtree_size) - 1):
-            #         subtree_width = int(subtree_size[i][1] * width)
-            #         subtree_size[i][0].update_rectangles((x, pre_y, subtree_width, height))
-            #         pre_y += subtree_width
-            #     if len(self._subtrees) > 0:
-            #         subtree_width = width - pre_y + y
-            #         subtree_size[-1][0].update_rectangles((x, pre_y, subtree_width, height))
-        # TODO: fix
 
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
@@ -214,33 +188,14 @@ class TMTree:
         right, down = left + self.rect[2], up + self.rect[3]
         if not (left <= x <= right and up <= y <= down):
             return None
+        elif not self._expanded:
+            return self
         elif self._subtrees:
             for tree in self._subtrees:
                 if tree.get_tree_at_position(pos):
                     return tree.get_tree_at_position(pos)
         else:
             return self
-        # else:
-        #     if not self._expanded:
-        #         return self
-        #     else:
-        #         ans = None
-        #         for tree in self._subtrees:
-        #             tmp = tree.get_tree_at_position(pos)
-        #             if tmp:
-        #                 if tmp and not ans:
-        #                     ans = tmp
-        #                 elif tmp and (tmp.rect[0] + tmp.rect[2] == ans.rect[0]) or \
-        #                         (tmp.rect[0] == ans.rect[0] + ans.rect[2]) and \
-        #                         tmp.rect[0] < ans.rect[0]:
-        #                     ans = tmp
-        #                 elif tmp and (tmp.rect[1] + tmp.rect[3] == ans.rect[1]) or \
-        #                         (tmp.rect[1] == ans.rect[1] + ans.rect[3]) and \
-        #                         tmp.rect[1] < ans.rect[1]:
-        #                     ans = tmp
-        #         return ans
-
-        # TODO: (Task 3) Complete the body of this method
 
     def update_data_sizes(self) -> int:
         """Update the data_size for this tree and its subtrees, based on the
@@ -257,13 +212,10 @@ class TMTree:
             self.data_size = size
             return self.data_size
 
-        # TODO: (Task 4) Complete the body of this method.
-
     def move(self, destination: TMTree) -> None:
         """If this tree is a leaf, and <destination> is not a leaf, move this
         tree to be the last subtree of <destination>. Otherwise, do nothing.
         """
-        # TODO: (Task 4) Complete the body of this method.
         if not self._subtrees and destination._subtrees:
             destination._subtrees.append(self)
             self._parent_tree._subtrees.remove(self)
@@ -289,9 +241,28 @@ class TMTree:
             else:
                 self.data_size += add
 
-    # TODO: (Task 5) Write the methods expand, expand_all, collapse, and
-    # TODO: collapse_all, and add the displayed-tree functionality to the
-    # TODO: methods from Tasks 2 and 3
+    def expand(self) -> None:
+        if self._subtrees:
+            self._expanded = True
+
+    def expand_all(self) -> None:
+        if not self._subtrees:
+            pass
+        else:
+            self.expand()
+            for tree in self._subtrees:
+                tree.expand_all()
+
+    def collapse(self) -> None:
+        if self._parent_tree:
+            self._parent_tree._expanded = False
+
+    def collapse_all(self) -> None:
+        if not self._parent_tree:
+            pass
+        else:
+            self._parent_tree.collapse()
+            self._parent_tree.collapse_all()
 
     # Methods for the string representation
     def get_path_string(self, final_node: bool = True) -> str:
