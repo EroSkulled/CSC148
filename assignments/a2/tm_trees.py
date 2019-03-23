@@ -239,10 +239,10 @@ class TMTree:
         tree to be the last subtree of <destination>. Otherwise, do nothing.
         """
         # TODO: (Task 4) Complete the body of this method.
-        if self._expanded and destination._expanded and not self._subtrees and destination._subtrees:
+        if not self._subtrees and destination._subtrees:
             destination._subtrees.append(self)
+            self._parent_tree._subtrees.remove(self)
             self._parent_tree = destination
-            del self
 
     def change_size(self, factor: float) -> None:
         """Change the value of this tree's data_size attribute by <factor>.
