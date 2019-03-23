@@ -113,8 +113,8 @@ class TMTree:
             self.data_size = 0
             for tree in subtrees:
                 self.data_size += tree.data_size
-        for i in range(len(subtrees)):
-            subtrees[i]._parent_tree = self
+        for tree in subtrees:
+            tree._parent_tree = self
 
     def is_empty(self) -> bool:
         """Return True iff this tree is empty.
@@ -124,39 +124,49 @@ class TMTree:
     def update_rectangles(self, rect: Tuple[int, int, int, int]) -> None:
         """Update the rectangles in this tree and its descendents using the
         treemap algorithm to fill the area defined by pygame rectangle <rect>.
-        >>> a = FileSystemTree('F:\example-directory')
-        >>> a.update_rectangles((0, 0, 100, 100))
-
         """
         # Read the handout carefully to help get started identifying base cases,
         # then write the outline of a recursive step.
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
-        x, y, width, height = rect
+        width, height = rect[2], rect[3]
         if not self._parent_tree:
             self.rect = rect
         if not self._subtrees:
             self.rect = rect
         else:
-            x, y = 0, 0
-            for i in range(len(self._subtrees)):
-                if i == len(self._subtrees) - 1:
-                    if width > height:
-                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width - x), int(height))
-                    else:
-                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width), int(height - y))
+            self._helper_update_rectangle(width, height)
+
+    def _helper_update_rectangle(self, width: int, height: int) -> None:
+        """
+        helper function to update rectangles in each subtree
+        """
+        x, y = 0, 0
+        for i in range(len(self._subtrees)):
+            if i == len(self._subtrees) - 1:
+                if width > height:
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(width - x), int(height))
                 else:
-                    percent = self._subtrees[i].data_size / self.data_size
-                    if width > height:
-                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(percent * width), int(height))
-                        x += self._subtrees[i].rect[2]
-                    else:
-                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width), int(percent * height))
-                        y += self._subtrees[i].rect[3]
-                if self._subtrees[i]._subtrees:
-                    self._subtrees[i].update_rectangles(self._subtrees[i].rect)
-                print(self._subtrees[i].rect)
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(width), int(height - y))
+            else:
+                percent = self._subtrees[i].data_size / self.data_size
+                if width > height:
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(percent * width), int(height))
+                    x += self._subtrees[i].rect[2]
+                else:
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(width), int(percent * height))
+                    y += self._subtrees[i].rect[3]
+            if self._subtrees[i]._subtrees:
+                self._subtrees[i].update_rectangles(self._subtrees[i].rect)
 
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
@@ -194,8 +204,7 @@ class TMTree:
             for tree in self._subtrees:
                 if tree.get_tree_at_position(pos):
                     return tree.get_tree_at_position(pos)
-        else:
-            return self
+        return self
 
     def update_data_sizes(self) -> int:
         """Update the data_size for this tree and its subtrees, based on the
@@ -242,10 +251,24 @@ class TMTree:
                 self.data_size += add
 
     def expand(self) -> None:
+        """
+        If the user selects a rectangle, and then presses e, the tree
+        corresponding to that rectangle is expanded in the displayed-tree.
+        If the tree is a leaf, nothing happens.
+        :return:
+        """
         if self._subtrees:
             self._expanded = True
 
     def expand_all(self) -> None:
+        """
+        If the user selects a rectangle, and then presses c, the parent
+        of that tree is unexpanded (or “collapsed”) in the displayed-tree.
+        (Note that since rectangles correspond to leaves in the displayed-tree,
+        it is the parent that needs to be unexpanded.) If the parent is None
+        because this is the root of the whole tree, nothing happens.
+        :return:
+        """
         if not self._subtrees:
             pass
         else:
@@ -254,10 +277,24 @@ class TMTree:
                 tree.expand_all()
 
     def collapse(self) -> None:
+        """
+        If the user selects a rectangle, and then presses a, the tree
+        corresponding to that rectangle, as well as all of its subtrees,
+        are expanded in the displayed-tree. If the tree is a leaf,
+        nothing happens.
+        :return:
+        """
         if self._parent_tree:
             self._parent_tree._expanded = False
 
     def collapse_all(self) -> None:
+        """
+        If the user selects any rectangle, and then presses x, the
+        entire displayed-tree is collapsed down to just a single tree
+        node. If the displayed-tree is already a single node,
+        nothing happens.
+        :return:
+        """
         if not self._parent_tree:
             pass
         else:
@@ -312,23 +349,15 @@ class FileSystemTree(TMTree):
         """Store the file tree structure contained in the given file or folder.
 
         Precondition: <path> is a valid path for this computer.
-        # >>> a = FileSystemTree('/Users/walterhuang/Documents/csc148/assignments/a2/')
-        >>> a = FileSystemTree('F:\example-directory')
         """
         # Remember that you should recursively go through the file system
         # and create new FileSystemTree objects for each file and folder
         # encountered.
         #
         # Also remember to make good use of the superclass constructor!
-
-        # i = path.find(self.get_separator())
-        # if i == -1:
-        #     super().__init__(path, [], 0)
-        # else:
-        #     next_folder = FileSystemTree(path[i + 1:])
-        #     super().__init__(path[:i], [next_folder], 0)
         if os.path.isfile(path):
-            TMTree.__init__(self, os.path.basename(path), [], os.path.getsize(path))
+            TMTree.__init__(self, os.path.basename(path),
+                            [], os.path.getsize(path))
         else:
             path_names = []
             for name in os.listdir(path):
@@ -353,11 +382,9 @@ class FileSystemTree(TMTree):
 
 
 if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
-    # import python_ta
-    # python_ta.check_all(config={
-    #     'allowed-import-modules': [
-    #         'python_ta', 'typing', 'math', 'random', 'os', '__future__'
-    #     ]
-    # })
+    import python_ta
+    python_ta.check_all(config={
+        'allowed-import-modules': [
+            'python_ta', 'typing', 'math', 'random', 'os', '__future__'
+        ]
+    })
