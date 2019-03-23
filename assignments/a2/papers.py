@@ -124,7 +124,7 @@ class PaperTree(TMTree):
                 TMTree.__init__(self, name, subtrees, citations)
                 tree = _build_tree_from_dict(_load_papers_to_dict(False))
         else:
-            pass
+            TMTree.__init__(self, name, subtrees, citations)
 
 
 
@@ -241,12 +241,15 @@ def _load_papers_to_dict(by_year: bool = True) -> Dict:
 def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
     """Return a list of trees from the nested dictionary <nested_dict>.
     """
+    tree = []
     for x, y in nested_dict.items():
         if y == {}:
             spec = _get_data(x)
-            return [PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], spec[-1], True, True)]
+            tree.append(PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], spec[-1]))
         else:
-            return _build_tree_from_dict(y)
+            for sub in y:
+                tree.append(_build_tree_from_dict(y[sub]))
+            return tree
     # TODO: Implement this helper, or remove it if you do not plan to use it
 
 
