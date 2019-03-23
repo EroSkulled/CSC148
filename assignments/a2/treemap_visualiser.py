@@ -139,9 +139,9 @@ def event_loop(screen: pygame.Surface, tree: TMTree) -> None:
             elif event.key == pygame.K_m:
                 pass
                 # TODO: Uncomment once you have completed Task 4
-                # selected_node.move(hover_node)
-                # tree.update_data_sizes()
-                # tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
+                selected_node.move(hover_node)
+                tree.update_data_sizes()
+                tree.update_rectangles((0, 0, WIDTH, HEIGHT - FONT_HEIGHT))
 
             elif event.key == pygame.K_e:
                 pass
