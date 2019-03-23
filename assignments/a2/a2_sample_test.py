@@ -41,7 +41,7 @@ from tm_trees import TMTree, FileSystemTree
 # This should be the path to the "workshop" folder in the sample data.
 # You may need to modify this, depending on where you downloaded and
 # extracted the files.
-EXAMPLE_PATH = os.path.join('F:\example-directory', 'workshop')
+EXAMPLE_PATH = os.path.join('/Users/walterhuang/Documents/csc148/assignments/a2/example-directory', 'workshop')
 
 
 # def test_single_file() -> None:

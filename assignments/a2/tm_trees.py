@@ -136,24 +136,26 @@ class TMTree:
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
-        self.rect = rect
         x, y, width, height = rect
-        if not self._expanded:
+        if not self._parent_tree:
+            self.rect = rect
+        if not self._subtrees:
             self.rect = rect
         else:
+            x, y = 0, 0
             for i in range(len(self._subtrees)):
                 if i == len(self._subtrees) - 1:
                     if width > height:
-                        self._subtrees[i].rect = (int(x), int(y), int(width - x), int(height))
+                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width - x), int(height))
                     else:
-                        self._subtrees[i].rect = (int(x), int(y), int(width), int(height - y))
+                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width), int(height - y))
                 else:
                     percent = self._subtrees[i].data_size / self.data_size
                     if width > height:
-                        self._subtrees[i].rect = (int(x), int(y), int(percent * width), int(height))
+                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(percent * width), int(height))
                         x += self._subtrees[i].rect[2]
                     else:
-                        self._subtrees[i].rect = (int(x), int(y), int(width), int(percent * height))
+                        self._subtrees[i].rect = (int(x + self.rect[0]), int(y + self.rect[1]), int(width), int(percent * height))
                         y += self._subtrees[i].rect[3]
                 if self._subtrees[i]._subtrees:
                     self._subtrees[i].update_rectangles(self._subtrees[i].rect)
@@ -181,6 +183,7 @@ class TMTree:
             #         subtree_width = width - pre_y + y
             #         subtree_size[-1][0].update_rectangles((x, pre_y, subtree_width, height))
         # TODO: fix
+
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
         """Return a list with tuples for every leaf in the displayed-tree
