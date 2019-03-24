@@ -204,7 +204,7 @@ def run_treemap_papers() -> None:
     You can try changing the value of the named argument by_year, but the
     others should stay the same.
     """
-    paper_tree = PaperTree('CS1', [], all_papers=True, by_year=False)
+    paper_tree = PaperTree('CS1', [], all_papers=True, by_year=True)
     run_visualisation(paper_tree)
 
 
@@ -222,7 +222,6 @@ if __name__ == '__main__':
     # call, with the '' replaced by a path like
     # 'C:\\Users\\David\\Documents\\csc148\\assignments' (Windows) or
     # '/Users/dianeh/Documents/courses/csc148/assignments' (OSX)
-    # run_treemap_file_system('F:\example-directory')
-
+    # run_treemap_file_system('F:\music')
     # To check your work for Task 6, try uncommenting the following
     run_treemap_papers()

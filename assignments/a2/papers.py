@@ -100,9 +100,8 @@ class PaperTree(TMTree):
     === Representation Invariants ===
     - All TMTree RIs are inherited.
     """
-    _authors: [str]
+    _authors: str
     _doi: str
-    _by_year: bool
     # TODO: Add the type contracts for your new attributes here
 
     def __init__(self, name: str, subtrees: List[TMTree], authors: str = '',
@@ -110,7 +109,6 @@ class PaperTree(TMTree):
                  all_papers: bool = False) -> None:
         self._doi = doi
         self._authors = authors
-        self._by_year = by_year
         if all_papers:
             if by_year:
                 tree = _build_tree_from_dict(_load_papers_to_dict(True))
@@ -162,18 +160,13 @@ def _get_data(num: int) -> str or int:
         for row in reader:
             if reader.line_num == num:
                 return row
+        return ''
 
 
-def _get_categories_and_num() -> dict:
+def _get_categories_and_num(tmp: list) -> dict:
     """
     get all the categories into a dict
     """
-    tmp = []
-    with open(DATA_FILE) as f:
-        reader = csv.reader(f)
-        next(reader)
-        for row in reader:
-            tmp.append(row[3].split(': ') + [reader.line_num])
     ans = {}
     for rows in tmp:
         curr = ans
@@ -184,17 +177,11 @@ def _get_categories_and_num() -> dict:
     return ans
 
 
-def _get_categories_and_num_by_year() -> dict:
+def _get_categories_and_num_by_year(tmp: list) -> dict:
     """
     get all the categories into a dict
     """
     final = {}
-    tmp = []
-    with open(DATA_FILE) as f:
-        reader = csv.reader(f)
-        next(reader)
-        for row in reader:
-            tmp.append(row[2].split(': ') + [reader.line_num])
     ans = {}
     for rows in tmp:
         curr = ans
@@ -206,15 +193,24 @@ def _get_categories_and_num_by_year() -> dict:
         tmp = []
         for num in ans[key]:
             tmp.append(_get_data(num)[3].split(': ') + [num])
-        anss = {}
-        for rows in tmp:
-            curr = anss
-            for cat in rows:
-                if cat not in curr:
-                    curr[cat] = {}
-                curr = curr[cat]
-        final[key] = anss
+        final[key] = _helper(tmp)
     return final
+
+
+def _helper(tmp: list) -> dict:
+    """
+    Helper for seperation by year
+    :param tmp:
+    :return:
+    """
+    anss = {}
+    for rows in tmp:
+        curr = anss
+        for cat in rows:
+            if cat not in curr:
+                curr[cat] = {}
+            curr = curr[cat]
+    return anss
 
 
 def _load_papers_to_dict(by_year: bool = True) -> Dict:
@@ -223,10 +219,23 @@ def _load_papers_to_dict(by_year: bool = True) -> Dict:
     If <by_year>, then use years as the roots of the subtrees of the root of
     the whole tree. Otherwise, ignore years and use categories only.
     """
+
     if by_year:
-        return _get_categories_and_num_by_year()
+        tmp = []
+        with open(DATA_FILE) as f:
+            reader = csv.reader(f)
+            next(reader)
+            for row in reader:
+                tmp.append(row[2].split(': ') + [reader.line_num])
+        return _get_categories_and_num_by_year(tmp)
     else:
-        return _get_categories_and_num()
+        tmp = []
+        with open(DATA_FILE) as f:
+            reader = csv.reader(f)
+            next(reader)
+            for row in reader:
+                tmp.append(row[3].split(': ') + [reader.line_num])
+        return _get_categories_and_num(tmp)
 
 
 def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
@@ -236,21 +245,18 @@ def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
     for x, y in nested_dict.items():
         if y == {}:
             spec = _get_data(x)
-            return [PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], int(spec[-1]))]
+            return [PaperTree(spec[1], [], spec[0],
+                              spec[4][spec[4].find('10.'):], int(spec[-1]))]
         else:
             tree.append(PaperTree(x, _build_tree_from_dict(y), '', '', 0))
     return tree
-    # TODO: Implement this helper, or remove it if you do not plan to use it
 
 
 if __name__ == '__main__':
-    a = _build_tree_from_dict(_get_categories_and_num())
-    print(a)
-    import doctest
-    doctest.testmod()
-    # import python_ta
-    # python_ta.check_all(config={
-    #     'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
-    #     'allowed-io': ['_load_papers_to_dict'],
-    #     'max-args': 8
-    # })
+    import python_ta
+
+    python_ta.check_all(config={
+        'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
+        'allowed-io': ['_load_papers_to_dict'],
+        'max-args': 8
+    })

@@ -129,12 +129,24 @@ class TMTree:
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
         width, height = rect[2], rect[3]
-        if not self._parent_tree:
+        if not self._parent_tree and self.data_size:
             self.rect = rect
-        if not self._subtrees:
+        if self.data_size == 0:
+            self.rect = (0, 0, 0, 0)
+        elif not self._subtrees:
             self.rect = rect
         else:
             self._helper_update_rectangle(width, height)
+
+    def _find_last_non_zero_size(self, i: int) -> int:
+        """
+        return the index of the last non-zero size item
+        """
+        tmp = reversed(self._subtrees)
+        for item in tmp:
+            if item.data_size == 0:
+                i += 1
+        return -i
 
     def _helper_update_rectangle(self, width: int, height: int) -> None:
         """
@@ -142,7 +154,8 @@ class TMTree:
         """
         x, y = 0, 0
         for i in range(len(self._subtrees)):
-            if i == len(self._subtrees) - 1:
+            if i == len(self._subtrees) - 1 and \
+                    self._subtrees[i].data_size and self.data_size != 0:
                 if width > height:
                     self._subtrees[i].rect = (int(x + self.rect[0]),
                                               int(y + self.rect[1]),
@@ -151,7 +164,18 @@ class TMTree:
                     self._subtrees[i].rect = (int(x + self.rect[0]),
                                               int(y + self.rect[1]),
                                               int(width), int(height - y))
-            else:
+            elif i == len(self._subtrees) - 1 and \
+                    not self._subtrees[i].data_size and self.data_size != 0:
+                i = self._find_last_non_zero_size(0)
+                if width > height:
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(width - x), int(height))
+                else:
+                    self._subtrees[i].rect = (int(x + self.rect[0]),
+                                              int(y + self.rect[1]),
+                                              int(width), int(height - y))
+            elif self.data_size != 0:
                 percent = self._subtrees[i].data_size / self.data_size
                 if width > height:
                     self._subtrees[i].rect = (int(x + self.rect[0]),
@@ -163,6 +187,9 @@ class TMTree:
                                               int(y + self.rect[1]),
                                               int(width), int(percent * height))
                     y += self._subtrees[i].rect[3]
+            else:
+                self.rect = (0, 0, 0, 0)
+
             if self._subtrees[i]._subtrees:
                 self._subtrees[i].update_rectangles(self._subtrees[i].rect)
 
