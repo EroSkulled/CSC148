@@ -103,8 +103,6 @@ class TMTree:
         self._name = name
         self._subtrees = subtrees[:]
         self._parent_tree = None
-
-        # You will change this in Task 5
         self._expanded = False
         self._colour = (randint(0, 255), randint(0, 255), randint(0, 255))
         if not subtrees:
@@ -227,6 +225,7 @@ class TMTree:
         """
         if not self._subtrees and destination._subtrees:
             destination._subtrees.append(self)
+            self._parent_tree.data_size -= self.data_size
             self._parent_tree._subtrees.remove(self)
             self._parent_tree = destination
 

@@ -62,8 +62,8 @@ Recommended steps:
 """
 import csv
 from typing import List, Dict
-from tm_trees import TMTree
 
+from tm_trees import TMTree
 
 # Filename for the dataset
 DATA_FILE = 'cs1_papers.csv'
@@ -77,8 +77,6 @@ class PaperTree(TMTree):
         The authors of this paper in list
     _doi:
         the doi of this paper
-    _cat:
-        the nested dict containing all the categories.
     These should store information about this paper's <authors> and <doi>.
 
     === Inherited Attributes ===
@@ -104,7 +102,6 @@ class PaperTree(TMTree):
     """
     _authors: [str]
     _doi: str
-    _cat: dict
     _by_year: bool
     # TODO: Add the type contracts for your new attributes here
 
@@ -113,20 +110,16 @@ class PaperTree(TMTree):
                  all_papers: bool = False) -> None:
         self._doi = doi
         self._authors = authors
-        self._cat = {}
         self._by_year = by_year
         if all_papers:
             if by_year:
-                TMTree.__init__(self, name, subtrees, citations)
                 tree = _build_tree_from_dict(_load_papers_to_dict(True))
-
+                TMTree.__init__(self, name, tree, citations)
             else:
-                TMTree.__init__(self, name, subtrees, citations)
                 tree = _build_tree_from_dict(_load_papers_to_dict(False))
+                TMTree.__init__(self, name, tree, citations)
         else:
             TMTree.__init__(self, name, subtrees, citations)
-
-
 
         """Initialize a new PaperTree with the given <name> and <subtrees>,
         <authors> and <doi>, and with <citations> as the size of the data.
@@ -154,9 +147,7 @@ class PaperTree(TMTree):
         """Return the string used at the end of the string representation of
         a path from the tree root to this tree.
         """
-        if self._by_year:
-            return ' (Year)'
-        elif self._subtrees:
+        if not self._subtrees:
             return ' (Paper)'
         else:
             return ' (Category)'
@@ -245,16 +236,15 @@ def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
     for x, y in nested_dict.items():
         if y == {}:
             spec = _get_data(x)
-            tree.append(PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], spec[-1]))
+            return [PaperTree(spec[1], [], spec[0], spec[4][spec[4].find('10.'):], int(spec[-1]))]
         else:
-            for sub in y:
-                tree.append(_build_tree_from_dict(y[sub]))
-            return tree
+            tree.append(PaperTree(x, _build_tree_from_dict(y), '', '', 0))
+    return tree
     # TODO: Implement this helper, or remove it if you do not plan to use it
 
 
 if __name__ == '__main__':
-    a = _build_tree_from_dict(_get_categories_and_num_by_year())
+    a = _build_tree_from_dict(_get_categories_and_num())
     print(a)
     import doctest
     doctest.testmod()
