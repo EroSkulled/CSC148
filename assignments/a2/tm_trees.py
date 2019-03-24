@@ -138,16 +138,6 @@ class TMTree:
         else:
             self._helper_update_rectangle(width, height)
 
-    def _find_last_non_zero_size(self, i: int) -> int:
-        """
-        return the index of the last non-zero size item
-        """
-        tmp = reversed(self._subtrees)
-        for item in tmp:
-            if item.data_size == 0:
-                i += 1
-        return -i
-
     def _helper_update_rectangle(self, width: int, height: int) -> None:
         """
         helper function to update rectangles in each subtree
@@ -156,17 +146,6 @@ class TMTree:
         for i in range(len(self._subtrees)):
             if i == len(self._subtrees) - 1 and \
                     self._subtrees[i].data_size and self.data_size != 0:
-                if width > height:
-                    self._subtrees[i].rect = (int(x + self.rect[0]),
-                                              int(y + self.rect[1]),
-                                              int(width - x), int(height))
-                else:
-                    self._subtrees[i].rect = (int(x + self.rect[0]),
-                                              int(y + self.rect[1]),
-                                              int(width), int(height - y))
-            elif i == len(self._subtrees) - 1 and \
-                    not self._subtrees[i].data_size and self.data_size != 0:
-                i = self._find_last_non_zero_size(0)
                 if width > height:
                     self._subtrees[i].rect = (int(x + self.rect[0]),
                                               int(y + self.rect[1]),

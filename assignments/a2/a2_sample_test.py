@@ -70,11 +70,6 @@ def test_example_data() -> None:
         # This checks ids rather than values.
         assert subtree._parent_tree is tree
 
-
-@given(integers(min_value=100, max_value=1000),
-       integers(min_value=100, max_value=1000),
-       integers(min_value=100, max_value=1000),
-       integers(min_value=100, max_value=1000))
 def test_single_file_rectangles(x, y, width, height) -> None:
     """Test that the correct rectangle is produced for a single file."""
     tree = FileSystemTree(os.path.join(EXAMPLE_PATH, 'draft.pptx'))

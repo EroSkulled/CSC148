@@ -132,8 +132,6 @@ class PaperTree(TMTree):
         the years, followed by each category, subcategory, and so on. If
         <by_year> is False, then the year in the dataset is simply ignored.
         """
-        # TODO: Complete this initializer. Your implementation must not
-        # TODO: duplicate anything done in the superclass initializer.
 
     def get_separator(self) -> str:
         """Return the string used to separate names in the string
@@ -215,7 +213,6 @@ def _helper(tmp: list) -> dict:
 
 def _load_papers_to_dict(by_year: bool = True) -> Dict:
     """Return a nested dictionary of the data read from the papers dataset file.
-
     If <by_year>, then use years as the roots of the subtrees of the root of
     the whole tree. Otherwise, ignore years and use categories only.
     """
@@ -253,10 +250,12 @@ def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
 
 
 if __name__ == '__main__':
-    import python_ta
-
-    python_ta.check_all(config={
-        'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
-        'allowed-io': ['_load_papers_to_dict'],
-        'max-args': 8
-    })
+    a = _build_tree_from_dict(_load_papers_to_dict(True))
+    print(a)
+    # import python_ta
+    #
+    # python_ta.check_all(config={
+    #     'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
+    #     'allowed-io': ['_load_papers_to_dict'],
+    #     'max-args': 8
+    # })

@@ -161,7 +161,6 @@ def event_loop(screen: pygame.Surface, tree: TMTree) -> None:
 def _handle_click(button: int, pos: Tuple[int, int], tree: TMTree,
                   old_selected_leaf: Optional[TMTree]) -> Optional[TMTree]:
     """Return the new selection after handling the mouse event.
-
     We need to use old_selected_leaf to handle the case when the selected
     leaf is left-clicked again.
     """
