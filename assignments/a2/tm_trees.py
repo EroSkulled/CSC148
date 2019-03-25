@@ -250,7 +250,9 @@ class TMTree:
                 add = math.ceil(self.data_size * factor)
             else:
                 add = math.floor(self.data_size * factor)
-            if self.data_size + add < 1:
+            if not self.data_size:
+                self.data_size = 0
+            elif self.data_size + add < 1:
                 self.data_size = 1
             else:
                 self.data_size += add
