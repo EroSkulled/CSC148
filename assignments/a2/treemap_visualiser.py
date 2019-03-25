@@ -201,7 +201,7 @@ def run_treemap_papers() -> None:
     """Run a treemap visualization for CS Education research papers data.
 
     You can try changing the value of the named argument by_year, but the
-    others should stay the same.
+    others should stay the same.j
     """
     paper_tree = PaperTree('CS1', [], all_papers=True, by_year=True)
     run_visualisation(paper_tree)

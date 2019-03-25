@@ -161,54 +161,16 @@ def _get_data(num: int) -> str or int:
         return ''
 
 
-def _get_categories_and_num(tmp: list) -> dict:
-    """
-    get all the categories into a dict
-    """
-    ans = {}
-    for rows in tmp:
-        curr = ans
-        for cat in rows:
-            if cat not in curr:
-                curr[cat] = {}
-            curr = curr[cat]
-    return ans
-
-
-def _get_categories_and_num_by_year(tmp: list) -> dict:
-    """
-    get all the categories into a dict
-    """
-    final = {}
-    ans = {}
-    for rows in tmp:
-        curr = ans
-        for cat in rows:
-            if cat not in curr:
-                curr[cat] = {}
-            curr = curr[cat]
-    for key in ans:
-        tmp = []
-        for num in ans[key]:
-            tmp.append(_get_data(num)[3].split(': ') + [num])
-        final[key] = _helper(tmp)
-    return final
-
-
-def _helper(tmp: list) -> dict:
-    """
-    Helper for seperation by year
-    :param tmp:
-    :return:
-    """
-    anss = {}
-    for rows in tmp:
-        curr = anss
-        for cat in rows:
-            if cat not in curr:
-                curr[cat] = {}
-            curr = curr[cat]
-    return anss
+def _load_papers_to_dict_helper(dic: Dict, cat:List ) -> None:
+    # print(cat)
+    if cat == []:
+        return {}
+    top = cat[0]
+    if top not in dic:
+        dic[top] = {}
+    cat = cat[1:]
+    if len(cat) > 0:
+        _load_papers_to_dict_helper(dic[top], cat)
 
 
 def _load_papers_to_dict(by_year: bool = True) -> Dict:
@@ -217,22 +179,28 @@ def _load_papers_to_dict(by_year: bool = True) -> Dict:
     the whole tree. Otherwise, ignore years and use categories only.
     """
 
-    if by_year:
-        tmp = []
-        with open(DATA_FILE) as f:
-            reader = csv.reader(f)
-            next(reader)
-            for row in reader:
-                tmp.append(row[2].split(': ') + [reader.line_num])
-        return _get_categories_and_num_by_year(tmp)
+    if not by_year:
+        dic = {}
+        cats = []
+        with open(DATA_FILE, newline='') as csvfile:
+            load_file = csv.reader(csvfile, delimiter=',')
+            next(load_file)
+            for row in load_file:
+                cats.append(row[3].split(': ') + [load_file.line_num])
+        for cat in cats:
+            _load_papers_to_dict_helper(dic, cat)
+        return dic
     else:
-        tmp = []
-        with open(DATA_FILE) as f:
-            reader = csv.reader(f)
-            next(reader)
-            for row in reader:
-                tmp.append(row[3].split(': ') + [reader.line_num])
-        return _get_categories_and_num(tmp)
+        dic = {}
+        cats = []
+        with open(DATA_FILE, newline='') as csvfile:
+            load_file = csv.reader(csvfile, delimiter=',')
+            next(load_file)
+            for row in load_file:
+                cats.append([row[2]] + row[3].split(': ') + [load_file.line_num])
+        for cat in cats:
+            _load_papers_to_dict_helper(dic, cat)
+        return dic
 
 
 def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
@@ -241,15 +209,21 @@ def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
     tree = []
     for x, y in nested_dict.items():
         if y == {}:
-            spec = _get_data(x)
-            return [PaperTree(spec[1], [], spec[0],
-                              spec[4][spec[4].find('10.'):], int(spec[-1]))]
+            data = _get_data(x)
+            tree.append(PaperTree(data[1], [], data[0], data[4], int(data[5])))
         else:
-            tree.append(PaperTree(x, _build_tree_from_dict(y), '', '', 0))
+            tree.append(PaperTree(x, _build_tree_from_dict(y)))
     return tree
 
 
 if __name__ == '__main__':
+    tmp = 0
+    with open(DATA_FILE) as f:
+        reader = csv.reader(f)
+        next(reader)
+        for row in reader:
+            tmp += int(row[-1])
+    print(tmp)
     a = _build_tree_from_dict(_load_papers_to_dict(True))
     print(a)
     # import python_ta
