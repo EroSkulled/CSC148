@@ -111,7 +111,7 @@ def _partition(lst: List, pivot: Any) -> Tuple[List, List]:
 ################################################################################
 # Synthesize exercises
 ################################################################################
-# TODO: Complete the implementation of this function!
+
 def mergesort3(lst: List) -> List:
     """Return a sorted version of <lst> using three-way mergesort.
 
@@ -129,10 +129,14 @@ def mergesort3(lst: List) -> List:
     if len(lst) < 2:
         return lst[:]
     else:
-        pass
+        first = len(lst) // 3
+        left_sorted = mergesort(lst[:first])
+        second = 2 * first
+        mid_sorted = mergesort(lst[first:second])
+        right_sorted = mergesort(lst[second:])
+        return merge3(left_sorted, mid_sorted, right_sorted)
 
 
-# TODO: Implement this function!
 # Note that we've made it public because we'll be testing it directly.
 def merge3(lst1: List, lst2: List, lst3: List) -> List:
     """Return a sorted list with the elements in the given input lists.
@@ -147,10 +151,24 @@ def merge3(lst1: List, lst2: List, lst3: List) -> List:
     up your code into one or more helpers to divide up (and test!) each part
     separately.
     """
-    pass
+    index1 = 0
+    index2 = 0
+    index3 = 0
+    merged = []
+    while index1 < len(lst1) and index2 < len(lst2) and index3 < len(lst3):
+        if lst1[index1] <= lst2[index2]:
+            merged.append(lst1[index1])
+            index1 += 1
+        elif lst2[index2] <= lst3[index3]:
+            merged.append(lst2[index2])
+            index2 += 1
+        else:
+            merged.append(lst3[index3])
+            index3 += 1
+    assert index1 == len(lst1) or index2 == len(lst2) or index3 == len(lst3)
+    return merged + lst1[index1:] + lst2[index2:] + lst3[index3:]
 
 
-# TODO: Implement this function
 def kth_smallest(lst: List, k: int) -> Any:
     """Return the <k>-th smallest element in <lst>.
 
@@ -159,10 +177,15 @@ def kth_smallest(lst: List, k: int) -> Any:
 
     Precondition: <lst> does not contain duplicates.
 
-    >>> kth_smallest([10, 20, -4, 3], 0)
+    >>> kth_smallest([10, 20, -4, 3, 30, 60], 0)
     -4
-    >>> kth_smallest([10, 20, -4, 3], 2)
+    >>> kth_smallest([10, 20, -4, 3, 30, 60], 2)
     10
+    >>> kth_smallest([10, 20, -4, 3, 90, 60], 3)
+    20
+    >>> kth_smallest([90, 20, -4, 3, 10, 60], 5)
+    90
+
     """
     # You may *not* sort the list here (this is easy but not very efficient).
     # Instead, use the following approach, based on quicksort:
@@ -171,7 +194,17 @@ def kth_smallest(lst: List, k: int) -> Any:
     #   2. Compare len(smaller) against k, and use the result to decide which
     #      list to recurse on (if any). As in your BST prep, you should only
     #      make one recursive call into either <smaller> or <bigger>, not both!
-    pass
+    if k < 0 or k >= len(lst):
+        raise IndexError
+    else:
+        pivot = lst[0]
+        smaller, bigger = _partition(lst[1:], pivot)
+        if len(smaller) == k:
+            return pivot
+        elif len(smaller) < k:
+            return kth_smallest(bigger, k - len(smaller) - 1)
+        else:
+            return smaller[k]
 
 
 if __name__ == '__main__':
