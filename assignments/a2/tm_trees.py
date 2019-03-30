@@ -112,7 +112,8 @@ class TMTree:
             for tree in subtrees:
                 self.data_size += tree.data_size
         for tree in subtrees:
-            tree._parent_tree = self
+            if not tree.is_empty():
+                tree._parent_tree = self
 
     def is_empty(self) -> bool:
         """Return True iff this tree is empty.
@@ -131,7 +132,7 @@ class TMTree:
 
         x, y, width, height = rect
         if self.data_size == 0:
-            pass
+            self.rect = (0, 0, 0, 0)
         elif width > height:
             self.rect = rect
             curr = x
@@ -274,14 +275,15 @@ class TMTree:
         """
         if self._subtrees:
             self._expanded = True
+        if self._parent_tree:
+            self._parent_tree.expand()
 
     def expand_all(self) -> None:
         """
-        If the user selects a rectangle, and then presses c, the parent
-        of that tree is unexpanded (or “collapsed”) in the displayed-tree.
-        (Note that since rectangles correspond to leaves in the displayed-tree,
-        it is the parent that needs to be unexpanded.) If the parent is None
-        because this is the root of the whole tree, nothing happens.
+        If the user selects a rectangle, and then presses a, the tree
+        corresponding to that rectangle, as well as all of its subtrees,
+        are expanded in the displayed-tree. If the tree is a leaf,
+        nothing happens.
         :return:
         """
         if not self._subtrees:
@@ -293,14 +295,17 @@ class TMTree:
 
     def collapse(self) -> None:
         """
-        If the user selects a rectangle, and then presses a, the tree
-        corresponding to that rectangle, as well as all of its subtrees,
-        are expanded in the displayed-tree. If the tree is a leaf,
-        nothing happens.
+        If the user selects a rectangle, and then presses c, the parent
+        of that tree is unexpanded (or “collapsed”) in the displayed-tree.
+        (Note that since rectangles correspond to leaves in the displayed-tree,
+        it is the parent that needs to be unexpanded.) If the parent is None
+        because this is the root of the whole tree, nothing happens.
         :return:
         """
         if self._parent_tree:
             self._parent_tree._expanded = False
+            for tree in self._subtrees:
+                tree.collapse()
 
     def collapse_all(self) -> None:
         """
@@ -311,9 +316,8 @@ class TMTree:
         :return:
         """
         if not self._parent_tree:
-            pass
-        else:
             self.collapse()
+        else:
             self._parent_tree.collapse_all()
 
     # Methods for the string representation
