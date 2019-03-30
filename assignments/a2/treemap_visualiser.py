@@ -203,7 +203,7 @@ def run_treemap_papers() -> None:
     You can try changing the value of the named argument by_year, but the
     others should stay the same.j
     """
-    paper_tree = PaperTree('CS1', [], all_papers=True, by_year=True)
+    paper_tree = PaperTree('CS1', [], all_papers=True, by_year=False)
     run_visualisation(paper_tree)
 
 
