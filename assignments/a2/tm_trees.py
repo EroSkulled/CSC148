@@ -313,7 +313,7 @@ class TMTree:
         if not self._parent_tree:
             pass
         else:
-            self._parent_tree.collapse()
+            self.collapse()
             self._parent_tree.collapse_all()
 
     # Methods for the string representation
