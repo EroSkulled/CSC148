@@ -142,13 +142,16 @@ class TMTree:
                     new_width = math.floor(percent * width)
                 else:
                     new_width = width + x - curr
-                if self._subtrees[i].data_size == 0 and i == len(self._subtrees) - 1:
+                if self._subtrees[i].data_size == 0 and \
+                        i == len(self._subtrees) - 1:
                     index = self._find_last_non_zero_index()
                     x = self._subtrees[index].rect[0]
                     y = self._subtrees[index].rect[1]
-                    self._subtrees[index].update_rectangles((x, y, width, height))
+                    self._subtrees[index].update_rectangles((
+                        x, y, width, height))
                 else:
-                    self._subtrees[i].update_rectangles((curr, y, new_width, height))
+                    self._subtrees[i].update_rectangles((
+                        curr, y, new_width, height))
                 curr += new_width
         else:
             self.rect = rect
@@ -159,13 +162,16 @@ class TMTree:
                     new_height = math.floor(percent * height)
                 else:
                     new_height = height + y - curr
-                if self._subtrees[i].data_size == 0 and i == len(self._subtrees) - 1:
+                if self._subtrees[i].data_size == 0 and \
+                        i == len(self._subtrees) - 1:
                     index = self._find_last_non_zero_index()
                     x = self._subtrees[index].rect[0]
                     y = self._subtrees[index].rect[1]
-                    self._subtrees[index].update_rectangles((x, y, width, height))
+                    self._subtrees[index].update_rectangles((
+                        x, y, width, height))
                 else:
-                    self._subtrees[i].update_rectangles((x, curr, width, new_height))
+                    self._subtrees[i].update_rectangles((
+                        x, curr, width, new_height))
                 curr += new_height
 
     def _find_last_non_zero_index(self) -> int:
@@ -179,7 +185,7 @@ class TMTree:
                 i -= 1
             else:
                 return i
-            return i
+        return i
 
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
@@ -302,10 +308,21 @@ class TMTree:
         because this is the root of the whole tree, nothing happens.
         :return:
         """
+
         if self._parent_tree:
             self._parent_tree._expanded = False
-            for tree in self._subtrees:
-                tree.collapse()
+            for tree in self._parent_tree._subtrees:
+                tree._collapse_helper()
+
+    def _collapse_helper(self) -> None:
+        """
+        helper function for the collapse
+        :return:
+        """
+        self._expanded = False
+        for tree in self._subtrees:
+            tree.collapse()
+
 
     def collapse_all(self) -> None:
         """
@@ -315,9 +332,8 @@ class TMTree:
         nothing happens.
         :return:
         """
-        if not self._parent_tree:
-            self.collapse()
-        else:
+        self.collapse()
+        if self._parent_tree:
             self._parent_tree.collapse_all()
 
     # Methods for the string representation
