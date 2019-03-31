@@ -142,16 +142,8 @@ class TMTree:
                     new_width = math.floor(percent * width)
                 else:
                     new_width = width + x - curr
-                if self._subtrees[i].data_size == 0 and \
-                        i == len(self._subtrees) - 1:
-                    index = self._find_last_non_zero_index()
-                    x = self._subtrees[index].rect[0]
-                    y = self._subtrees[index].rect[1]
-                    self._subtrees[index].update_rectangles((
-                        x, y, width, height))
-                else:
-                    self._subtrees[i].update_rectangles((
-                        curr, y, new_width, height))
+                self._subtrees[i].update_rectangles((
+                    curr, y, new_width, height))
                 curr += new_width
         else:
             self.rect = rect
@@ -162,16 +154,8 @@ class TMTree:
                     new_height = math.floor(percent * height)
                 else:
                     new_height = height + y - curr
-                if self._subtrees[i].data_size == 0 and \
-                        i == len(self._subtrees) - 1:
-                    index = self._find_last_non_zero_index()
-                    x = self._subtrees[index].rect[0]
-                    y = self._subtrees[index].rect[1]
-                    self._subtrees[index].update_rectangles((
-                        x, y, width, height))
-                else:
-                    self._subtrees[i].update_rectangles((
-                        x, curr, width, new_height))
+                self._subtrees[i].update_rectangles((
+                    x, curr, width, new_height))
                 curr += new_height
 
     def _find_last_non_zero_index(self) -> int:

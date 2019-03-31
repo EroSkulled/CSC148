@@ -161,10 +161,10 @@ def _get_data(num: int) -> str or int:
         return ''
 
 
-def _load_papers_to_dict_helper(dic: Dict, cat:List ) -> None:
+def _load_papers_to_dict_helper(dic: Dict, cat: List) -> None:
     # print(cat)
     if cat == []:
-        return {}
+        pass
     top = cat[0]
     if top not in dic:
         dic[top] = {}
@@ -197,7 +197,8 @@ def _load_papers_to_dict(by_year: bool = True) -> Dict:
             load_file = csv.reader(csvfile, delimiter=',')
             next(load_file)
             for row in load_file:
-                cats.append([row[2]] + row[3].split(': ') + [load_file.line_num])
+                cats.append([row[2]] + row[3].split(': ') + [
+                    load_file.line_num])
         for cat in cats:
             _load_papers_to_dict_helper(dic, cat)
         return dic
@@ -217,19 +218,10 @@ def _build_tree_from_dict(nested_dict: Dict) -> List[PaperTree]:
 
 
 if __name__ == '__main__':
-    tmp = 0
-    with open(DATA_FILE) as f:
-        reader = csv.reader(f)
-        next(reader)
-        for row in reader:
-            tmp += int(row[-1])
-    print(tmp)
-    a = _build_tree_from_dict(_load_papers_to_dict(True))
-    print(a)
-    # import python_ta
-    #
-    # python_ta.check_all(config={
-    #     'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
-    #     'allowed-io': ['_load_papers_to_dict'],
-    #     'max-args': 8
-    # })
+    import python_ta
+
+    python_ta.check_all(config={
+        'allowed-import-modules': ['python_ta', 'typing', 'csv', 'tm_trees'],
+        'allowed-io': ['_load_papers_to_dict', '_get_data'],
+        'max-args': 8
+    })
