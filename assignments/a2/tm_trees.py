@@ -129,7 +129,6 @@ class TMTree:
         #
         # Programming tip: use "tuple unpacking assignment" to easily extract
         # elements of a rectangle, as follows.
-
         x, y, width, height = rect
         if self.data_size == 0:
             self.rect = (0, 0, 0, 0)
@@ -279,7 +278,8 @@ class TMTree:
         because this is the root of the whole tree, nothing happens.
         :return:
         """
-
+        if not self.is_empty():
+            self._expanded = False
         if self._parent_tree:
             self._parent_tree._expanded = False
             for tree in self._parent_tree._subtrees:
