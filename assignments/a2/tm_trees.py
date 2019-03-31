@@ -158,19 +158,6 @@ class TMTree:
                     x, curr, width, new_height))
                 curr += new_height
 
-    def _find_last_non_zero_index(self) -> int:
-        """
-        return the last non zero index
-        :return:
-        """
-        for item in reversed(self._subtrees):
-            i = -1
-            if item.data_size == 0:
-                i -= 1
-            else:
-                return i
-        return i
-
     def get_rectangles(self) -> List[Tuple[Tuple[int, int, int, int],
                                            Tuple[int, int, int]]]:
         """Return a list with tuples for every leaf in the displayed-tree
